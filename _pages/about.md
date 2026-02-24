@@ -4,32 +4,12 @@ language: en
 permalink: /about/
 layout: page
 ---
-## Table of contents
-- [About this site](#about-this-site)
-- [Need more info?](#need-more-info)
-- [Feedback](#feedback)
 
+This website is for disseminating global SDG indicator data for Bosnia and Herzegovina. With the support of the United Nations Economic Commission for Europe (UNECE) the site was created and maintained by the Agency for Statistics of BiH.  
+Bosnia and Herzegovina embarked on its participatory and exploratory 2030 journey in 2016. The official launch of Agenda 2030 and SDGs was in April 2017, at the high-level SDG Conference organized under the auspices of the Presidency of Bosnia and Herzegovina.
 
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+The first Voluntary Review of Bosnia and Herzegovina on Implementation of Agenda 2030 and the Sustainable Development Goals was presented in July 2019 at the High-Level Political Forum (HLPF) in New York. The document was prepared by relevant institutions at all administrative levels in Bosnia and Herzegovina. The Voluntary Review informs on the process undertaken in the country and is further used as a reference point for all later strategic planning processes in the institutions in Bosnia and Herzegovina and at all administrative levels.
 
-  * end poverty
-  
-  * protect the planet
-  
-  * improve the lives and prospects of everyone, everywhere
+Development of The SDGs Framework in Bosnia and Herzegovina, as a joint document of all-level authorities in BIH was one of the most important steps for the realisation of Agenda 2030. The Council of Ministers of BiH adopted the document at its 32nd Session held in April 2021.
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
-
-## About this site
-This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
-    
-Other countries or organisations wishing to reuse the Open SDG reporting platform are welcome to do so for free. The [Open SDG Quick Start Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
-
-If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@outlook.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
-
-## Need more info?
-Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
-
-## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
-
+In addition, Sustainable Development Cooperation Framework (CF) was adopted by the BiH Council of Ministers at its 22nd Session on 16 December 2020 and reconfirmed by the BiH Presidency at its 114th Extraordinary Session on 5 March 2021, will guide the work of authorities in BiH and the UN system until 2025. The new Cooperation Framework ensures a continued work in partnership towards a more sustainable, resilient, and inclusive society, supporting all people in BiH to live longer, healthier and more prosperous and secure lives, while helping reach the Sustainable Development Goals and Agenda2030 at the same time.

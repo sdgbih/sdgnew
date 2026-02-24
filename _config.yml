@@ -8,6 +8,12 @@ title: general.site_title
 url: ""
 environment: staging
 
+languages:
+  - en
+  - bs
+  - sr
+  - hr
+
 # Pages
 collections:
   pages:

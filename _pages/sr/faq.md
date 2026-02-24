@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions (FAQ)
-language: en
-permalink: /faq/
+language: sr
+permalink: /sr/faq/
 layout: page
 ---
 
