@@ -1,0 +1,2137 @@
+[
+  {
+    "goal": {
+      "id": "1",
+      "title": "Okončati siromaštvo svuda i u svim oblicima",
+      "indicators": [
+        
+        {
+          "id": "1-1-1",
+          "title": "Udio stanovništva koji živi ispod međunarodne granice siromaštva, prema spolu, dobi, statusu zaposlenosti i geografskom području (urbano/ruralno područje)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-1",
+          "title": "Udio stanovništva koja živi ispod nacionalne linije siromaštva (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2",
+          "title": "Postotak muškaraca, žena i djece svih dobnih skupina koji žive u siromaštvu u svim svojim dimenzijama prema nacionalnim definicijama siromaštva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1",
+          "title": "Udio populacije obuhvaćenih sustavima socijalne zaštite, prema spolu, uz razlikovanje djece, nezaposlenih osoba, starijih osoba, osoba s invaliditetom, trudnica, novorođenčadi, žrtava ozljeda na radu te siromašnih i ranjivih",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-1",
+          "title": "Postotak populacije koja živi u kućanstivma koja imaju pristup osnovnim uslugama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-2",
+          "title": "Udio ukupnog punoljetnog stanovništva sa sigurnim pravom vlasništva nad zemljištem, (a) sa zakonski priznatom dokumentacijom i (b) koji svoja prava nad zemljištem smatraju sigurnim, prema spolu i vrsti prava na zemljište",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1",
+          "title": "Broj umrlih osoba, nestalih osoba i osoba izravno pogođenih katastrofama na 100 000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2",
+          "title": "Izravni gospodarski gubitci prouzročeni katastrofama u odnosu na globalni bruto domaći proizvod (BDP)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-3",
+          "title": "Broj zemalja koje donose i provode nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai okvirom smanjenja rizika od katastrofa 2015. - 2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-4",
+          "title": "Udio jedinica lokalne samouprave koje donose i provode lokalne strategije za smanjenje rizika od katastrofa u skladu s nacionalnom strategijom za smanjenje rizika od katastrofa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-5-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-1",
+          "title": "Ukupni grantovi službene razvojne pomoći svih donatora koji se fokusiraju na smanjenje siromaštva kao udio u bruto nacionalnom dohotku zemlje primaoca",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-2",
+          "title": "Udio ukupne državne potrošnje na osnovne usluge (obrazovanje, zdravstvo i socijalna zaštita)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-a-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-b-1",
+          "title": "Javna socijalna potrošnja u korist siromašnih",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/1-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "2",
+      "title": "Okončati glad, postići sigurnost u opskrbi hranom, unaprijediti kvalitet ishrane i promovirati održivu poljoprivredu",
+      "indicators": [
+        
+        {
+          "id": "2-1-1",
+          "title": "Prevalencija (rasprostranjenost) pothranjenosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-1-2",
+          "title": "Prevalencija (rasprostranjenost) umjerene ili teške nesigurnosti hrane u stanovništvu, temeljena na Skali iskustava nesigurnosti hrane (FIES)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-1",
+          "title": "Prevalencija zaostajanja u razvoju (visina za dob <-2 standardne devijacije od srednje vrijednosti prema standardima Svjetske zdravstvene organizacije (WHO)) među djecom mlađom od 5 godina",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2",
+          "title": "Prevalencija pothranjenosti (težina za visinu >+2 ili <-2 standardne devijacije od medijana prema Standardima rasta djece Svjetske zdravstvene organizacije (WHO)) među djecom mlađom od 5 godina, prema vrsti (pothranjenost i pretilost)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-3",
+          "title": "Prevalencija anemije u žena u dobi od 15 do 49 godina, prema statusu trudnoće (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-4",
+          "title": "Prevalence of minimum dietary diversity, by population group (children aged 6 to 23.9 months and non-pregnant women aged 15 to 49 years)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-2-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-3-1",
+          "title": "Opseg proizvodnje po jedinici rada prema klasama veličine poljoprivrednog/stočarskog/šumarskog poduzeća",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-3-2",
+          "title": "Prosječni dohodak malih proizvođača hrane, po spolu i autohtonom statusu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1",
+          "title": "Udio poljoprivrednih površina u produktivnoj i održivoj poljoprivredi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1",
+          "title": "Broj (a) biljnih i (b) životinjskih genetičkih resursa za hranu i poljoprivredu osiguranih u objektima za srednjoročno ili dugoročno očuvanje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-2",
+          "title": "Udio lokalnih pasmina klasificiranih kao ugrožene od nestajanja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-1",
+          "title": "Orijentacioni poljoprivredni indeks za državne izdatke",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-2",
+          "title": "Ukupni zvanični tokovi sredstava (zvanična razvojna pomoć i druga zvanična sredstva) u sektoru poljoprivrede",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-a-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-b-1",
+          "title": "Izvozne subvencije za poljoprivredne proizvode",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-c-1",
+          "title": "Pokazatelj anomalija cijena hrane",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/2-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "3",
+      "title": "Obezbijediti zdrav život i promovirati dobrobit svih ljudi, svih životnih dobi",
+      "indicators": [
+        
+        {
+          "id": "3-1-1",
+          "title": "Stopa smrtnosti majki",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-1-2",
+          "title": "Udio rođenih uz pomoć stručnog zdravstvenog osoblja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-2-1",
+          "title": "Stopa smrtnosti djece ispod 5 godina",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-2-2",
+          "title": "Stopa smrtnosti novorođenčadi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-1",
+          "title": "Broj novih slučajeva zaraze HIV-om na 1 000 nezaraženih osoba, prema spolu, dobi I određenim grupama stanovništva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-2",
+          "title": "Učestalost tuberkuloze na 100 000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-3",
+          "title": "Učestalost malarije na 1000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-3-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-4",
+          "title": "Učestalost hepatitisa B na 100.000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-3-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-5",
+          "title": "Broj osoba koje su zatražile intervencije protiv zanemarenih tropskih bolesti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-3-5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-1",
+          "title": "Stopa smrtnosti od kardiovaskularnih bolesti, raka, dijabetesa ili kroničnih bolesti dišnog sustava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-2",
+          "title": "Stopa smrtnosti od samoubojstava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-1",
+          "title": "Pokrivenost intervencijama liječenja (farmakološkim, psihosocijalnim i rehabilitacijskim te naknadnim uslugama) poremećaja uzrokovanih uporabom supstanci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-2",
+          "title": "Potrošnja alkohola po stanovniku (u dobi od 15 godina i više) u kalendarskoj godini izražena u litrama čistog alkohola",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-6-1",
+          "title": "Stopa smrtnosti uslijed ozljeda u cestovnom prometu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-1",
+          "title": "Udio žena u reproduktivnoj dobi (od 15 do 49 godina) koje planiraju obitelj suvremenim metodama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-2",
+          "title": "Stopa nataliteta adolescenata (u dobi od 10 do 14 godina; u dobi od 15 do 19 godina) na 1000 žena u toj dobnoj skupini",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-8-1",
+          "title": "Pokrivenost osnovnim zdravstvenim uslugama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-8-2",
+          "title": "Udio stanovnika s velikim izdacima za zdravstvo kao udio u ukupnim izdacima ili dohotku kućanstva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-8-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-1",
+          "title": "Stopa smrtnosti zbog onečišćenja zraka u kućanstvu ili okolini",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-2",
+          "title": "Stopa smrtnosti zbog onečišćenja vode te loših sanitarnih i higijenskih uvjeta (nedostatak usluga WASH - pitke vode, prikladnih sanitarnih i higijenskih uvjeta)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-9-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-3",
+          "title": "Stopa smrtnosti koja se pripisuje nenamjernom trovanju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-9-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-a-1",
+          "title": "Dobno standardizirana prevalencija pušenja duhana među osobama u dobi od 15 godina i više",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-1",
+          "title": "Udio ciljne populacije cijepljene svim cjepivima uključenim u njihov nacionalni program",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-2",
+          "title": "Ukupna neto zvanična razvojna pomoć za medicinska istraživanja i osnovne zdravstvene sektore",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-b-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-3",
+          "title": "Udio zdravstvenih ustanova koje imaju osnovni skup relevantnih neophodnih lijekova koji su dostupni i pristupačni na održivoj osnovi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-b-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-c-1",
+          "title": "Gustoća i raspodjela broja zdravstvenih radnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-1",
+          "title": "Međunarodni zdravstveni propisi (IHR) i spremnost na hitne slučajeve u zdravstvu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-d-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "Postotak infekcija koje se prenose krvlju uzrokovane specifičnim mikroorganizmima otpornim na lijekove",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/3-d-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4",
+      "title": "Osigurati inkluzivno i kvalitetno obrazovanje i promovirati mogućnost cjeloživotnog učenja",
+      "indicators": [
+        
+        {
+          "id": "4-1-1",
+          "title": "Udio djece i mladih: (a) u 2./3. razredu; (b) na kraju osnovnog obrazovanja; i (c) na kraju nižeg srednjeg obrazovanja, koji su postigli barem osnovnu razinu znanja (i) čitanja i (ii) matematike, prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "Stopa završavanja (osnovno obrazovanje, niže srednje obrazovanje, više srednje obrazovanje)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-2-1",
+          "title": "Udio djece u dobi od 24 do 59 mjeseci koja su razvojno na dobrom putu u pogledu zdravlja, učenja i psihosocijalne dobrobiti, prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-2-2",
+          "title": "Stopa sudjelovanja u organiziranim oblicima učenja (godinu dana prije službene dobi za upis u osnovnu školu), prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-3-1",
+          "title": "Stopa sudjelovanja mladih i odraslih u formalnom i neformalnom obrazovanju i osposobljavanju u prethodnih 12 mjeseci, prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-4-1",
+          "title": "Udio mladih i odraslih s vještinama informacijsko-komunikacijskih tehnologija (IKT), prema vrsti vještine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1",
+          "title": "Indeksi pariteta (žene/muškarci, ruralna/urbana područja, najniži/najviši kvintil blagostanja i ostalih kao što su invaliditet, autohtonost stanovništva i pogođenost sukobima, ovisno o dostupnosti podataka) za sve pokazatelje obrazovanja s ovog popisa koje je moguće razvrstati",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-6-1",
+          "title": "Udio stanovništva određene dobne skupine koje je postiglo najmanju određenu razinu postignuća u funkcionalnoj (a) pismenosti i (b) matematičkim kompetencijama, prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-7-1",
+          "title": "Mjera u kojoj su obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) kurikulume; (c) obrazovanje učitelja; i (d) ocjenjivanje učenika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1",
+          "title": "Udio škola koje nude osnovne usluge, prema vrsti usluge",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-b-1",
+          "title": "Iznos službene razvojne pomoći za stipendiranje, prema sektorima i vrstama obrazovanja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1",
+          "title": "Udio nastavnika s minimalno potrebnim kvalifikacijama, prema stupnju obrazovanja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/4-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5",
+      "title": "Postići rodnu ravnopravnost i osnaživati sve žene i djevojčice",
+      "indicators": [
+        
+        {
+          "id": "5-1-1",
+          "title": "Postoje li ili ne pravni okviri za promicanje, jačanje i praćenje jednakosti i nediskriminacije na temelju spola",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1",
+          "title": "Udio žena i djevojčica u dobi od 15 godina i starijih koje su ikada imale partnera, a koje su bile izložene tjelesnom, seksualnom ili psihičkom nasilju od strane trenutnog ili bivšeg intimnog partnera u proteklih 12 mjeseci, prema obliku nasilja i dobi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-2",
+          "title": "Udio žena i djevojčica u dobi od 15 godina i starijih koje su bile podvrgnute seksualnom nasilju od strane osoba koje nisu intimni partneri u prethodnih 12 mjeseci, prema dobi i mjestu događaja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-1",
+          "title": "Udio žena starih 20-24 godina koje su stupile u brak ili izvanbračnu zajednicu prije 15. godine i prije 18. godine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-2",
+          "title": "Udio djevojčica i žena u dobi od 15 do 49 godina koje su podvrgnute sakaćenju/rezanju ženskih spolnih organa, prema dobi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1",
+          "title": "Udio vremena provedenog na neplaćenom radu u kućanstvu i neplaćenoj skrbi, prema spolu, dobi i lokaciji",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1",
+          "title": "Udio mjesta koje drže žene u (a) nacionalnim parlamentima i (b) lokalnim vlastima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2",
+          "title": "Udio žena na rukovodećim radnim mjestima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1",
+          "title": "Udio žena u dobi od 15 do 49 godina koje samostalno donose informirane odluke o seksualnim odnosima, upotrebi kontracepcije i brizi za reproduktivno zdravlje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2",
+          "title": "Broj zemalja koje imaju zakone i propise koji jamče ženama i muškarcima u dobi od 15 godina i više potpun i jednak pristup zdravstvenoj skrbi, informacijama i edukaciji vezanoj uz seksualno i reproduktivno zdravlje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-6-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-1",
+          "title": "(a) Udio stanovništva koje se bavi poljoprivredom i koje ima vlasništvo ili osigurana prava nad poljoprivrednim zemljištem, prema spolu; i (b)udio žena među vlasnicima ili nositeljima prava nad poljoprivrednim zemljištem, prema vrsti vlasništva ili prava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-2",
+          "title": "Udio zemalja u kojima pravni okvir (uključujući i običajno pravo) jamči ženama jednaka prava na vlasništvo nad zemljištem i/ili kontrolu nad zemljištem",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-a-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-b-1",
+          "title": "Udio osoba koje posjeduju mobilni telefon, prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-c-1",
+          "title": "Udio zemalja sa sustavima za praćenje i objavljivanje javnih izdvajanja za rodnu ravnopravnost i osnaživanje žena",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/5-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Osigurati sanitarne uslove i pristup pitkoj vodi za sve",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "Udio stanovništva koje koristi vodu za piće iz sigurno upravljanih sustava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-1",
+          "title": "Udio stanovnika koji koriste (a) sigurne sanitarne usluge I (b) prostoriju za pranje ruku sa sapunom i vodom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-1",
+          "title": "Udio pročišćenih otpadnih voda iz kućanstava i industrije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-2",
+          "title": "Udio vodnih površina sa dobrim kvalitetom ambijentalne vode",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-1",
+          "title": "Promjena u učinkovitosti korištenja vode tijekom vremena",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-2",
+          "title": "Razina vodenog stresa: zahvaćanje slatke vode kao udio raspoloživih slatkovodnih resursa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1",
+          "title": "Stupanj integriranog upravljanja vodnim resursima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-2",
+          "title": "Udio površine pod prekograničnim slivovima i s operativnim aranžmanima za suradnju u oblasti voda",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1",
+          "title": "Promjena u opsegu vodenih ekosustava tijekom vremena",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-a-1",
+          "title": "Iznosi službene razvojne pomoći za vodu i odvodnju u što je dio vladinog usklađenog plana potrošnje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-b-1",
+          "title": "Udio lokalnih administrativnih jedinica s utvrđenim operativnim politikama i postupcima za sudjelovanje lokalnih zajednica u upravljanju vodom i kanalizacijom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/6-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Osigurati pristup materijalno pristupačnoj, pouzdanoj, održivoj i modernoj energiji za sve",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "Udio stanovništva sa pristupom električnoj energiji",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-1-2",
+          "title": "Udio stanovništva koji se primarno oslanja na čista goriva i tehnologiju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-2-1",
+          "title": "Udio obnovljive energije u ukupnoj finalnoj potrošnji energije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-3-1",
+          "title": "Energetski intenzitet mjeren kroz primarnu energiju i BDP",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-a-1",
+          "title": "Tokovi međunarodnih financijskih sredstava prema zemljama u razvoju kao podrška istraživanjima i razvoju čiste energije te proizvodnji energije iz obnovljivih izvora, uključujući hibridne sustave",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-b-1",
+          "title": "Instalirani kapaciteti za proizvodnju obnovljive energije u zemljama u razvoju (u vatima po glavi stanovnika)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/7-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8",
+      "title": "Promovirati inkluzivan i održiv ekonomski rast, zaposlenost i dostojanstven rad za sve",
+      "indicators": [
+        
+        {
+          "id": "8-1-1",
+          "title": "Godišnja stopa rasta realnog BDP-a po stanovniku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-2-1",
+          "title": "Godišnja stopa rasta realnog BDP-a po zaposlenoj osobi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1",
+          "title": "Udio neformalne zaposlenosti u ukupnoj zaposlenosti, prema sektorima i spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-1",
+          "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-2",
+          "title": "Domaća potrošnja materijala, domaća potrošnja materijala po stanovniku i domaća potrošnja materijala po BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1",
+          "title": "Prosječna zarada po satu zaposlenika prema spolu, zanimanju,starosti i invaliditetu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2",
+          "title": "Stopa nezaposlenosti prema spolu i dobi i stopa nezaposlenosti osoba sa invaliditetom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1",
+          "title": "Udio mladih (u dobi od 15-24) koji nisu zaposleni, ne obrazuju se i ne osposobljavaju se",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-7-1",
+          "title": "Udio i ukupan broj djece u dobi od 5 do 17 godina koja su uključena u dječji rad, prema spolu i dobi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-1",
+          "title": "Smrtonosne i nesmrtonosne ozljede na radu na 100 000 radnika, prema spolu i migrantskom statusu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-2",
+          "title": "Stupanj usklađenosti radnih prava na nacionalnoj razini (pravo na udruživanje i kolektivno pregovaranje) s dokumentima Međunarodne organizacije rada (ILO) i nacionalnim zakonodavstvom, prema spolu i migrantskom statusu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-8-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-9-1",
+          "title": "Dio BDP-a koji se odnosi na turizam kao udio u ukupnom BDP-u i stopi rasta",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-9-2",
+          "title": "Employed persons in the tourism industries",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-9-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-1",
+          "title": "(a) Broj podružnica komercijalnih banaka na 100 000 odraslih stanovnika i (b) broj automatizovanih bankomata (ATM) na 100 000 odraslih stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-10-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-2",
+          "title": "Udio odraslih stanovnika (u dobi od 15 godina i više) koji imaju račun u banci ili nekoj drugoj financijskoj instituciji ili kod pružatelja mobilnih novčanih usluga",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-10-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1",
+          "title": "Preuzete obveze i isplate u okviru Pomoći za trgovinu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-b-1",
+          "title": "Postojanje razvijene i operacionalizirane nacionalne strategije za zapošljavanje mladih, kao zasebne strategije ili sastavnog dijela nacionalne strategije zapošljavanja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/8-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9",
+      "title": "Izgraditi održivu infrastrukturu, promovirati održivu indistrijalizaciju i podsticati inovativnost",
+      "indicators": [
+        
+        {
+          "id": "9-1-1",
+          "title": "Udio ruralnog stanovništva koje živi u krugu od 2 km od puta koji je funkcionalan tijekom cijele godine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2",
+          "title": "Obujam putnika i robe, prema vrsti prijevoza",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1",
+          "title": "Dodana vrijednost prerađivačke industrije kao udio u BDP-u i po stanovniku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-2",
+          "title": "Zaposlenost u prerađivačkoj industriji kao udio u ukupnoj zaposlenosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-1",
+          "title": "Udio malih poduzeća u ukupnoj dodanoj vrijednosti prerađivačke industrije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-2",
+          "title": "Udio malih industrijskih poduzeća koja imaju kredit ili kreditnu liniju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-1",
+          "title": "Emisija CO2 po jedinici dodane vrijednosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-1",
+          "title": "Izdaci za istraživanje i razvoj kao udio u BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-2",
+          "title": "Istraživači izraženi ekvivalentom pune zaposlenosti na milijun stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-a-1",
+          "title": "Ukupna službena međunarodna potpora (službena razvojna pomoć i ostali službeni tokovi) za infrastrukturu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-b-1",
+          "title": "Udio dodane vrijednosti stvorene u industrijama srednje i visoke tehnologije u ukupnoj dodanoj vrijednosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-c-1",
+          "title": "Udio stanovništva obuhvaćenog mobilnom mrežom, prema tehnologijama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/9-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Smanjiti nejednakost između i unutar država",
+      "indicators": [
+        
+        {
+          "id": "10-1-1",
+          "title": "Stopa rasta izdataka kućanstava ili dohotka po članu kućanstva donjih 40% stanovništva i ukupnog stanovništva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-1",
+          "title": "Udio stanovništva koje živi ispod 50% medijane prihoda,prema spolu, dobi i za osobe s invaliditetom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-3-1",
+          "title": "Udio stanovništva koji je izjavio kako se osobno osjećao diskriminiranim ili uznemiravanim u proteklih 12 mjeseci na temelju razloga diskriminacije zabranjenih prema međunarodnoj pravnoj osnovi o ljudskim pravima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-1",
+          "title": "Udio radne snage u BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-2",
+          "title": "Redistributivni učinak fiskalne politike, Gini indeks (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1",
+          "title": "Indikatori financijske stabilnosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-6-1",
+          "title": "Udio članova i glasačkih prava zemalja u razvoju u međunarodnim organizacijama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-1",
+          "title": "Troškovi zapošljavanja koje snose zaposleni u odnosu na mjesečna primanja ostvarena u zemlji odredišta",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-2",
+          "title": "Broj zemalja s migracijskim politikama koje omogućuju urednu, sigurnu, redovitu i odgovornu migraciju i mobilnost ljudi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "Broj osoba koje su umrle ili nestale u procesu migracije na međunarodno odredište",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-7-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "Udio izbjegličke populacije prema zemlji podrijetla",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-7-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-a-1",
+          "title": "Udio tarifnih stavki koje se primjenjuju na uvoz iz najmanje razvijenih zemalja i zemalja u razvoju s nultom stopom carine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-b-1",
+          "title": "Ukupni tokovi sredstava za razvoj, prema primateljima i zemljama donatorima te vrsti tokova (npr. službena razvojna pomoć, izravna strana ulaganja i drugi tokovi)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1",
+          "title": "Troškovi prijenosa sredstava kao udio u prenesenom iznosu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/10-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Učiniti gradove i naselja inkluzivnim, bezbjednim, izdržljivim i održivim",
+      "indicators": [
+        
+        {
+          "id": "11-1-1",
+          "title": "Udio gradskog stanovništva koje živi u sirotinjskim četvrtima, neformalnim naseljima ili neodgovarajućim stambenim objektima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-1",
+          "title": "Udio stanovništva koje ima prikladan pristup javnom prijevozu, prema spolu, dobi i invaliditetu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-1",
+          "title": "Omjer stope korištenja zemljišta i stope rasta stanovništva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-2",
+          "title": "Udio gradova koji imaju strukture za izravno sudjelovanje civilnog društva u urbanom planiranju i upravljanju koje djeluju redovito i demokratski",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-4-1",
+          "title": "Ukupni rashodi po glavi stanovnika utrošeni na očuvanje i zaštitu cjelokupne kulturne i prirodne baštine, prema vrsti financiranja (javno, privatno), prema vrsti baštine (kulturna, prirodna) i razini upravljanja (nacionalni, regionalni i lokalni)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1",
+          "title": "Broj umrlih osoba, nestalih osoba i osoba izravno pogođenih katastrofama na 100 000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2",
+          "title": "Izravni gospodarski gubitci prouzročeni katastrofama u odnosu na globalni bruto domaći proizvod (BDP)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3",
+          "title": "(a) Damage to critical infrastructure and (b) number of disruptions to basic services, attributed to disasters",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-6-1",
+          "title": "Udio urbanog čvrstog otpada koji se redovito sakuplja s odgovarajućim završnom obradom iz ukupnog čvrstog otpada gradova",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-6-2",
+          "title": "Godišnje srednje vrijednosti finih čestica (npr. PM2.5 i PM10) u gradovima (ponderirani broj stanovnika)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-6-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-1",
+          "title": "Prosječan udio javnih površina u izgrađenim područjima gradova koje su otvorene za javnu uporabu za sve, prema spolu, dobi i invaliditetu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-2",
+          "title": "Udio osoba koje su bile žrtve fizičkog ili spolnog uznemiravanja, prema spolu, dobi, statusu invaliditeta i mjestu uznemiravanja, u prethodnih 12 mjeseci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-a-1",
+          "title": "Broj zemalja koje imaju nacionalne urbanističke politike ili regionalne razvojne planove koji (a) odgovaraju na dinamiku stanovništva; (b) osiguravaju uravnotežen teritorijalni razvoj; i (c) povećavaju lokalni fiskalni prostor",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-1",
+          "title": "Broj zemalja koje donose i provode nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai okvirom smanjenja rizika od katastrofa za razdoblje 2015. - 2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-2",
+          "title": "Udio jedinica lokalne samouprave koje donose i provode lokalne strategije za smanjenje rizika od katastrofa u skladu s nacionalnom strategijom za smanjenje rizika od katastrofa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/11-b-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Osigurati održive obrasce potrošnje i proizvodnje",
+      "indicators": [
+        
+        {
+          "id": "12-1-1",
+          "title": "Broj zemalja koje razvijaju, usvajaju ili provode instrumente politike čiji je cilj podržati prelazak na održivu potrošnju i proizvodnju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-1",
+          "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-2",
+          "title": "Domaća potrošnja materijala, domaća potrošnja materijala po stanovniku i domaća potrošnja materijala po BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-3-1",
+          "title": "(a) Indeks gubitka hrane (b) Indeks otpada od hrane",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1",
+          "title": "Broj država potpisnica međunarodnih multilateralnih sporazuma o postupanju sa opasnim otpadom i kemikalijama koje ispunjavaju svoje obveze u pogledu prijenosa informacija, kako to zahtijeva svaki relevantni sporazum",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2",
+          "title": "(a) Količina proizvedenog opasnog otpada po stanovniku; i (b) udio obrađenog opasnog otpada, prema vrsti obrade",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1",
+          "title": "Nacionalna stopa recikliranja, tona recikliranog materijala",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-6-1",
+          "title": "Broj poduzeća koja objavljuju izvješća o održivosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-7-1",
+          "title": "Broj zemalja koje provode politike i akcione planove održivih javnih nabavki",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-8-1",
+          "title": "Mjera u kojoj su obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) kurikulume; (c) obrazovanje učitelja; i (d) ocjenjivanje studenata",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-a-1",
+          "title": "Instalirani kapaciteti za proizvodnju obnovljive energije u zemljama u razvoju (u vatima po stanovniku)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-b-1",
+          "title": "Primjena standardnih računovodstvenih alata za praćenje ekonomskih i ekoloških aspekata održivosti turizma",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-c-1",
+          "title": "Iznos subvencija za fosilna goriva (proizvodnja i potrošnja) po jedinici BDP-a",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/12-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Preduzeti hitnu akciju u suzbijanju klimatskih promjena i njihovih posljedica",
+      "indicators": [
+        
+        {
+          "id": "13-1-1",
+          "title": "Broj umrlih osoba, nestalih osoba i osoba izravno pogođenih katastrofama na 100 000 stanovnika",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-2",
+          "title": "Broj zemalja koje donose i provode nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai okvirom smanjenja rizika od katastrofa za razdoblje 2015-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-3",
+          "title": "Udio jedinica lokalne samouprave koje donose i provode lokalne strategije za smanjenje rizika od katastrofa u skladu s nacionalnom strategijom za smanjenje rizika od katastrofa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-1",
+          "title": "Broj zemalja s nacionalno određenim doprinosima, dugoročnim strategijama, nacionalnim planovima prilagodbe i priopćenjima o prilagodbi, kako je prijavljeno tajništvu Okvirne konvencije Ujedinjenih naroda o promjeni klime",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-2",
+          "title": "Ukupne godišnje emisije plinova sa efektom staklene bašte",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-3-1",
+          "title": "Mjera u kojoj su obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) nastavne planove i programe; (c) obrazovanje učitelja; i (d) ocjenjivanje studenata",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-a-1",
+          "title": "Osigurani i mobilizirani iznosi u američkim dolarima na godišnjem nivou u odnosu na kontinuirani postojeći kolektivni mobilizacijski cilj dostizanja preuzete obaveze u iznosu od 100 milijardi USD do 2025. godine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-b-1",
+          "title": "Broj najmanje razvijenih zemalja i malih otočnih država u razvoju s nacionalno utvrđenim doprinosima, dugoročnim strategijama, nacionalnim planovima prilagodbe i komunikacijama o prilagodbi, kako je izviješteno tajništvu Okvirne konvencije Ujedinjenih naroda o klimatskim promjenama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/13-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14",
+      "title": "Zaštiti i održivo koristiti okeane, mora i morske resurse",
+      "indicators": [
+        
+        {
+          "id": "14-1-1",
+          "title": "(a) Indeks obalne eutrofikacije; i (b) gustoća plastičnog otpada",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-2-1",
+          "title": "Broj zemalja koje koriste pristupe koji se temelje na ekosustavima u upravljanju morem",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-3-1",
+          "title": "Prosječna kiselost mora (pH) mjerena na dogovorenom paketu reprezentativnih stanica za uzorkovanje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-4-1",
+          "title": "Udio ribljih zaliha unutar biološki održivih razina",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-5-1",
+          "title": "Pokrivenost zaštićenih područja u odnosu na morska područja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-6-1",
+          "title": "Stupanj provedbe međunarodnih instrumenata usmjerenih na borbu protiv nezakonitog, neprijavljenog i nereguliranog ribolova",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-7-1",
+          "title": "Održivi ribolov kao udio BDP-a u malim otočnim zemljama u razvoju, najmanje razvijenim zemljama i svim zemljama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-a-1",
+          "title": "Udio u ukupnom proračunu za razvoj koji se dodjeljuje istraživanjima u području pomorske tehnologije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-b-1",
+          "title": "Napredak zemalja prema stupnju primjene zakonskog/regulatornog/političkog/institucionalnog okvira koji prepoznaje i štiti prava pristupa malom ribolovu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-c-1",
+          "title": "Broj zemalja koje napreduju u ratifikaciji, prihvaćanju i provedbi pravnih, političkih i institucionalnih okvira, instrumenata koji se odnose na oceane, a koji služe provođenju međunarodnog prava, što se odražava u Konvenciji Ujedinjenih naroda o pravu mora, radi očuvanja i održivog korištenja oceana i njihovih resursa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/14-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Održivo upravljati šumama, suzbijati dezertifikaciju, zaustaviti i preokrenuti degradaciju zemljišta i spriječiti dalji gubitak biološke raznolikosti",
+      "indicators": [
+        
+        {
+          "id": "15-1-1",
+          "title": "Površina pod šumama kao udio u ukupnoj kopnenoj površini",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-1-2",
+          "title": "Udio lokacija važnih za kopnenu i slatkovodnu bioraznolikost, koja su obuhvaćena zaštićenim područjima, prema vrsti ekosustava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1",
+          "title": "Napredak prema održivom upravljanju šumama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-3-1",
+          "title": "Udio degradiranog zemljišta u odnosu na ukupnu površinu zemljišta",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-1",
+          "title": "Udio važnih lokacija planinske bioraznolikosti pokrivenih zaštićenim područjima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2",
+          "title": "(a) Indeks planinskog zelenog pokrova i (b) udio degradiranog planinskog zemljišta",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-1",
+          "title": "Indeks crvene liste",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1",
+          "title": "Broj zemalja koje su usvojile zakonodavne, administrativne i političke okvire kako bi osigurale poštenu i pravičnu raspodjelu koristi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-7-1",
+          "title": "Udio divljih vrsta kojima se trguje koje potječu iz krivolova ili ilegalne trgovine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1",
+          "title": "Udio zemalja koje donose relevantno nacionalno zakonodavstvo i dodjeljuju odgovarajuća sredstva za prevenciju ili kontrolu invazivnih stranih vrsta",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-9-1",
+          "title": "(a) Broj zemalja koje su u svojim nacionalnim strategijama i akcijskim planovima za biološku raznolikost postavile nacionalne ciljeve u skladu ili slične Aichiju cilju 2 za biološku raznolikost Strateškog plana za bioraznolikost 2011.-2020., te prijavljeni napredak u odnosu na te ciljeve; i (b) integracija bioraznolikosti u nacionalne računovodstvene sustave i sustave izvješćivanja, definirana kao primjena Sustava ekološko- ekonomskog računovodstva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-1",
+          "title": "(a) Službena razvojna pomoć za očuvanje i održivo korištenje biološke raznolikosti i ekosustava; i (b) ostvareni prihod i mobilizirana financijska sredstva iz ekonomskih instrumenata važnih za biološku raznolikost",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-b-1",
+          "title": "(a) Službena razvojna pomoć za očuvanje i održivo korištenje biološke raznolikosti i ekosustava; i (b) ostvareni prihod i mobilizirana financijska sredstva iz ekonomskih instrumenata važnih za biološku raznolikost",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-c-1",
+          "title": "Udio divljih vrsta kojima se trguje, a potječu iz krivolova ili nezakonite trgovine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/15-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16",
+      "title": "Promovirati mirna i inkluzivna društva za održivi razvoj, osigurati pristup pravdi za sve i izgraditi efikasne, odgovorne i inkluzivne institucije na svim nivoima",
+      "indicators": [
+        
+        {
+          "id": "16-1-1",
+          "title": "Broj žrtava ubojstva s namjerom na 100,000 stanovnika, prema spolu i starosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-2",
+          "title": "Smrti povezane sa sukobima na 100 000 stanovnika, po spolu, dobi i uzroku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3",
+          "title": "Udio stanovništva koje je bilo izloženo (a) fizičkom nasilju, (b) psihološkom nasilju i (c) seksualnom nasilju u posljednjih 12 mjeseci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-4",
+          "title": "Udio osoba koje se osjećaju sigurnim kada same šetaju područjem u kojem žive",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-1-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-1",
+          "title": "Udio djece u dobi od 1 do 17 godina koja su u posljednjih mjesec dana doživjela bilo kakvu fizičku kaznu i/ili psihološku agresiju od svojih roditelja/skrbnikaa",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2",
+          "title": "Broj žrtava trgovine ljudima na 100 000 stanovnika, prema spolu, dobi i obliku eksploatacije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-3",
+          "title": "Udio mladih žena i muškaraca u dobi od 18 do 29 godina koji su doživjeli seksualno nasilje do 18. godine",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1",
+          "title": "Udio žrtava nasilja u proteklih 12 mjeseci koji su svoju viktimizaciju prijavili nadležnim tijelima ili drugim službeno priznatim mehanizmima za rješavanje sukoba",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-2",
+          "title": "Neosuđeni pritvorenici kao udio ukupne zatvorske populacije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-3",
+          "title": "Udio stanovništva koji je imao iskustva u sporu u posljednje dvije godine i koje je pristupilo formalnom ili neformalnom mehanizmu za rješavanje sporova",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-3-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-4-1",
+          "title": "Ukupna vrijednost unutarnjih i vanjskih nezakonitih financijskih tokova (u tekućim američkim dolarima)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-4-2",
+          "title": "Udio zaplijenjenog, pronađenog ili predanog oružja čije je nezakonito porijeklo ili okolnosti otkrilo ili utvrdilo nadležno tijelo sukladno s međunarodnim instrumentima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-5-1",
+          "title": "Udio osoba koje su imale barem jedan kontakt s javnim službenikom i koji su platili mito javnom službeniku ili im je javni službenik tražio mito tijekom proteklih 12 mjeseci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-5-2",
+          "title": "Udio poslovnih subjekata koji su imali barem jedan kontakt s javnim službenikom i koji su platili mito javnom službeniku ili im je javni službenik tražio mito tijekom proteklih 12 mjeseci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-1",
+          "title": "Osnovni rashodi države po sektorima kao udio izvorno odobrenog proračuna (ili proračunskim kodovima ili slično)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2",
+          "title": "Udio stanovništva koje je zadovoljno sa svojim posljednjim iskustvom s javnim službama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-6-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1",
+          "title": "Udjeli radnih mjesta u nacionalnim i lokalnim institucijama, uključujući (a) zakonodavna tijela; (b) javne službe; i (c) pravosuđe, u usporedbi s raspodjelom na nacionalnoj razini, prema spolu, dobi, osobama s invaliditetom i skupinama stanovništva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-2",
+          "title": "Udio stanovništva koje vjeruje da je donošenje odluka inkluzivno i odgovorno, prema spolu, dobi, invaliditetu i skupini stanovništva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-8-1",
+          "title": "Udio članova i glasačkih prava zemalja u razvoju u međunarodnim organizacijama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-9-1",
+          "title": "Udio djece mlađe od 5 godina čije je rođenje registrirano pri tijelu civilne vlasti, prema starosti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-10-1",
+          "title": "Broj potvrđenih slučajeva ubojstava, otmica, prisilnih nestanaka, samovoljnog zatvaranja i mučenja novinara, pripadnika medija, sindikalaca i boraca za ljudska prava u proteklih 12 mjeseci",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-10-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-10-2",
+          "title": "Broj zemalja koje donose i provode ustavne, zakonske i/ili političke odredbe kojima se osigurava javnosti pristup informacijama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-10-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1",
+          "title": "Postojanje neovisnih nacionalnih institucija za ljudska prava sukladno Pariškim načelima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-b-1",
+          "title": "Udio stanovništva koji je izjavio kako se osobno osjećao diskriminiranim ili uznemiravanim u proteklih 12 mjeseci na temelju razloga diskriminacije zabranjenih prema međunarodnoj pravnoj osnovi o ljudskim pravima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/16-b-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Ojačati sredstva za provedbu i revitalizirati Globalno partnerstvo za održivi razvoj",
+      "indicators": [
+        
+        {
+          "id": "17-1-1",
+          "title": "Ukupni državni prihod kao udio BDP-a, po izvoru",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-1-2",
+          "title": "Udio domaćeg proračuna koji se financira prihodima od domaćih poreza",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1",
+          "title": "Neto službena razvojna pomoć, ukupna i pomoć najmanje razvijenim zemljama, kao udio u bruto nacionalnom dohotku (BND) donatora Odbora za razvojnu pomoć Organizacije za ekonomsku suradnju i razvoj (OECD)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1",
+          "title": "Dodatni financijski resursi mobilizirani za zemlje u razvoju iz više izvora",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-2",
+          "title": "Iznos troškova prijenosa sredstava  (USD) kao udio u ukupnom BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-4-1",
+          "title": "Otplata duga kao udio u izvozu roba i usluga",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-5-1",
+          "title": "Broj zemalja koje donose i provode programe promicanja ulaganja za zemlje u razvoju, uključujući i najmanje razvijene zemlje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1",
+          "title": "Broj pretplatnika fiksnog širokopojasnog interneta na 100 stanovnika, prema brzini",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1",
+          "title": "Ukupan iznos financiranja za zemlje u razvoju za promicanje, prijenos i širenje ekološki prihvatljivih tehnologija",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-8-1",
+          "title": "Udio pojedinaca koji koriste internet (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-9-1",
+          "title": "Vrijednost financijske i tehničke pomoći, izražena u američkim dolarima (uključujući pomoć putem suradnje Sjever-Jug, Jug-Jug i trostrane suradnje), namijenjene zemljama u razvoju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-10-1",
+          "title": "Svjetski ponderirani prosjek carina",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-10-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1",
+          "title": "Udio zemalja u razvoju i najmanje razvijenih zemalja u svjetskom izvozu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-11-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-12-1",
+          "title": "Ponderirane prosječne carine koje se primjenjuju na zemlje u razvoju, najmanje razvijene zemlje i male otočne zemlje u razvoju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-12-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1",
+          "title": "Glavni makroekonomski pokazatelji",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-13-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-14-1",
+          "title": "Broj zemalja s uspostavljenim mehanizmima za poboljšanje usklađenosti politika održivog razvoja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-14-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1",
+          "title": "Mjera u kojoj se koriste nacionalni okviri rezultata i instrumenti planiranja od strane pružatelja razvojne suradnje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-15-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-1",
+          "title": "Broj zemalja koje izvješćuju o napretku putem višeagencijskih okvira za praćenje učinkovitosti razvoja koji podržavaju postizanje Ciljeva održivog razvoja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-16-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-17-1",
+          "title": "Iznos u američkim dolarima namijenjen javno-privatnim partnerstvima za infrastrukturu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-17-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-1",
+          "title": "Indikator statističkih kapaciteta za praćenje ciljeva održivog razvoja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-18-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-2",
+          "title": "Broj zemalja koje imaju nacionalno statističko zakonodavstvo koje je u skladu s Temeljnim načelima službene statistike",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-18-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3",
+          "title": "Broj zemalja koje imaju nacionalni statistički plan koji se u potpunosti financira i provodi, prema izvoru financiranja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-18-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-1",
+          "title": "Vrijednost (izražena u američkim dolarima) svih resursa stavljenih na raspolaganje za jačanje statističkih kapaciteta u zemljama u razvoju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-19-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2",
+          "title": "Udio zemalja koje su (a) u posljednjih 10 godina provele najmanje jedan popis stanovništva, kućanstava i stanova te (b) ostvarile 100-postotnu evidenciju rođenih i 80-postotnu evidenciju umrlih",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/hr/17-19-2/",
+          "status": "notstarted"
+        }]
+    }
+  }]
