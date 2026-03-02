@@ -80,8 +80,8 @@ frontpage_cards:
     button_link: ''
     rule_color: ''
 frontpage_goals_grid:
-  title: frontpage.heading_short
-  description: frontpage.instructions_shorter
+  title: custom.goal_title
+  description: custom.goal_description
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
@@ -175,9 +175,6 @@ menu:
     dropdown: []
   - path: /news
     translation_key: menu.updates
-    dropdown: []
-  - path: /faq
-    translation_key: menu.faq
     dropdown: []
   - path: /about
     translation_key: menu.about
