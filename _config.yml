@@ -46,4 +46,4 @@ exclude:
 search_index:
   # This tells the search engine to ignore the 'indicator_name' field
   # so it doesn't crash on the Hash of languages.
-  exclude_fields: [indicator_name]
+  exclude_fields: [indicator_name, graph_title, target_name]
