@@ -119,7 +119,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Progress Measurement Methodology for the Sustainable Development Goals - Indicators For The Sustainable Development Goals</title>
+    <title>Progress Measurement Methodology for the Sustainable Development Goals - general.site_title</title>
 
 
 
@@ -142,7 +142,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260401073618">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260401081737">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -200,15 +200,15 @@ layout-page
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="">Home</a>
+    <a class="nav-link" href="">general.home</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="goals">Goals</a>
+    <a class="nav-link" href="goals">general.goals</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="reporting-status">Reporting Status</a>
+    <a class="nav-link" href="reporting-status">menu.reporting_status</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="news">Updates</a>
+    <a class="nav-link" href="news">menu.updates</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="about">About us</a>
+    <a class="nav-link" href="about">menu.about</a>
 </li></ul>
     
                 </div>
@@ -921,21 +921,21 @@ Sachs, J., Kroll, C., Lafortune, G., Fuller, G., Woelm, F. (2021). *The Decade o
                         </li>
                         
                         <li>
-                            <a href="contact-us">Contact us</a>
+                            <a href="contact-us">menu.contact_us</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">general.twitter</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">general.facebook</a>
                             
                         </li>
                         <li>
-                            <a href="about/cookies-and-privacy/">Cookies</a>
+                            <a href="about/cookies-and-privacy/">menu.cookies</a>
                             
                         </li>
                         
@@ -977,12 +977,12 @@ Sachs, J., Kroll, C., Lafortune, G., Fuller, G., Woelm, F. (2021). *The Decade o
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260401073618'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260401081737'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260401073618"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260401081737"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
