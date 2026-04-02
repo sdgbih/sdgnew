@@ -43,11 +43,29 @@ exclude:
   - README.md
   - LICENSE
 
-# In your SITE REPO _config.yml
+# --- METADATA CONFIGURATION ---
+# Ovdje definišemo koja polja iz meta/1-1-1.yml fajla će biti vidljiva na sajtu
 indicator_metadata:
   - name: indicator_definition
-    label: global_indicators.description-label # This is the header title
+    label: global_indicators.description-label
   - name: goal_meta_link_text
     label: global_indicators.intention-label
   - name: methodology_characteristics
     label: global_indicators.methodology-label
+
+# --- PROSE CONFIGURATION (Opcionalno, ali preporučeno za CMS) ---
+prose:
+  metadata:
+    indicators:
+      - name: indicator_definition
+        field:
+          element: textarea
+          label: Description
+      - name: goal_meta_link_text
+        field:
+          element: textarea
+          label: Intention
+      - name: methodology_characteristics
+        field:
+          element: textarea
+          label: Methodology
