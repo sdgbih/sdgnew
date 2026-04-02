@@ -42,3 +42,12 @@ exclude:
   - README
   - README.md
   - LICENSE
+
+# In your SITE REPO _config.yml
+indicator_metadata:
+  - name: indicator_definition
+    label: global_indicators.description-label # This is the header title
+  - name: goal_meta_link_text
+    label: global_indicators.intention-label
+  - name: methodology_characteristics
+    label: global_indicators.methodology-label
