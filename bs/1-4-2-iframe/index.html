@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260402205505">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260402210020">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -307,7 +307,7 @@ layout-indicator-iframe
   id="indicatorData"
   data-indicatorid='indicator_1-4-2'
   data-id="1-4-2"
-  data-country="Australia"
+  data-country="Bosnia and Herzegovina"
   data-charttitle="global_indicators.1-4-2-title"
   data-charttitles="null"
   data-measurementunit=""
@@ -396,17 +396,7 @@ layout-indicator-iframe
         role="tab"
         type="button"
         
-          id="tab-chartview"
-          data-bs-target="#chartview"
-          aria-controls="chartview"
-          aria-describedby="table-alternative"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
-
-        
-      >Grafikon</button>
+      ></button>
     </li>
     
     <li role="presentation"
@@ -421,16 +411,37 @@ data-event-label="Change to Chart tab"
         role="tab"
         type="button"
         
-          id="tab-tableview"
-          data-bs-target="#tableview"
-          aria-controls="tableview"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
-
+      ></button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
         
-      >Tabela</button>
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+      ></button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+      ></button>
     </li>
     
   </ul>
@@ -438,189 +449,11 @@ data-event-label="Change to Table tab"
     <div class="tab-content data-view">
     
       
-        <div role="tabpanel" class="tab-pane active" id="chartview">
-          
-
-    <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only"></span></i>
-      Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.
-    </div>
-
     
-    <div id="selectionsChart">
-      <figure role="group">
-        <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">
-            global_indicators.1-4-2-title
-          </h4>
-          <div id="chart" class="plot-container">
-            <canvas
-    role="img"
-    aria-labelledby="chart-heading"
-    aria-describedby="table-alternative chart-annotations"
-    tabindex="0"
- ></canvas>
-
-          </div>
-          <div id="plotLegend"></div>
-          
-
-
-
-<div id="selectionChartFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ></dd>
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ></dd>
-        
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Fusnota:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Podaci posljednji put ažurirani:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
-    
-</div>
-
-        </div>
-      </figure>
-      <div id="chartSelectionDownload" class="clearfix">
-        <button
-          id="btnSave"
-          title="Preuzmi grafikon kao sliku"
-          aria-label="Preuzmi grafikon kao sliku"
-          class='btn btn-primary btn-download'>
-          Preuzmi sliku grafikona
-        </button><!--
-   --></div>
-    </div>
-
-
-
-        </div>
       
     
       
-        <div role="tabpanel" class="tab-pane " id="tableview">
-          <div style="display: none;">
-            <span id="column-sort-info"></span>
-          </div>
-          <div id="selectionsTable"></div>
-<dl id="tableTargetLines" class="clearfix"></dl>
-
-
-
-
-<div id="selectionTableFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ></dd>
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ></dd>
-        
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Fusnota:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Podaci posljednji put ažurirani:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
     
-</div>
-
-<div id="tableSelectionDownload" class="clearfix"></div>
-
-        </div>
       
     
   </div>
@@ -730,206 +563,944 @@ data-event-label="Change to indicator.sources tab"
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_INDICATOR_INFO </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_GOAL </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_TARGET </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_INDICATOR </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_SERIES_DESCR </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.META_LAST_UPDATE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_RELATED_INDICATORS </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_ORGANISATION </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_NAME </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.ORGANISATION_UNIT </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_FUNCT </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_PHONE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_MAIL </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CONTACT_EMAIL </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.IND_DEF_CON_CLASS </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.STAT_CONC_DEF </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.UNIT_MEASURE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.CLASS_SYSTEM </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SRC_TYPE_COLL_METHOD </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SOURCE_TYPE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.COLL_METHOD </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.FREQ_COLL </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.REL_CAL_POLICY </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.DATA_SOURCE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.COMPILING_ORG </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.INST_MANDATE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.OTHER_METHOD </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.RATIONALE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.REC_USE_LIM </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.DATA_COMP </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.DATA_VALIDATION </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.DOC_METHOD </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.QUALITY_MGMNT </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.QUALITY_ASSURE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.QUALITY_ASSMNT </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.COVERAGE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.COMPARABILITY </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.OTHER_DOC </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Podaci posljednji put ažurirani </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Posljednji put ažurirani metapodaci </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1029,144 +1600,252 @@ data-event-label="Change to indicator.sources tab"
       
         
           
-      
-      
-      
-        
           
-      
-      
-      
-        
           
-      
-      
-      
-        
           
-      
-      
-      
         
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_INDICATOR </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
       
       
         
           
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_TARGET </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.META_LAST_UPDATE </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_CUSTODIAN_AGENCIES </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.SDG_RELATED_INDICATORS </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">UN-ov označeni nivo </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1228,12 +1907,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260402205505'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260402210020'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260402205505"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260402210020"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

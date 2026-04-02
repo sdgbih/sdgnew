@@ -142,7 +142,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260402205505">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260402210020">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -309,7 +309,7 @@ data-event-label="high"
     ## Introduction
 The [2030 Agenda for Sustainable Development](https://www.un.org/sustainabledevelopment/development-agenda/), adopted by all United Nations Member States in 2015, provides a blueprint for improving the economy, society, and the environment in a sustainable manner. At its heart, the 17 Sustainable Development Goals (SDGs) are a universal call to action to end poverty, protect the planet, and ensure that all people globally can enjoy peace and prosperity.
 
-The goals are underpinned by a framework of global indicators that allow Australia and other countries to monitor and report on progress. They cover a broad range of social, environmental, and economic issues with a focus on the most vulnerable and a commitment to “leave no one behind”. To complement the global goals, countries are encouraged to develop a national implementation plan that focuses on country-developed indicators to address specific national contexts and priorities to achieve the SDGs.
+The goals are underpinned by a framework of global indicators that allow Bosnia and Herzegovina and other countries to monitor and report on progress. They cover a broad range of social, environmental, and economic issues with a focus on the most vulnerable and a commitment to “leave no one behind”. To complement the global goals, countries are encouraged to develop a national implementation plan that focuses on country-developed indicators to address specific national contexts and priorities to achieve the SDGs.
 
 ## Measuring Progress
 Measuring and monitoring progress with reliable information is key to understanding how a country advances towards the achievement of the SDGs.
@@ -319,7 +319,7 @@ Closely monitoring the progress of each indicator not only shows where a country
 ## Methodology Adopted
 The Global Indicator Framework (GIF) lays the foundation for countries to measure and report their progress towards the 17 SDGs. The GIF divides the 17 SDGs across 169 targets and 234 unique indicators, all of which were agreed upon and are measured consistently by all United Nations Member States. Across the GIF, indicators may have defined quantitative targets (e.g., GIF 1.2 targets a 50% reduction of the poverty rate according to national definitions), aspirational targets (e.g., GIF target 16.5 *Substantially reduce corruption and bribery in all their forms*), or no target at all.
 
-To complement the GIF and their own set of National indicators, Statistics Canada developed a robust and simple method of measuring progress which can be reported using visualizations that allow data users to easily see areas of progress or weakness. This method has been integrated into Open SDG for all it’s organisational users to make use of, including this platform. Even in the absence of specific quantitative targets, an estimate of progress can inform whether undesired trends are being observed by reporting progress deterioration. In essence, this measure of progress provides a simplified illustration of Australia’s progress towards achieving the SDGs, assuming that the current trends are maintained.
+To complement the GIF and their own set of National indicators, Statistics Canada developed a robust and simple method of measuring progress which can be reported using visualizations that allow data users to easily see areas of progress or weakness. This method has been integrated into Open SDG for all it’s organisational users to make use of, including this platform. Even in the absence of specific quantitative targets, an estimate of progress can inform whether undesired trends are being observed by reporting progress deterioration. In essence, this measure of progress provides a simplified illustration of Bosnia and Herzegovina’s progress towards achieving the SDGs, assuming that the current trends are maintained.
 
 ### Requirements
 Statistics Canada identified essential requirements for the adopted methodology. The guiding principle for the methodology was the necessity of a consistent and easily interpretable measure that could reach a broad audience while maintaining scientific integrity.
@@ -609,7 +609,7 @@ GIF indicator 8.1.1 measures the annual growth rate of real GDP per capita as a 
 
 ## Community
 
-The progress measure methodology described above is applied throughout this National SDG Reporting Platform. At a glance, users can interpret indicator-level progress towards Australia’s Sustainable Development Goals!
+The progress measure methodology described above is applied throughout this National SDG Reporting Platform. At a glance, users can interpret indicator-level progress towards Bosnia and Herzegovina’s Sustainable Development Goals!
 
 Statistics Canada’s SDG team has worked with the [Open SDG](https://open-sdg.org/) community to integrate the indicator-level progress measurement into the back-end of the Open SDG platform. The official release of the progress measurement functionality occurred in October 2025 with the launch of Open SDG Version 2.4.0.
 
@@ -619,7 +619,7 @@ Please [contact Statistics Canada directly](mailto:statcan.sdg-odd.statcan@statc
 ## Metadata
 
 ##### Global Indicator Framework
-The table below provides the targets and desired directions used to measure Australia’s progress across the GIF. All targets are interpreted at the country-level. For example, GIF indicator 12.1.1 *Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production* will measure only Australia’s progress rather than measuring the number of countries worldwide that have achieved the desired policy objectives. 
+The table below provides the targets and desired directions used to measure Bosnia and Herzegovina’s progress across the GIF. All targets are interpreted at the country-level. For example, GIF indicator 12.1.1 *Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production* will measure only Bosnia and Herzegovina’s progress rather than measuring the number of countries worldwide that have achieved the desired policy objectives. 
 
 
 | Indicator number | Indicator name                                                                                                                                                    | Target or desired direction |
@@ -925,16 +925,6 @@ Sachs, J., Kroll, C., Lafortune, G., Fuller, G., Woelm, F. (2021). *The Decade o
                             
                         </li>
                         <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
                             <a href="about/cookies-and-privacy/">Cookies</a>
                             
                         </li>
@@ -977,12 +967,12 @@ Sachs, J., Kroll, C., Lafortune, G., Fuller, G., Woelm, F. (2021). *The Decade o
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260402205505'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260402210020'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260402205505"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260402210020"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
