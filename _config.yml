@@ -37,26 +37,19 @@ exclude:
   - README.md
   - LICENSE
 
-# --- TABOVI (Vizuelni prikaz) ---
-indicator_tabs:
-  tab_1:
-    label: global_indicators.description-label
-    metadata:
-      - indicator_definition
-  tab_2:
-    label: global_indicators.intention-label
-    metadata:
-      - goal_meta_link_text
-  tab_3:
-    label: global_indicators.methodology-label
-    metadata:
-      - methodology_characteristics
-
-# --- REGISTRACIJA (Dozvola za prikaz) ---
+# REGISTRACIJA POLJA (Ovo ih "otključava" na stranici)
 indicator_metadata:
-  - name: indicator_definition
+  - name: computation_units
     label: global_indicators.description-label
-  - name: goal_meta_link_text
+    scope: national
+  - name: policy_relevance
     label: global_indicators.intention-label
+    scope: national
   - name: methodology_characteristics
     label: global_indicators.methodology-label
+    scope: national
+
+# Osnovne postavke za vidljivost
+hide_empty_metadata: true
+remote_data_prefix: https://sdgbih.github.io/sdgnewdata/
+repository_url_data: https://github.com/sdgbih/sdgnewdata/
