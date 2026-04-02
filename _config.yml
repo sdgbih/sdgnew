@@ -37,25 +37,22 @@ exclude:
   - README.md
   - LICENSE
 
-# DEFINICIJA TABOVA (Prikaz na stranici)
+# --- TABOVI (Vizuelni prikaz) ---
 indicator_tabs:
   tab_1:
     label: global_indicators.description-label
     metadata:
       - indicator_definition
-    scope: all
   tab_2:
     label: global_indicators.intention-label
     metadata:
       - goal_meta_link_text
-    scope: all
   tab_3:
     label: global_indicators.methodology-label
     metadata:
       - methodology_characteristics
-    scope: all
 
-# REGISTRACIJA POLJA (Mora se podudarati sa imenima iz meta fajla)
+# --- REGISTRACIJA (Dozvola za prikaz) ---
 indicator_metadata:
   - name: indicator_definition
     label: global_indicators.description-label
