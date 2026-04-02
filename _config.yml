@@ -1,9 +1,6 @@
 # Jekyll configuration for Open SDG platform
-
-# Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 remote_theme: open-sdg/open-sdg@2.4.0
 
-# Replace this title as needed.
 title: general.site_title
 url: ""
 environment: staging
@@ -14,7 +11,6 @@ languages:
   - sr
   - hr
 
-# Pages
 collections:
   pages:
     output: true
@@ -27,12 +23,10 @@ collections:
   goals:
     output: true
 
-# Tell Jekyll to use the Remote Theme plugin.
 plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-# Exclude some files/folders.
 exclude:
   - vendor
   - scripts
@@ -43,8 +37,22 @@ exclude:
   - README.md
   - LICENSE
 
-# --- METADATA CONFIGURATION ---
-# Ovdje definišemo koja polja iz meta/1-1-1.yml fajla će biti vidljiva na sajtu
+# --- TABOVI (Ovo kreira sekcije na stranici) ---
+indicator_tabs:
+  tab_1:
+    label: global_indicators.description-label
+    metadata:
+      - indicator_definition
+  tab_2:
+    label: global_indicators.intention-label
+    metadata:
+      - goal_meta_link_text
+  tab_3:
+    label: global_indicators.methodology-label
+    metadata:
+      - methodology_characteristics
+
+# --- REGISTRACIJA POLJA (Ovo dozvoljava prikazivanje podataka) ---
 indicator_metadata:
   - name: indicator_definition
     label: global_indicators.description-label
@@ -52,20 +60,3 @@ indicator_metadata:
     label: global_indicators.intention-label
   - name: methodology_characteristics
     label: global_indicators.methodology-label
-
-# --- PROSE CONFIGURATION (Opcionalno, ali preporučeno za CMS) ---
-prose:
-  metadata:
-    indicators:
-      - name: indicator_definition
-        field:
-          element: textarea
-          label: Description
-      - name: goal_meta_link_text
-        field:
-          element: textarea
-          label: Intention
-      - name: methodology_characteristics
-        field:
-          element: textarea
-          label: Methodology
