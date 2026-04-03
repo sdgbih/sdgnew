@@ -39,15 +39,22 @@ exclude:
 
 # REGISTRACIJA POLJA (Ovo ih "otključava" na stranici)
 indicator_metadata:
-  - name: computation_units
+  - name: indicator_definition
     label: global_indicators.description-label
     scope: national
-  - name: policy_relevance
+  - name: rationale
     label: global_indicators.intention-label
     scope: national
   - name: methodology_characteristics
     label: global_indicators.methodology-label
     scope: national
+  # Back-up varijante za svaki slučaj
+  - name: national_indicator_definition
+    label: global_indicators.description-label
+    scope: national
+  - name: national_indicator_rationale
+    label: global_indicators.intention-label
+    scope: nationa
 
 # Osnovne postavke za vidljivost
 hide_empty_metadata: true
