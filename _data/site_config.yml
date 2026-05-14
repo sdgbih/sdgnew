@@ -121,22 +121,16 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1:
-    label: global_indicators.1-1-1-definition-label
-    scope: national
-  tab_2:
-    label: global_indicators.1-1-1-intention-label
-    scope: national
-  tab_3:
-    label: global_indicators.1-1-1-methodology-label
-    scope: national
-indicator_metadata:
-  - name: indicator_definition
-    label: global_indicators.1-1-1-definition-label
-  - name: rationale
-    label: global_indicators.1-1-1-intention-label
-  - name: methodology_characteristics
-    label: global_indicators.1-1-1-methodology-label
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+metadata_tabs:
+  - scope: national
+    title: indicator.national_metadata
+  - scope: global
+    title: indicator.global_metadata
+  - scope: sources
+    title: indicator.sources
 languages:
   - en
   - bs
