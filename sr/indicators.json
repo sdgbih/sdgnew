@@ -54,4 +54,60 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "2",
+      "title": "Окончати глад, постићи сигурност хране, унаприједити квалитет исхране и промовисати одрживу пољопривреду",
+      "indicators": [
+        
+        {
+          "id": "2-1-1",
+          "title": "global_indicators.2-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-1-1/",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-1",
+          "title": "global_indicators.2-2-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-2-1/",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-1",
+          "title": "global_indicators.2-3-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-3-1/",
+          "status": "complete"
+        },
+        {
+          "id": "2-4-1",
+          "title": "global_indicators.2-4-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-4-1/",
+          "status": "complete"
+        },
+        {
+          "id": "2-5-3",
+          "title": "global_indicators.2-5-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-5-3/",
+          "status": "complete"
+        },
+        {
+          "id": "2-6-0",
+          "title": "global_indicators.2-6-0-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/sr/2-6-0/",
+          "status": "complete"
+        }]
+    }
   }]
