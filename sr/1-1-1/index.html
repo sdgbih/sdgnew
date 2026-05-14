@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260403073003">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260514073829">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -658,17 +658,7 @@ data-event-label="high"
         role="tab"
         type="button"
         
-          id="tab-chartview"
-          data-bs-target="#chartview"
-          aria-controls="chartview"
-          aria-describedby="table-alternative"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
-
-        
-      >Графикон</button>
+      ></button>
     </li>
     
     <li role="presentation"
@@ -683,16 +673,37 @@ data-event-label="Change to Chart tab"
         role="tab"
         type="button"
         
-          id="tab-tableview"
-          data-bs-target="#tableview"
-          aria-controls="tableview"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
-
+      ></button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
         
-      >Табела</button>
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+      ></button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+      ></button>
     </li>
     
   </ul>
@@ -700,177 +711,11 @@ data-event-label="Change to Table tab"
     <div class="tab-content data-view">
     
       
-        <div role="tabpanel" class="tab-pane active" id="chartview">
-          
-
-    <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only"></span></i>
-      Превише је скупова података за приказ на графикону. Неће бити приказане све док не уклоните неке одабире.
-    </div>
-
     
-    <div id="selectionsChart">
-      <figure role="group">
-        <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">
-            Особе у ризику од сиромаштва или социјалне искључености
-          </h4>
-          <div id="chart" class="plot-container">
-            <canvas
-    role="img"
-    aria-labelledby="chart-heading"
-    aria-describedby="table-alternative chart-annotations"
-    tabindex="0"
- ></canvas>
-
-          </div>
-          <div id="plotLegend"></div>
-          
-
-
-
-<div id="selectionChartFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-        <dt>Извор:</dt>
-        <dd>Eurostat (EU-SILC)</dd>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Мјерна јединица:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >Национални референтни метаподаци:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_01_10_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_01_10)</a></dd>
-        
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Фуснота:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Подаци посљедњи пут ажурирани:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
-    
-</div>
-
-        </div>
-      </figure>
-      <div id="chartSelectionDownload" class="clearfix">
-        <button
-          id="btnSave"
-          title="Преузми графикон као слику"
-          aria-label="Преузми графикон као слику"
-          class='btn btn-primary btn-download'>
-          Преузми слику графикона
-        </button><!--
-   --></div>
-    </div>
-
-
-
-        </div>
       
     
       
-        <div role="tabpanel" class="tab-pane " id="tableview">
-          <div style="display: none;">
-            <span id="column-sort-info"></span>
-          </div>
-          <div id="selectionsTable"></div>
-<dl id="tableTargetLines" class="clearfix"></dl>
-
-
-
-
-<div id="selectionTableFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-        <dt>Извор:</dt>
-        <dd>Eurostat (EU-SILC)</dd>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Мјерна јединица:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-        
-        <dt
-          data-for-series=""
-          data-for-unit=""
-        >Национални референтни метаподаци:</dt>
-        <dd
-          data-for-series=""
-          data-for-unit=""
-        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_01_10_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_01_10)</a></dd>
-        
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Фуснота:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Подаци посљедњи пут ажурирани:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
     
-</div>
-
-<div id="tableSelectionDownload" class="clearfix"></div>
-
-        </div>
       
     
   </div>
@@ -884,70 +729,30 @@ data-event-label="Change to Table tab"
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
     
-    
-        
-        
-        
-        
         <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
+    <button type="button" class="nav-link active" data-bs-toggle="tab" id="tab-national" data-bs-target="#national" aria-controls="national" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.national_metadata tab"
+data-event-label="Change to National Metadata tab"
+>Национални метаподаци</button>
+</li>
 
-            >Национални метаподаци</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-global"
-                data-bs-target="#global"
-                aria-controls="global"
-                role="tab"
-                data-on="click"
+<li role="presentation" class="nav-item">
+    <button type="button" class="nav-link" data-bs-toggle="tab" id="tab-global" data-bs-target="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.global_metadata tab"
+data-event-label="Change to Global Metadata tab"
+>Глобални метаподаци</button>
+</li>
 
-            >Глобални метаподаци</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
+<li role="presentation" class="nav-item">
+    <button type="button" class="nav-link" data-bs-toggle="tab" id="tab-sources" data-bs-target="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.sources tab"
-
-            >Извори</button>
-        </li>
-    
+data-event-label="Change to Sources tab"
+>Извори</button>
+</li>
+  
     
     
         <li role="presentation" class="nav-item">
@@ -958,487 +763,511 @@ data-event-label="Change to indicator.sources tab"
 
 <div class="tab-content">
     
-        
-        
-        
-        
-        
-        
-        
-        
-        
         <div role="tabpanel" class="tab-pane active" id="national">
-            <article>
-                <p>indicator.national_metadata_blurb</p>
-
-                <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="global">
-            <article>
-                <p>Ова таблица пружа информације о метаподацима за СДГ индикаторе како их је дефинисала Статистичка комисија УН-а. Комплетне глобалне метаподатке пружа Ођел за статистику УН-a.</p>
-
-                <table class="table metadata-content">
-  <tbody>
-  
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-        
-          
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="sources">
-            <article>
+    <!-- National Metadata -->
+    <div>
+        <article>
+            <p>
                 
-                <!-- Count the non-empty sources (up to 5) -->
+                
+                
+            </p>
+            <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Овај индикатор одговара збиру људи који су: у ризику од сиромаштва након социјалних трансфера,  тешко материјално и социјално депривирани, или живе у домаћинствима са веома ниским интензитетом рада.  Појединци се броје само једном, чак и ако је на њих утицало више од једног од ових догађаја.  Сматра се да су људи изложени ризику од сиромаштва након социјалних трансфера ако њихов  еквивалентни расположиви доходак није већи од прага ризика од сиромаштва, који је постављен  на 60% националног средњег еквивалентног расположивог дохотка. Стопа тешке материјалне и  социјалне депривације је удио становништва које доживљава присилни недостатак од најмање  7 од 13 ставки депривације. </th>
+        <td>
+          
+            <p>Овај индикатор одговара збиру људи који су: у ризику од сиромаштва након социјалних трансфера,  тешко материјално и социјално депривирани, или живе у домаћинствима са веома ниским интензитетом рада.  Појединци се броје само једном, чак и ако је на њих утицало више од једног од ових догађаја.  Сматра се да су људи изложени ризику од сиромаштва након социјалних трансфера ако њихов  еквивалентни расположиви доходак није већи од прага ризика од сиромаштва, који је постављен  на 60% националног средњег еквивалентног расположивог дохотка. Стопа тешке материјалне и  социјалне депривације је удио становништва које доживљава присилни недостатак од најмање  7 од 13 ставки депривације.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Сиромаштво и социјална искљученост су штетни за животе појединаца и ограничавају могућности људи  да остваре свој пуни потенцијал утичући на њихово здравље и благостање те смањујући образовне исходе.  Без ефикасног система социјалне заштите, ризик од сиромаштва се преноси са једне генерације на другу,  што ствара још већу неједнакост и омета инклузивни и одрживи економски раст. Дугорочни циљ за овај  индикатор је вриједност од 0. </th>
+        <td>
+          
+            <p>Сиромаштво и социјална искљученост су штетни за животе појединаца и ограничавају могућности људи  да остваре свој пуни потенцијал утичући на њихово здравље и благостање те смањујући образовне исходе.  Без ефикасног система социјалне заштите, ризик од сиромаштва се преноси са једне генерације на другу,  што ствара још већу неједнакост и омета инклузивни и одрживи економски раст. Дугорочни циљ за овај  индикатор је вриједност од 0.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Подаци се заснивају на хармонизованом годишњем истраживању о приходима и условима живота (ЕУ-СИЛЦ).  У 2020. години, ЕУ-СИЛЦ је прошао опсежне методолошке ревизије и интегрисан је у микроцензус.  Као резултат тога, подаци од 2020. године надаље нису упоредиви са подацима из претходних година.  Од 2021. године примјењује се Уредба (ЕУ) 2019/1700 која дефинише стандарде прикупљања и обраде података. </th>
+        <td>
+          
+            <p>Подаци се заснивају на хармонизованом годишњем истраживању о приходима и условима живота (ЕУ-СИЛЦ).  У 2020. години, ЕУ-СИЛЦ је прошао опсежне методолошке ревизије и интегрисан је у микроцензус.  Као резултат тога, подаци од 2020. године надаље нису упоредиви са подацима из претходних година.  Од 2021. године примјењује се Уредба (ЕУ) 2019/1700 која дефинише стандарде прикупљања и обраде података.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  </tbody>
+</table>
+
+        </article>
+    </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="global">
+    <!-- Global Metadata -->
+    <div>
+        <article>
+            <p>Ова таблица пружа информације о метаподацима за СДГ индикаторе како их је дефинисала Статистичка комисија УН-а. Комплетне глобалне метаподатке пружа Ођел за статистику УН-a.</p>
+            <table class="table metadata-content">
+  <tbody>
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+        
+          
+  
+  
+  
+  </tbody>
+</table>
+
+        </article>
+    </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="sources">
+    <!-- Count the non-empty sources (up to 5) -->
 
 
 
@@ -1454,7 +1283,6 @@ data-event-label="Change to indicator.sources tab"
       
       <table class="table metadata-content">
   <tbody>
-  
   
   
   
@@ -1648,6 +1476,9 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
   </tbody>
 </table>
 
@@ -1656,9 +1487,7 @@ data-event-label="Change to indicator.sources tab"
   </div>
 
 
-            </article>
-        </div>
-        
+</div>
     
     
         <div role="tabpanel" class="tab-pane" id="edit">
@@ -1761,12 +1590,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260403073003'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260514073829'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260403073003"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260514073829"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
