@@ -121,10 +121,22 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
+  tab_1:
+    label: global_indicators.1-1-1-definition-label
+    scope: national
+  tab_2:
+    label: global_indicators.1-1-1-intention-label
+    scope: national
+  tab_3:
+    label: global_indicators.1-1-1-methodology-label
+    scope: national
+indicator_metadata:
+  - name: indicator_definition
+    label: global_indicators.1-1-1-definition-label
+  - name: rationale
+    label: global_indicators.1-1-1-intention-label
+  - name: methodology_characteristics
+    label: global_indicators.1-1-1-methodology-label
 languages:
   - en
   - bs
@@ -181,16 +193,6 @@ menu:
     dropdown: []
 meta_tags: []
 metadata_edit_url: metadata
-metadata_tabs:
-  - scope: national
-    title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
 news:
   category_links: false
 observation_attributes: []
