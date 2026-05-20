@@ -60,3 +60,7 @@ indicator_metadata:
 hide_empty_metadata: true
 remote_data_prefix: https://sdgbih.github.io/sdgnewdata/
 repository_url_data: https://github.com/sdgbih/sdgnewdata/
+
+data_fields:
+  series: SERIES
+  units: UNIT_MEASURE
