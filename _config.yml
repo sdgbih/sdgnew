@@ -54,7 +54,7 @@ indicator_metadata:
     scope: national
   - name: national_indicator_rationale
     label: global_indicators.intention-label
-    scope: nationa
+    scope: national
 
 # Osnovne postavke za vidljivost
 hide_empty_metadata: true
