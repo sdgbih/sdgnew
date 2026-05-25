@@ -26,10 +26,10 @@ country:
   name: Bosnia and Herzegovina
   adjective: Bosnian
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
@@ -95,7 +95,7 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_list: []
 graph_color_number: 0
 graph_color_set: accessible
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
@@ -225,3 +225,9 @@ time_series_attributes:
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
 x_axis_label: ''
+accessible_tabs: true
+accessible_charts: true
+series_toggle: true
+data_fields:
+  series: SERIES
+  units: UNIT_MEASURE
