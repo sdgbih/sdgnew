@@ -6,1651 +6,947 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "People at risk of poverty or social exclusion",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/1-1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-3-1",
-          "title": "Severe material and social deprivation rate by age group and sex",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/1-3-1/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_10",
-      "title": "Persons at risk of poverty or social exclusion",
-      "indicators": [
-        
-        {
-          "id": "01_10",
+          "id": "1-10",
           "title": "Persons at risk of poverty or social exclusion",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_10/",
+          "href": "/sdgnew/1-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_20",
-      "title": "Persons at risk of monetary poverty after social transfers - EU_x0002_SILC and ECHP surveys",
-      "indicators": [
-        
+        },
         {
-          "id": "01_20",
+          "id": "1-20",
           "title": "Persons at risk of monetary poverty after social transfers - EU_x0002_SILC and ECHP surveys",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_20/",
+          "href": "/sdgnew/1-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_31",
-      "title": "Severe material and social deprivation rate by age group and sex",
-      "indicators": [
-        
+        },
         {
-          "id": "01_31",
+          "id": "1-31",
           "title": "Severe material and social deprivation rate by age group and sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_31/",
+          "href": "/sdgnew/1-31/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_40",
-      "title": "Persons living in households with very low work intensity, by age group",
-      "indicators": [
-        
+        },
         {
-          "id": "01_40",
+          "id": "1-40",
           "title": "Persons living in households with very low work intensity, by age group",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_40/",
+          "href": "/sdgnew/1-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_41",
-      "title": "In work at-risk-of_x0002_poverty rate",
-      "indicators": [
-        
+        },
         {
-          "id": "01_41",
+          "id": "1-41",
           "title": "In work at-risk-of_x0002_poverty rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_41/",
+          "href": "/sdgnew/1-41/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "01_50",
-      "title": "Housing cost overburden rate by poverty status",
-      "indicators": [
-        
+        },
         {
-          "id": "01_50",
+          "id": "1-50",
           "title": "Housing cost overburden rate by poverty status",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/01_50/",
+          "href": "/sdgnew/1-50/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "02_10",
-      "title": "Obesity rate by body mass index (BMI)",
+      "id": "2",
+      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
       "indicators": [
         
         {
-          "id": "02_10",
+          "id": "2-10",
           "title": "Obesity rate by body mass index (BMI)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_10/",
+          "href": "/sdgnew/2-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "02_20",
-      "title": "Agricultural real factor income per annual work unit (AWU)",
-      "indicators": [
-        
+        },
         {
-          "id": "02_20",
+          "id": "2-20",
           "title": "Agricultural real factor income per annual work unit (AWU)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_20/",
+          "href": "/sdgnew/2-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "02_30",
-      "title": "Government support to agricultural research and development",
-      "indicators": [
-        
+        },
         {
-          "id": "02_30",
+          "id": "2-30",
           "title": "Government support to agricultural research and development",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_30/",
+          "href": "/sdgnew/2-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "02_40",
-      "title": "Area under organic farming",
-      "indicators": [
-        
+        },
         {
-          "id": "02_40",
+          "id": "2-40",
           "title": "Area under organic farming",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_40/",
+          "href": "/sdgnew/2-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "02_53",
-      "title": "Use and risk of chemical pesticides",
-      "indicators": [
-        
+        },
         {
-          "id": "02_53",
+          "id": "2-53",
           "title": "Use and risk of chemical pesticides",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_53/",
+          "href": "/sdgnew/2-53/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "02_60",
-      "title": "Ammonia emissions from agriculture",
-      "indicators": [
-        
+        },
         {
-          "id": "02_60",
+          "id": "2-60",
           "title": "Ammonia emissions from agriculture",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/02_60/",
+          "href": "/sdgnew/2-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "03_12",
-      "title": "Healthy life years based on self-perceived health (previous: Healthy life years at birth)",
+      "id": "3",
+      "title": "Ensure healthy lives and promote well-being for all at all ages",
       "indicators": [
         
         {
-          "id": "03_12",
+          "id": "3-12",
           "title": "Healthy life years based on self-perceived health (previous: Healthy life years at birth)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_12/",
+          "href": "/sdgnew/3-12/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "03_20",
-      "title": "Share of people with good or very good perceived health by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "03_20",
+          "id": "3-20",
           "title": "Share of people with good or very good perceived health by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_20/",
+          "href": "/sdgnew/3-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "03_30",
-      "title": "Smoking prevalence by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "03_30",
+          "id": "3-30",
           "title": "Smoking prevalence by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_30/",
+          "href": "/sdgnew/3-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "03_42",
-      "title": "Standardised preventable and treatable mortality",
-      "indicators": [
-        
+        },
         {
-          "id": "03_42",
+          "id": "3-42",
           "title": "Standardised preventable and treatable mortality",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_42/",
+          "href": "/sdgnew/3-42/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "03_60",
-      "title": "Self-reported unmet need for medical examination and care by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "03_60",
+          "id": "3-60",
           "title": "Self-reported unmet need for medical examination and care by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_60/",
+          "href": "/sdgnew/3-60/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "03_70",
-      "title": "Consumption of antibiotics in the community and hospital sectors – defined daily doses (DDD) per day",
-      "indicators": [
-        
+        },
         {
-          "id": "03_70",
+          "id": "3-70",
           "title": "Consumption of antibiotics in the community and hospital sectors – defined daily doses (DDD) per day",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/03_70/",
+          "href": "/sdgnew/3-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "04_10",
-      "title": "Early leavers from education and training by sex",
+      "id": "4",
+      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
       "indicators": [
         
         {
-          "id": "04_10",
+          "id": "4-10",
           "title": "Early leavers from education and training by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_10/",
+          "href": "/sdgnew/4-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "04_20",
-      "title": "Tertiary educational attainment by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "04_20",
+          "id": "4-20",
           "title": "Tertiary educational attainment by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_20/",
+          "href": "/sdgnew/4-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "04_31",
-      "title": "Participation in early childhood education by sex (children aged 3 and over)",
-      "indicators": [
-        
+        },
         {
-          "id": "04_31",
+          "id": "4-31",
           "title": "Participation in early childhood education by sex (children aged 3 and over)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_31/",
+          "href": "/sdgnew/4-31/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "04_40",
-      "title": "Low achieving 15-year_x0002_olds in reading, mathematics or science",
-      "indicators": [
-        
+        },
         {
-          "id": "04_40",
+          "id": "4-40",
           "title": "Low achieving 15-year_x0002_olds in reading, mathematics or science",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_40/",
+          "href": "/sdgnew/4-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "04_60",
-      "title": "Adult participation in learning in the past four weeks by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "04_60",
+          "id": "4-60",
           "title": "Adult participation in learning in the past four weeks by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_60/",
+          "href": "/sdgnew/4-60/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "04_70",
-      "title": "Share of individuals having at least basic digital skills, by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "04_70",
+          "id": "4-70",
           "title": "Share of individuals having at least basic digital skills, by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/04_70/",
+          "href": "/sdgnew/4-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "05_10",
-      "title": "Physical and sexual violence to women by age group (2012 data)",
+      "id": "5",
+      "title": "Achieve gender equality and empower all women and girls",
       "indicators": [
         
         {
-          "id": "05_10",
+          "id": "5-10",
           "title": "Physical and sexual violence to women by age group (2012 data)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_10/",
+          "href": "/sdgnew/5-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "05_20",
-      "title": "Gender pay gap in unadjusted form",
-      "indicators": [
-        
+        },
         {
-          "id": "05_20",
+          "id": "5-20",
           "title": "Gender pay gap in unadjusted form",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_20/",
+          "href": "/sdgnew/5-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "05_30",
-      "title": "Gender employment gap, by type of employment",
-      "indicators": [
-        
+        },
         {
-          "id": "05_30",
+          "id": "5-30",
           "title": "Gender employment gap, by type of employment",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_30/",
+          "href": "/sdgnew/5-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "05_40",
-      "title": "Persons outside the labour force due to caring responsibilities by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "05_40",
+          "id": "5-40",
           "title": "Persons outside the labour force due to caring responsibilities by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_40/",
+          "href": "/sdgnew/5-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "05_50",
-      "title": "Seats held by women in national parliaments and governments",
-      "indicators": [
-        
+        },
         {
-          "id": "05_50",
+          "id": "5-50",
           "title": "Seats held by women in national parliaments and governments",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_50/",
+          "href": "/sdgnew/5-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "05_60",
-      "title": "Positions held by women in senior management positions",
-      "indicators": [
-        
+        },
         {
-          "id": "05_60",
+          "id": "5-60",
           "title": "Positions held by women in senior management positions",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/05_60/",
+          "href": "/sdgnew/5-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "06_20",
-      "title": "Population connected to at least secondary wastewater treatment",
+      "id": "6",
+      "title": "Ensure availability and sustainable management of water and sanitation for all",
       "indicators": [
         
         {
-          "id": "06_20",
+          "id": "6-20",
           "title": "Population connected to at least secondary wastewater treatment",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_20/",
+          "href": "/sdgnew/6-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "06_30",
-      "title": "Biochemical oxygen demand in rivers",
-      "indicators": [
-        
+        },
         {
-          "id": "06_30",
+          "id": "6-30",
           "title": "Biochemical oxygen demand in rivers",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_30/",
+          "href": "/sdgnew/6-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "06_40",
-      "title": "Nitrate in groundwater",
-      "indicators": [
-        
+        },
         {
-          "id": "06_40",
+          "id": "6-40",
           "title": "Nitrate in groundwater",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_40/",
+          "href": "/sdgnew/6-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "06_50",
-      "title": "Phosphate in rivers",
-      "indicators": [
-        
+        },
         {
-          "id": "06_50",
+          "id": "6-50",
           "title": "Phosphate in rivers",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_50/",
+          "href": "/sdgnew/6-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "06_60",
-      "title": "Water exploitation index, plus (WEI+)",
-      "indicators": [
-        
+        },
         {
-          "id": "06_60",
+          "id": "6-60",
           "title": "Water exploitation index, plus (WEI+)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_60/",
+          "href": "/sdgnew/6-60/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "06_70",
-      "title": "Pesticides in rivers (NEW)",
-      "indicators": [
-        
+        },
         {
-          "id": "06_70",
+          "id": "6-70",
           "title": "Pesticides in rivers (NEW)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/06_70/",
+          "href": "/sdgnew/6-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "07_10",
-      "title": "Primary & final energy consumption",
+      "id": "7",
+      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
       "indicators": [
         
         {
-          "id": "07_10",
+          "id": "7-10",
           "title": "Primary & final energy consumption",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_10/",
+          "href": "/sdgnew/7-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "07_20",
-      "title": "Final energy consumption in households per capita",
-      "indicators": [
-        
+        },
         {
-          "id": "07_20",
+          "id": "7-20",
           "title": "Final energy consumption in households per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_20/",
+          "href": "/sdgnew/7-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "07_30",
-      "title": "Energy productivity",
-      "indicators": [
-        
+        },
         {
-          "id": "07_30",
+          "id": "7-30",
           "title": "Energy productivity",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_30/",
+          "href": "/sdgnew/7-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "07_40",
-      "title": "Share of renewable energy in gross final energy consumption",
-      "indicators": [
-        
+        },
         {
-          "id": "07_40",
+          "id": "7-40",
           "title": "Share of renewable energy in gross final energy consumption",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_40/",
+          "href": "/sdgnew/7-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "07_50",
-      "title": "Energy import dependency",
-      "indicators": [
-        
+        },
         {
-          "id": "07_50",
+          "id": "7-50",
           "title": "Energy import dependency",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_50/",
+          "href": "/sdgnew/7-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "07_60",
-      "title": "Population unable to keep home adequately warm",
-      "indicators": [
-        
+        },
         {
-          "id": "07_60",
+          "id": "7-60",
           "title": "Population unable to keep home adequately warm",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/07_60/",
+          "href": "/sdgnew/7-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "08_10",
-      "title": "Real GDP per capita",
+      "id": "8",
+      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
       "indicators": [
         
         {
-          "id": "08_10",
+          "id": "8-10",
           "title": "Real GDP per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_10/",
+          "href": "/sdgnew/8-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "08_11",
-      "title": "Investment share of GD",
-      "indicators": [
-        
+        },
         {
-          "id": "08_11",
+          "id": "8-11",
           "title": "Investment share of GD",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_11/",
+          "href": "/sdgnew/8-11/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "08_20",
-      "title": "Young people neither in employment nor in education and training",
-      "indicators": [
-        
+        },
         {
-          "id": "08_20",
+          "id": "8-20",
           "title": "Young people neither in employment nor in education and training",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_20/",
+          "href": "/sdgnew/8-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "08_30",
-      "title": "Employment rate",
-      "indicators": [
-        
+        },
         {
-          "id": "08_30",
+          "id": "8-30",
           "title": "Employment rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_30/",
+          "href": "/sdgnew/8-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "08_40",
-      "title": "Long-term unemployment rate",
-      "indicators": [
-        
+        },
         {
-          "id": "08_40",
+          "id": "8-40",
           "title": "Long-term unemployment rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_40/",
+          "href": "/sdgnew/8-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "08_60",
-      "title": "Fatal accidents at work per 100 000 workers",
-      "indicators": [
-        
+        },
         {
-          "id": "08_60",
+          "id": "8-60",
           "title": "Fatal accidents at work per 100 000 workers",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/08_60/",
+          "href": "/sdgnew/8-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "09_10",
-      "title": "Gross domestic expenditure on R&D",
+      "id": "9",
+      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
       "indicators": [
         
         {
-          "id": "09_10",
+          "id": "9-10",
           "title": "Gross domestic expenditure on R&D",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_10/",
+          "href": "/sdgnew/9-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "09_30",
-      "title": "R&D personnel",
-      "indicators": [
-        
+        },
         {
-          "id": "09_30",
+          "id": "9-30",
           "title": "R&D personnel",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_30/",
+          "href": "/sdgnew/9-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "09_40",
-      "title": "Patent applications to the European Patent Office",
-      "indicators": [
-        
+        },
         {
-          "id": "09_40",
+          "id": "9-40",
           "title": "Patent applications to the European Patent Office",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_40/",
+          "href": "/sdgnew/9-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "09_50",
-      "title": "Share of busses and trains in inland passenger transport",
-      "indicators": [
-        
+        },
         {
-          "id": "09_50",
+          "id": "9-50",
           "title": "Share of busses and trains in inland passenger transport",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_50/",
+          "href": "/sdgnew/9-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "09_60",
-      "title": "Share of rail and inland waterways activity in inland freight transport",
-      "indicators": [
-        
+        },
         {
-          "id": "09_60",
+          "id": "9-60",
           "title": "Share of rail and inland waterways activity in inland freight transport",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_60/",
+          "href": "/sdgnew/9-60/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "09_70",
-      "title": "Air emission intensity of industry",
-      "indicators": [
-        
+        },
         {
-          "id": "09_70",
+          "id": "9-70",
           "title": "Air emission intensity of industry",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/09_70/",
+          "href": "/sdgnew/9-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "10_10",
-      "title": "Disparities in GDP per capita",
+      "id": "10",
+      "title": "Reduce inequality within and among countries",
       "indicators": [
         
         {
-          "id": "10_10",
+          "id": "10-10",
           "title": "Disparities in GDP per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_10/",
+          "href": "/sdgnew/10-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10_20",
-      "title": "Disparities in household income per capita",
-      "indicators": [
-        
+        },
         {
-          "id": "10_20",
+          "id": "10-20",
           "title": "Disparities in household income per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_20/",
+          "href": "/sdgnew/10-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10_30",
-      "title": "Relative median at-risk-of-poverty gap",
-      "indicators": [
-        
+        },
         {
-          "id": "10_30",
+          "id": "10-30",
           "title": "Relative median at-risk-of-poverty gap",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_30/",
+          "href": "/sdgnew/10-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10_41",
-      "title": "Income inequality -income quintile share ratio",
-      "indicators": [
-        
+        },
         {
-          "id": "10_41",
+          "id": "10-41",
           "title": "Income inequality -income quintile share ratio",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_41/",
+          "href": "/sdgnew/10-41/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10_50",
-      "title": "Income share of the bottom 40 % of the population",
-      "indicators": [
-        
+        },
         {
-          "id": "10_50",
+          "id": "10-50",
           "title": "Income share of the bottom 40 % of the population",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_50/",
+          "href": "/sdgnew/10-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10_60",
-      "title": "Asylum applications",
-      "indicators": [
-        
+        },
         {
-          "id": "10_60",
+          "id": "10-60",
           "title": "Asylum applications",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10_60/",
+          "href": "/sdgnew/10-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "11_11",
-      "title": "Severe housing deprivation rate",
+      "id": "11",
+      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
       "indicators": [
         
         {
-          "id": "11_11",
+          "id": "11-11",
           "title": "Severe housing deprivation rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_11/",
+          "href": "/sdgnew/11-11/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11_20",
-      "title": "Population living in households suffering from noise",
-      "indicators": [
-        
+        },
         {
-          "id": "11_20",
+          "id": "11-20",
           "title": "Population living in households suffering from noise",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_20/",
+          "href": "/sdgnew/11-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11_32",
-      "title": "Soil sealing index",
-      "indicators": [
-        
+        },
         {
-          "id": "11_32",
+          "id": "11-32",
           "title": "Soil sealing index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_32/",
+          "href": "/sdgnew/11-32/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11_40",
-      "title": "Road traffic deaths",
-      "indicators": [
-        
+        },
         {
-          "id": "11_40",
+          "id": "11-40",
           "title": "Road traffic deaths",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_40/",
+          "href": "/sdgnew/11-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11_52",
-      "title": "Premature deaths due to exposure to fine particulate matter (PM2.5)",
-      "indicators": [
-        
+        },
         {
-          "id": "11_52",
+          "id": "11-52",
           "title": "Premature deaths due to exposure to fine particulate matter (PM2.5)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_52/",
+          "href": "/sdgnew/11-52/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11_60",
-      "title": "Recycling rate of municipal waste",
-      "indicators": [
-        
+        },
         {
-          "id": "11_60",
+          "id": "11-60",
           "title": "Recycling rate of municipal waste",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11_60/",
+          "href": "/sdgnew/11-60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "12_10",
-      "title": "Consumption of hazardous chemicals",
+      "id": "12",
+      "title": "Ensure sustainable consumption and production patterns",
       "indicators": [
         
         {
-          "id": "12_10",
+          "id": "12-10",
           "title": "Consumption of hazardous chemicals",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_10/",
+          "href": "/sdgnew/12-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12_21",
-      "title": "Material footprint",
-      "indicators": [
-        
+        },
         {
-          "id": "12_21",
+          "id": "12-21",
           "title": "Material footprint",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_21/",
+          "href": "/sdgnew/12-21/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12_31",
-      "title": "Consumption footprint",
-      "indicators": [
-        
+        },
         {
-          "id": "12_31",
+          "id": "12-31",
           "title": "Consumption footprint",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_31/",
+          "href": "/sdgnew/12-31/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12_41",
-      "title": "Circular material use rate",
-      "indicators": [
-        
+        },
         {
-          "id": "12_41",
+          "id": "12-41",
           "title": "Circular material use rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_41/",
+          "href": "/sdgnew/12-41/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12_51",
-      "title": "Generation of waste",
-      "indicators": [
-        
+        },
         {
-          "id": "12_51",
+          "id": "12-51",
           "title": "Generation of waste",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_51/",
+          "href": "/sdgnew/12-51/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12_61",
-      "title": "Gross value added in environmental goods and services sector",
-      "indicators": [
-        
+        },
         {
-          "id": "12_61",
+          "id": "12-61",
           "title": "Gross value added in environmental goods and services sector",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12_61/",
+          "href": "/sdgnew/12-61/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "13_10",
-      "title": "Net greenhouse gas emissions",
+      "id": "13",
+      "title": "Take urgent action to combat climate change and its impacts",
       "indicators": [
         
         {
-          "id": "13_10",
+          "id": "13-10",
           "title": "Net greenhouse gas emissions",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_10/",
+          "href": "/sdgnew/13-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13_21",
-      "title": "Net greenhouse gas emissions of the LULUCF sector",
-      "indicators": [
-        
+        },
         {
-          "id": "13_21",
+          "id": "13-21",
           "title": "Net greenhouse gas emissions of the LULUCF sector",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_21/",
+          "href": "/sdgnew/13-21/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13_31",
-      "title": "Average CO2 emissions per km from new passenger cars",
-      "indicators": [
-        
+        },
         {
-          "id": "13_31",
+          "id": "13-31",
           "title": "Average CO2 emissions per km from new passenger cars",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_31/",
+          "href": "/sdgnew/13-31/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13_40",
-      "title": "Climate-related economic losses",
-      "indicators": [
-        
+        },
         {
-          "id": "13_40",
+          "id": "13-40",
           "title": "Climate-related economic losses",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_40/",
+          "href": "/sdgnew/13-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13_50",
-      "title": "Contribution to the international 100bn USD commitment on climate related expenditure",
-      "indicators": [
-        
+        },
         {
-          "id": "13_50",
+          "id": "13-50",
           "title": "Contribution to the international 100bn USD commitment on climate related expenditure",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_50/",
+          "href": "/sdgnew/13-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13_70",
-      "title": "Green bond issuance",
-      "indicators": [
-        
+        },
         {
-          "id": "13_70",
+          "id": "13-70",
           "title": "Green bond issuance",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13_70/",
+          "href": "/sdgnew/13-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "14_10",
-      "title": "Marine protected areas",
+      "id": "14",
+      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
       "indicators": [
         
         {
-          "id": "14_10",
+          "id": "14-10",
           "title": "Marine protected areas",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_10/",
+          "href": "/sdgnew/14-10/",
           "status": "notapplicable"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14_21",
-      "title": "Estimated trends in fish stock biomass",
-      "indicators": [
-        
+        },
         {
-          "id": "14_21",
+          "id": "14-21",
           "title": "Estimated trends in fish stock biomass",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_21/",
+          "href": "/sdgnew/14-21/",
           "status": "notapplicable"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14_30",
-      "title": "Estimated trend in fishing pressure",
-      "indicators": [
-        
+        },
         {
-          "id": "14_30",
+          "id": "14-30",
           "title": "Estimated trend in fishing pressure",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_30/",
+          "href": "/sdgnew/14-30/",
           "status": "notapplicable"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14_40",
-      "title": "Bathing sites with excellent water quality",
-      "indicators": [
-        
+        },
         {
-          "id": "14_40",
+          "id": "14-40",
           "title": "Bathing sites with excellent water quality",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_40/",
+          "href": "/sdgnew/14-40/",
           "status": "notapplicable"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14_50",
-      "title": "Global mean surface seawater acidity",
-      "indicators": [
-        
+        },
         {
-          "id": "14_50",
+          "id": "14-50",
           "title": "Global mean surface seawater acidity",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_50/",
+          "href": "/sdgnew/14-50/",
           "status": "notapplicable"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14_60",
-      "title": "Marine waters affected by eutrophication",
-      "indicators": [
-        
+        },
         {
-          "id": "14_60",
+          "id": "14-60",
           "title": "Marine waters affected by eutrophication",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14_60/",
+          "href": "/sdgnew/14-60/",
           "status": "notapplicable"
         }]
     }
   },
   {
     "goal": {
-      "id": "15_10",
-      "title": "Share of forest area",
+      "id": "15",
+      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
       "indicators": [
         
         {
-          "id": "15_10",
+          "id": "15-10",
           "title": "Share of forest area",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_10/",
+          "href": "/sdgnew/15-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15_20",
-      "title": "Terrestrial protected areas",
-      "indicators": [
-        
+        },
         {
-          "id": "15_20",
+          "id": "15-20",
           "title": "Terrestrial protected areas",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_20/",
+          "href": "/sdgnew/15-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15_42",
-      "title": "Drought impact on ecosystems",
-      "indicators": [
-        
+        },
         {
-          "id": "15_42",
+          "id": "15-42",
           "title": "Drought impact on ecosystems",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_42/",
+          "href": "/sdgnew/15-42/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15_50",
-      "title": "Area at risk of severe soil erosion by water",
-      "indicators": [
-        
+        },
         {
-          "id": "15_50",
+          "id": "15-50",
           "title": "Area at risk of severe soil erosion by water",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_50/",
+          "href": "/sdgnew/15-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15_60",
-      "title": "Common bird index",
-      "indicators": [
-        
+        },
         {
-          "id": "15_60",
+          "id": "15-60",
           "title": "Common bird index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_60/",
+          "href": "/sdgnew/15-60/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15_61",
-      "title": "Grassland butterfly index",
-      "indicators": [
-        
+        },
         {
-          "id": "15_61",
+          "id": "15-61",
           "title": "Grassland butterfly index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15_61/",
+          "href": "/sdgnew/15-61/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "16_10",
-      "title": "Standardised death rate due to homicid",
+      "id": "16",
+      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
       "indicators": [
         
         {
-          "id": "16_10",
+          "id": "16-10",
           "title": "Standardised death rate due to homicid",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_10/",
+          "href": "/sdgnew/16-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16_20",
-      "title": "Population reporting crime, violence or vandalism in their are",
-      "indicators": [
-        
+        },
         {
-          "id": "16_20",
+          "id": "16-20",
           "title": "Population reporting crime, violence or vandalism in their are",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_20/",
+          "href": "/sdgnew/16-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16_30",
-      "title": "General government total expenditure on law courts",
-      "indicators": [
-        
+        },
         {
-          "id": "16_30",
+          "id": "16-30",
           "title": "General government total expenditure on law courts",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_30/",
+          "href": "/sdgnew/16-30/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16_40",
-      "title": "Perceived independence of the justice system: very or fairly good",
-      "indicators": [
-        
+        },
         {
-          "id": "16_40",
+          "id": "16-40",
           "title": "Perceived independence of the justice system: very or fairly good",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_40/",
+          "href": "/sdgnew/16-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16_50",
-      "title": "Corruption Perceptions Index",
-      "indicators": [
-        
+        },
         {
-          "id": "16_50",
+          "id": "16-50",
           "title": "Corruption Perceptions Index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_50/",
+          "href": "/sdgnew/16-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16_70",
-      "title": "Victims of trafficking in human beings by sex",
-      "indicators": [
-        
+        },
         {
-          "id": "16_70",
+          "id": "16-70",
           "title": "Victims of trafficking in human beings by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16_70/",
+          "href": "/sdgnew/16-70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "17_10",
-      "title": "Official development assistance",
+      "id": "17",
+      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
       "indicators": [
         
         {
-          "id": "17_10",
+          "id": "17-10",
           "title": "Official development assistance",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_10/",
+          "href": "/sdgnew/17-10/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17_20",
-      "title": "EU financing to developing countries",
-      "indicators": [
-        
+        },
         {
-          "id": "17_20",
+          "id": "17-20",
           "title": "EU financing to developing countries",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_20/",
+          "href": "/sdgnew/17-20/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17_31",
-      "title": "EU imports from least developed countries",
-      "indicators": [
-        
+        },
         {
-          "id": "17_31",
+          "id": "17-31",
           "title": "EU imports from least developed countries",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_31/",
+          "href": "/sdgnew/17-31/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17_40",
-      "title": "General government gross debt",
-      "indicators": [
-        
+        },
         {
-          "id": "17_40",
+          "id": "17-40",
           "title": "General government gross debt",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_40/",
+          "href": "/sdgnew/17-40/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17_50",
-      "title": "Shares of environmental taxes in total tax revenues",
-      "indicators": [
-        
+        },
         {
-          "id": "17_50",
+          "id": "17-50",
           "title": "Shares of environmental taxes in total tax revenues",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_50/",
+          "href": "/sdgnew/17-50/",
           "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17_60",
-      "title": "Share of households with high-speed internet connection",
-      "indicators": [
-        
+        },
         {
-          "id": "17_60",
+          "id": "17-60",
           "title": "Share of households with high-speed internet connection",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17_60/",
+          "href": "/sdgnew/17-60/",
           "status": "notstarted"
         }]
     }
