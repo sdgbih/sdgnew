@@ -14,851 +14,1643 @@
           "status": "complete"
         },
         {
-          "id": "1-2-1",
-          "title": "Osobe u opasnosti od monetarnog siromaštva nakon socijalnih transfera",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/1-2-1/",
-          "status": "complete"
-        },
-        {
           "id": "1-3-1",
-          "title": "Osobe pokrivene barem jednom naknadom socijalne zaštite",
+          "title": "Stopa teške materijalne i socijalne uskraćenosti prema starosnoj grupi i spolu",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/bs/1-3-1/",
           "status": "complete"
-        },
-        {
-          "id": "1-4-1",
-          "title": "Stopa preopterećenosti troškovima stanovanja",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/1-4-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-4-2",
-          "title": "Stopa teške stambene deprivacije",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/1-4-2/",
-          "status": "complete"
-        },
-        {
-          "id": "1-5-1",
-          "title": "Smrtni slučajevi i ekonomski gubici pripisani katastrofama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/1-5-1/",
-          "status": "complete"
         }]
     }
   },
   {
     "goal": {
-      "id": "2",
-      "title": "Okončati glad, postići sigurnost hrane i unaprijediti kvalitet ishrane i promovisati održivu poljoprivredu",
+      "id": "01_10",
+      "title": "Osobe u riziku od siromaštva ili socijalne isključenosti",
       "indicators": [
         
         {
-          "id": "2-1-1",
-          "title": "Indeks potrošačkih cijena hrane",
+          "id": "01_10",
+          "title": "Osobe u riziku od siromaštva ili socijalne isključenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/2-1-1/",
-          "status": "complete"
-        },
+          "href": "/sdgnew/bs/01_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "01_20",
+      "title": "Osobe u opasnosti od monetarnog siromaštva nakon socijalnih transfera",
+      "indicators": [
+        
         {
-          "id": "2-2-1",
-          "title": "Stopa prekomjerne težine i pretilosti kod odraslih",
+          "id": "01_20",
+          "title": "Osobe u opasnosti od monetarnog siromaštva nakon socijalnih transfera",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/2-2-1/",
-          "status": "complete"
-        },
+          "href": "/sdgnew/bs/01_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "01_31",
+      "title": "Stopa teške materijalne i socijalne uskraćenosti prema starosnoj grupi i spolu",
+      "indicators": [
+        
         {
-          "id": "2-3-1",
-          "title": "Indeks ptica poljoprivrednog zemljišta",
+          "id": "01_31",
+          "title": "Stopa teške materijalne i socijalne uskraćenosti prema starosnoj grupi i spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/2-3-1/",
-          "status": "complete"
-        },
+          "href": "/sdgnew/bs/01_31/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "01_40",
+      "title": "Osobe koje žive u domaćinstvu sa veoma niskim intenzitetom rada, po starosnoj grupi",
+      "indicators": [
+        
         {
-          "id": "2-4-1",
+          "id": "01_40",
+          "title": "Osobe koje žive u domaćinstvu sa veoma niskim intenzitetom rada, po starosnoj grupi",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/01_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "01_41",
+      "title": "Stopa zaposlenih u riziku od siromaštva",
+      "indicators": [
+        
+        {
+          "id": "01_41",
+          "title": "Stopa zaposlenih u riziku od siromaštva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/01_41/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "01_50",
+      "title": "Stopa prekomernog opterećenja troškovima stanovanja prema statusu siromaštva",
+      "indicators": [
+        
+        {
+          "id": "01_50",
+          "title": "Stopa prekomernog opterećenja troškovima stanovanja prema statusu siromaštva",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/01_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "02_10",
+      "title": "Stopa gojaznosti prema indeksu tjelesne mase (BMI)",
+      "indicators": [
+        
+        {
+          "id": "02_10",
+          "title": "Stopa gojaznosti prema indeksu tjelesne mase (BMI)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/02_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "02_20",
+      "title": "Realni faktorski dohodak poljoprivrede po godišnjoj radnoj jedinici (AWU)",
+      "indicators": [
+        
+        {
+          "id": "02_20",
+          "title": "Realni faktorski dohodak poljoprivrede po godišnjoj radnoj jedinici (AWU)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/02_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "02_30",
+      "title": "Državna podrška poljoprivrednom istraživanju i razvoju",
+      "indicators": [
+        
+        {
+          "id": "02_30",
+          "title": "Državna podrška poljoprivrednom istraživanju i razvoju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/02_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "02_40",
+      "title": "Površina pod organskom poljoprivredom",
+      "indicators": [
+        
+        {
+          "id": "02_40",
           "title": "Površina pod organskom poljoprivredom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/2-4-1/",
-          "status": "complete"
-        },
-        {
-          "id": "2-5-3",
-          "title": "Bruto bilans dušika na poljoprivrednom zemljištu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/2-5-3/",
-          "status": "complete"
-        },
-        {
-          "id": "2-6-0",
-          "title": "Emisije stakleničkih plinova iz poljoprivrede",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/2-6-0/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "3",
-      "title": "Obezbijediti zdrav život i promovisati dobrobit svih ljudi, svih životnih dobi",
-      "indicators": [
-        
-        {
-          "id": "3-1-1",
-          "title": "Godine zdravog života pri rođenju",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-2-1",
-          "title": "Stopa smrtnosti djece mlađe od pet godina",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-2-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-1",
-          "title": "Prevalencija pušenja kod odraslih",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-3-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-4-1",
-          "title": "Standardizovana stopa smrtnosti od kroničnih bolesti",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-4-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-6-1",
-          "title": "Stopa smrtnosti u prometnim nesrećama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-6-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-7-1",
-          "title": "Stopa fertiliteta adolescenata",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/3-7-1/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "4",
-      "title": "Osigurati inkluzivno i kvalitetno obrazovanje i promovisati mogućnost cjeloživotnog učenja",
-      "indicators": [
-        
-        {
-          "id": "4-1-1",
-          "title": "Rano napuštanje obrazovanja i obuke",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-2-1",
-          "title": "Tercijarno obrazovanje (25–34 godine)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-3-1",
-          "title": "Učešće u ranom dječijem obrazovanju",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-4-1",
-          "title": "Učenici s niskim postignućima u čitanju, matematici i prirodnim naukama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-5-1",
-          "title": "Osobe s barem osnovnim digitalnim vještinama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-6-1",
-          "title": "Učešće odraslih u učenju",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/4-6-1/",
+          "href": "/sdgnew/bs/02_40/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "5",
-      "title": "Postići rodnu ravnopravnost i osnažiti sve žene i djevojке",
+      "id": "02_53",
+      "title": "Upotreba i rizik od hemijskih pesticida",
       "indicators": [
         
         {
-          "id": "5-1-1",
-          "title": "Jaz u zaposlenosti između spolova",
+          "id": "02_53",
+          "title": "Upotreba i rizik od hemijskih pesticida",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/5-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-1",
-          "title": "Jaz u plaćama između spolova",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/5-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-1",
-          "title": "Jaz u penzijama između spolova",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/5-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-4-1",
-          "title": "Žene u upravnim odborima velikih listiranih kompanija",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/5-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-5-1",
-          "title": "Mjesta koja zauzimaju žene u nacionalnim parlamentima",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/5-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Rodna razlika u korištenju interneta",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/5-6-1/",
+          "href": "/sdgnew/bs/02_53/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "6",
-      "title": "Osigurati sanitarne uslove i pristup pitkoj vodi za sve",
+      "id": "02_60",
+      "title": "Emisije amonijaka iz poljoprivrede",
       "indicators": [
         
         {
-          "id": "6-1-1",
-          "title": "Indeks eksploatacije vode",
+          "id": "02_60",
+          "title": "Emisije amonijaka iz poljoprivrede",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/6-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-2-1",
-          "title": "Stanovništvo priključeno na pročišćavanje otpadnih voda",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/6-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-3-1",
-          "title": "Biokemijska potrošnja kisika u rijekama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/6-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-1",
-          "title": "Koncentracija nitrata u podzemnim vodama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/6-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "Vodna tijela s dobrim ekološkim statusom",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/6-5-1/",
+          "href": "/sdgnew/bs/02_60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "7",
-      "title": "Osigurati pristup materijalno pristupačnoj, pouzdanoj, održivoj i modernoj energiji za sve",
+      "id": "03_12",
+      "title": "Godine zdravog života zasnovane na samopercepciji zdravlja",
       "indicators": [
         
         {
-          "id": "7-1-1",
+          "id": "03_12",
+          "title": "Godine zdravog života zasnovane na samopercepciji zdravlja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_12/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "03_20",
+      "title": "Udio ljudi sa dobrim ili vrlo dobrim percipiranim zdravljem prema spolu",
+      "indicators": [
+        
+        {
+          "id": "03_20",
+          "title": "Udio ljudi sa dobrim ili vrlo dobrim percipiranim zdravljem prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "03_30",
+      "title": "Prevalencija pušenja prema spolu",
+      "indicators": [
+        
+        {
+          "id": "03_30",
+          "title": "Prevalencija pušenja prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "03_42",
+      "title": "Standardizovana smrtnost koja se može sprečiti i liječiti",
+      "indicators": [
+        
+        {
+          "id": "03_42",
+          "title": "Standardizovana smrtnost koja se može sprečiti i liječiti",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_42/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "03_60",
+      "title": "Samoprijavljena nezadovoljena potreba za medicinskim pregledom i njegom prema spolu",
+      "indicators": [
+        
+        {
+          "id": "03_60",
+          "title": "Samoprijavljena nezadovoljena potreba za medicinskim pregledom i njegom prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "03_70",
+      "title": "Potrošnja antibiotika u zajednici i bolničkom sektoru – definisane dnevne doze (DDD) dnevno",
+      "indicators": [
+        
+        {
+          "id": "03_70",
+          "title": "Potrošnja antibiotika u zajednici i bolničkom sektoru – definisane dnevne doze (DDD) dnevno",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/03_70/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_10",
+      "title": "Rano napuštanje obrazovanja i obuke po spolu",
+      "indicators": [
+        
+        {
+          "id": "04_10",
+          "title": "Rano napuštanje obrazovanja i obuke po spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_20",
+      "title": "Visoko obrazovanje prema spolu",
+      "indicators": [
+        
+        {
+          "id": "04_20",
+          "title": "Visoko obrazovanje prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_31",
+      "title": "Učešće u obrazovanju u ranom djetinjstvu prema spolu (djeca od 3 i više godina)",
+      "indicators": [
+        
+        {
+          "id": "04_31",
+          "title": "Učešće u obrazovanju u ranom djetinjstvu prema spolu (djeca od 3 i više godina)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_31/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_40",
+      "title": "Petnaestogodišnjaci sa slabim uspjehom u čitanju, matematici ili prirodnim naukama",
+      "indicators": [
+        
+        {
+          "id": "04_40",
+          "title": "Petnaestogodišnjaci sa slabim uspjehom u čitanju, matematici ili prirodnim naukama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_60",
+      "title": "Učešće odraslih u učenju u protekle četiri sedmice po spolu",
+      "indicators": [
+        
+        {
+          "id": "04_60",
+          "title": "Učešće odraslih u učenju u protekle četiri sedmice po spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "04_70",
+      "title": "Udio pojedinaca koji posjeduju barem osnovne digitalne vještine, po spolu",
+      "indicators": [
+        
+        {
+          "id": "04_70",
+          "title": "Udio pojedinaca koji posjeduju barem osnovne digitalne vještine, po spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/04_70/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_10",
+      "title": "Fizičko i seksualno nasilje nad ženama po starosnim grupama (podaci iz 2012. godine)",
+      "indicators": [
+        
+        {
+          "id": "05_10",
+          "title": "Fizičko i seksualno nasilje nad ženama po starosnim grupama (podaci iz 2012. godine)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_20",
+      "title": "Razlika u platama između spolova u neprilagođenom obliku",
+      "indicators": [
+        
+        {
+          "id": "05_20",
+          "title": "Razlika u platama između spolova u neprilagođenom obliku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_30",
+      "title": "Razlika u zaposlenosti među spolovima, prema vrsti zaposlenja",
+      "indicators": [
+        
+        {
+          "id": "05_30",
+          "title": "Razlika u zaposlenosti među spolovima, prema vrsti zaposlenja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_40",
+      "title": "Osobe izvan radne snage zbog obaveza brige o drugima po spolu",
+      "indicators": [
+        
+        {
+          "id": "05_40",
+          "title": "Osobe izvan radne snage zbog obaveza brige o drugima po spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_50",
+      "title": "Mjesta koja zauzimaju žene u nacionalnim parlamentima i vladama",
+      "indicators": [
+        
+        {
+          "id": "05_50",
+          "title": "Mjesta koja zauzimaju žene u nacionalnim parlamentima i vladama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "05_60",
+      "title": "Pozicije koje zauzimaju žene na višim rukovodećim pozicijama",
+      "indicators": [
+        
+        {
+          "id": "05_60",
+          "title": "Pozicije koje zauzimaju žene na višim rukovodećim pozicijama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/05_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_20",
+      "title": "Stanovništvo povezano sa najmanje sekundarnim tretmanom otpadnih voda",
+      "indicators": [
+        
+        {
+          "id": "06_20",
+          "title": "Stanovništvo povezano sa najmanje sekundarnim tretmanom otpadnih voda",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_30",
+      "title": "Biohemijske potrebe za kiseonikom u rijekama",
+      "indicators": [
+        
+        {
+          "id": "06_30",
+          "title": "Biohemijske potrebe za kiseonikom u rijekama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_40",
+      "title": "Nitrati u podzemnim vodama",
+      "indicators": [
+        
+        {
+          "id": "06_40",
+          "title": "Nitrati u podzemnim vodama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_50",
+      "title": "Fosfat u rijekama",
+      "indicators": [
+        
+        {
+          "id": "06_50",
+          "title": "Fosfat u rijekama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_60",
+      "title": "Indeks eksploatacije vode, plus (WEI+)",
+      "indicators": [
+        
+        {
+          "id": "06_60",
+          "title": "Indeks eksploatacije vode, plus (WEI+)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "06_70",
+      "title": "Pesticidi u rijekama",
+      "indicators": [
+        
+        {
+          "id": "06_70",
+          "title": "Pesticidi u rijekama",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/06_70/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "07_10",
+      "title": "Primarna i konačna potrošnja energije",
+      "indicators": [
+        
+        {
+          "id": "07_10",
+          "title": "Primarna i konačna potrošnja energije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/07_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "07_20",
+      "title": "Konačna potrošnja energije u domaćinstvima po stanovniku",
+      "indicators": [
+        
+        {
+          "id": "07_20",
+          "title": "Konačna potrošnja energije u domaćinstvima po stanovniku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/07_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "07_30",
+      "title": "Energetska produktivnost",
+      "indicators": [
+        
+        {
+          "id": "07_30",
           "title": "Energetska produktivnost",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/7-1-1/",
+          "href": "/sdgnew/bs/07_30/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "07_40",
+      "title": "Udio obnovljive energije u bruto konačnoj potrošnji energije",
+      "indicators": [
+        
         {
-          "id": "7-2-1",
-          "title": "Udio obnovljivih izvora energije u bruto krajnjoj potrošnji energije",
+          "id": "07_40",
+          "title": "Udio obnovljive energije u bruto konačnoj potrošnji energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/7-2-1/",
+          "href": "/sdgnew/bs/07_40/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "07_50",
+      "title": "Ovisnost o uvozu energije",
+      "indicators": [
+        
         {
-          "id": "7-3-1",
-          "title": "Primarna potrošnja energije",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/7-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-4-1",
-          "title": "Krajnja potrošnja energije",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/7-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-5-1",
+          "id": "07_50",
           "title": "Ovisnost o uvozu energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/7-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-6-1",
-          "title": "Stanovništvo koje ne može adekvatno grijati dom",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/7-6-1/",
+          "href": "/sdgnew/bs/07_50/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "8",
-      "title": "Promovisati inkluzivan i održiv ekonomski rast, zaposlenost i dostojanstven rad za sve",
+      "id": "07_60",
+      "title": "Stanovništvo koje ne može adekvatno zagrijati svoj dom",
       "indicators": [
         
         {
-          "id": "8-1-1",
-          "title": "Realni BDP po stanovniku",
+          "id": "07_60",
+          "title": "Stanovništvo koje ne može adekvatno zagrijati svoj dom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/8-1-1/",
+          "href": "/sdgnew/bs/07_60/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "08_10",
+      "title": "BDP po stanovniku",
+      "indicators": [
+        
         {
-          "id": "8-2-1",
-          "title": "Bruto investicije u fiksni kapital kao udio BDP-a",
+          "id": "08_10",
+          "title": "BDP po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/8-2-1/",
+          "href": "/sdgnew/bs/08_10/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "08_11",
+      "title": "Udio investicija u BDP-u",
+      "indicators": [
+        
         {
-          "id": "8-3-1",
+          "id": "08_11",
+          "title": "Udio investicija u BDP-u",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/08_11/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "08_20",
+      "title": "Mladi koji nisu zaposleni niti uključeni u obrazovanje ili obuku",
+      "indicators": [
+        
+        {
+          "id": "08_20",
+          "title": "Mladi koji nisu zaposleni niti uključeni u obrazovanje ili obuku",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/08_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "08_30",
+      "title": "Stopa zaposlenosti",
+      "indicators": [
+        
+        {
+          "id": "08_30",
           "title": "Stopa zaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/8-3-1/",
+          "href": "/sdgnew/bs/08_30/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "08_40",
+      "title": "Stopa dugotrajne nezaposlenosti",
+      "indicators": [
+        
         {
-          "id": "8-4-1",
+          "id": "08_40",
           "title": "Stopa dugotrajne nezaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/8-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-1",
-          "title": "Mladi koji nisu zaposleni, obrazuju se niti obučavaju (NEET)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/8-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-6-1",
-          "title": "Smrtne nesreće na radu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/8-6-1/",
+          "href": "/sdgnew/bs/08_40/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "9",
-      "title": "Izgraditi održivu infrastrukturu, promovisati održivu indistrijalizaciju i podsticati inovativnost",
+      "id": "08_60",
+      "title": "Smrtonosne nesreće na radu na 100 000 radnika",
       "indicators": [
         
         {
-          "id": "9-1-1",
-          "title": "Rashodi za istraživanje i razvoj kao udio BDP-a",
+          "id": "08_60",
+          "title": "Smrtonosne nesreće na radu na 100 000 radnika",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/9-1-1/",
+          "href": "/sdgnew/bs/08_60/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "09_10",
+      "title": "Bruto domaća potrošnja za istraživanje i razvoj (R&D)",
+      "indicators": [
+        
         {
-          "id": "9-2-1",
-          "title": "Istraživači u ekvivalentu punog radnog vremena na milijun stanovnika",
+          "id": "09_10",
+          "title": "Bruto domaća potrošnja za istraživanje i razvoj (R&D)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/9-2-1/",
+          "href": "/sdgnew/bs/09_10/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "09_30",
+      "title": "Osoblje za istraživanje i razvoj (R&D)",
+      "indicators": [
+        
         {
-          "id": "9-3-1",
+          "id": "09_30",
+          "title": "Osoblje za istraživanje i razvoj (R&D)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/09_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "09_40",
+      "title": "Prijave patenata Evropskom uredu za patente",
+      "indicators": [
+        
+        {
+          "id": "09_40",
           "title": "Prijave patenata Evropskom uredu za patente",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/9-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-4-1",
-          "title": "Udio visokotehnološkog izvoza u ukupnom izvozu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/9-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-1",
-          "title": "Domaćinstva s pristupom širokopojasnom internetu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/9-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-6-1",
-          "title": "Udio željeznice i unutarnjih plovnih puteva u teretnom prometu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/9-6-1/",
+          "href": "/sdgnew/bs/09_40/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "10",
-      "title": "Smanjiti nejednakost između i unutar država",
+      "id": "09_50",
+      "title": "Udio autobusa i vozova u unutrašnjem putničkom saobraćaju",
       "indicators": [
         
         {
-          "id": "10-1-1",
-          "title": "Omjer dohotka kvintila (S80/S20)",
+          "id": "09_50",
+          "title": "Udio autobusa i vozova u unutrašnjem putničkom saobraćaju",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/10-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-2-1",
-          "title": "Relativni medijalni jaz rizika od siromaštva",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/10-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-3-1",
-          "title": "Udio dohotka najsiromašnijih 40% stanovništva",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/10-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-4-1",
-          "title": "Podnositelji zahtjeva za azil na milijun stanovnika",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/10-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-5-1",
-          "title": "Gini koeficijent ekvivalentnog raspoloživog dohotka",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/10-5-1/",
+          "href": "/sdgnew/bs/09_50/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "11",
-      "title": "Učiniti gradove i naselja inkluzivnim, bezbjednim, otpornim i održivim",
+      "id": "09_60",
+      "title": "Udio željeznice i unutrašnjih plovnih puteva u unutrašnjem transportu tereta",
       "indicators": [
         
         {
-          "id": "11-1-1",
-          "title": "Stanovništvo koje živi u gradovima",
+          "id": "09_60",
+          "title": "Udio željeznice i unutrašnjih plovnih puteva u unutrašnjem transportu tereta",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/11-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-2-1",
-          "title": "Stopa prenapučenosti stambenog prostora",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/11-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-3-1",
-          "title": "Stopa recikliranja komunalnog otpada (urbano)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/11-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-4-1",
-          "title": "Izloženost stanovništva zagađenju zraka PM2,5",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/11-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-1",
-          "title": "Udio željezničkog prometa u putničkom prijevozu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/11-5-1/",
+          "href": "/sdgnew/bs/09_60/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "12",
-      "title": "Osigurati održive obrasce potrošnje i proizvodnje",
+      "id": "09_70",
+      "title": "Intenzitet emisije u zrak u industriji",
       "indicators": [
         
         {
-          "id": "12-1-1",
-          "title": "Produktivnost resursa",
+          "id": "09_70",
+          "title": "Intenzitet emisije u zrak u industriji",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/12-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-1",
-          "title": "Komunalni otpad generiran po stanovniku",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/12-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-3-1",
-          "title": "Stopa recikliranja komunalnog otpada",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/12-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-1",
-          "title": "Intenzitet emisija stakleničkih plinova proizvodnje",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/12-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-5-1",
-          "title": "Stopa kružnog korištenja materijala",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/12-5-1/",
+          "href": "/sdgnew/bs/09_70/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "13",
-      "title": "Preduzeti hitnu akciju u suzbijanju klimatskih promjena i njihovih posljedica",
+      "id": "10_10",
+      "title": "Nejednakosti u BDP-u po stanovniku",
       "indicators": [
         
         {
-          "id": "13-1-1",
-          "title": "Indeks emisija stakleničkih plinova",
+          "id": "10_10",
+          "title": "Nejednakosti u BDP-u po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/13-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-2-1",
-          "title": "Emisije stakleničkih plinova - energetski sektor",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/13-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-3-1",
-          "title": "Ekonomski gubici vezani uz klimu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/13-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-4-1",
-          "title": "Intenzitet emisija stakleničkih plinova energetske potrošnje",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/13-4-1/",
+          "href": "/sdgnew/bs/10_10/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "14",
-      "title": "Zaštiti i održivo koristiti okeane, mora i morske resurse",
+      "id": "10_20",
+      "title": "Nejednakosti u dohotku domaćinstava po stanovniku",
       "indicators": [
         
         {
-          "id": "14-1-1",
-          "title": "Morska zaštićena područja",
+          "id": "10_20",
+          "title": "Nejednakosti u dohotku domaćinstava po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/14-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-2-1",
-          "title": "Ribni fondovi unutar održivih razina",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/14-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-3-1",
-          "title": "Koncentracija klorofila-a u obalnim vodama",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/14-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-4-1",
-          "title": "Erozija obale",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/14-4-1/",
+          "href": "/sdgnew/bs/10_20/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "15",
-      "title": "Održivo upravljanje šumama, suzbijati dezertifikaciju, zaustaviti i preokrenuti degradaciju zemljišta i spriječiti dalji gubitak biološke raznolikosti",
+      "id": "10_30",
+      "title": "Relativni medijan jaza rizika od siromaštva",
       "indicators": [
         
         {
-          "id": "15-1-1",
-          "title": "Šumska površina kao udio ukupne površine kopna",
+          "id": "10_30",
+          "title": "Relativni medijan jaza rizika od siromaštva",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/15-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-2-1",
-          "title": "Zaštićene kopnene i slatkovodne površine",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/15-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-3-1",
-          "title": "Indeks uobičajenih ptica",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/15-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-4-1",
-          "title": "Erozija tla vodom",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/15-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-5-1",
-          "title": "Invazivne strane vrste",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/15-5-1/",
+          "href": "/sdgnew/bs/10_30/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "16",
-      "title": "Promovisati mirna i inkluzivna društva za održivi razvoj, osigurati pristup pravdi za sve i izgraditi efikasne, odgovorne i inkluzivne institucije na svim nivoima",
+      "id": "10_41",
+      "title": "Nejednakost u dohotku - omjer udjela dohotka po kvintilima",
       "indicators": [
         
         {
-          "id": "16-1-1",
-          "title": "Stopa namjernih ubojstava",
+          "id": "10_41",
+          "title": "Nejednakost u dohotku - omjer udjela dohotka po kvintilima",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/16-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-1",
-          "title": "Indeks percepcije korupcije",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/16-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-1",
-          "title": "Stanovništvo koje prijavljuje kriminal ili nasilje u svom susjedstvu",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/16-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-4-1",
-          "title": "Stopa zatvorske populacije",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/16-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1",
-          "title": "Percipirana neovisnost pravosudnog sistema",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/bs/16-5-1/",
+          "href": "/sdgnew/bs/10_41/",
           "status": "notstarted"
         }]
     }
   },
   {
     "goal": {
-      "id": "17",
-      "title": "Ojačati sredstva implementacije i revitalizirati Globalno partnerstvo za održivi razvoj",
+      "id": "10_50",
+      "title": "Udio prihoda donjih 40% stanovništva",
       "indicators": [
         
         {
-          "id": "17-1-1",
-          "title": "Službena razvojna pomoć kao udio bruto nacionalnog dohotka",
+          "id": "10_50",
+          "title": "Udio prihoda donjih 40% stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/17-1-1/",
+          "href": "/sdgnew/bs/10_50/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10_60",
+      "title": "Zahtjevi za azil",
+      "indicators": [
+        
         {
-          "id": "17-2-1",
-          "title": "Porezni prihodi kao udio BDP-a",
+          "id": "10_60",
+          "title": "Zahtjevi za azil",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/17-2-1/",
+          "href": "/sdgnew/bs/10_60/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_11",
+      "title": "Stepen ozbiljnog stambenog nedostatka",
+      "indicators": [
+        
         {
-          "id": "17-3-1",
-          "title": "Javni dug kao udio BDP-a",
+          "id": "11_11",
+          "title": "Stepen ozbiljnog stambenog nedostatka",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/17-3-1/",
+          "href": "/sdgnew/bs/11_11/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_20",
+      "title": "Stanovništvo koje živi u kućanstvima pogođenim bukom",
+      "indicators": [
+        
         {
-          "id": "17-4-1",
-          "title": "Otvorenost trgovine",
+          "id": "11_20",
+          "title": "Stanovništvo koje živi u kućanstvima pogođenim bukom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/17-4-1/",
+          "href": "/sdgnew/bs/11_20/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_32",
+      "title": "Indeks pokrivenosti tla",
+      "indicators": [
+        
         {
-          "id": "17-5-1",
-          "title": "Korisnici interneta kao udio stanovništva",
+          "id": "11_32",
+          "title": "Indeks pokrivenosti tla",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/bs/17-5-1/",
+          "href": "/sdgnew/bs/11_32/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_40",
+      "title": "Smrtnost u cestovnom saobraćaju",
+      "indicators": [
+        
+        {
+          "id": "11_40",
+          "title": "Smrtnost u cestovnom saobraćaju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/11_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_52",
+      "title": "Prerane smrti zbog izloženosti finim česticama (PM2,5)",
+      "indicators": [
+        
+        {
+          "id": "11_52",
+          "title": "Prerane smrti zbog izloženosti finim česticama (PM2,5)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/11_52/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11_60",
+      "title": "Postotak recikliranja komunalnog otpada",
+      "indicators": [
+        
+        {
+          "id": "11_60",
+          "title": "Postotak recikliranja komunalnog otpada",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/11_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_10",
+      "title": "Potrošnja opasnih hemikalija",
+      "indicators": [
+        
+        {
+          "id": "12_10",
+          "title": "Potrošnja opasnih hemikalija",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_21",
+      "title": "Materijalni otisak",
+      "indicators": [
+        
+        {
+          "id": "12_21",
+          "title": "Materijalni otisak",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_21/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_31",
+      "title": "Otisak potrošnje",
+      "indicators": [
+        
+        {
+          "id": "12_31",
+          "title": "Otisak potrošnje",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_31/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_41",
+      "title": "Stopa kružne upotrebe materijala",
+      "indicators": [
+        
+        {
+          "id": "12_41",
+          "title": "Stopa kružne upotrebe materijala",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_41/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_51",
+      "title": "Nastajanje otpada",
+      "indicators": [
+        
+        {
+          "id": "12_51",
+          "title": "Nastajanje otpada",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_51/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12_61",
+      "title": "Bruto dodana vrijednost u sektoru ekoloških dobara i usluga",
+      "indicators": [
+        
+        {
+          "id": "12_61",
+          "title": "Bruto dodana vrijednost u sektoru ekoloških dobara i usluga",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/12_61/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_10",
+      "title": "Neto emisije stakleničkih plinova",
+      "indicators": [
+        
+        {
+          "id": "13_10",
+          "title": "Neto emisije stakleničkih plinova",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_21",
+      "title": "Neto emisije stakleničkih plinova sektora LULUCF",
+      "indicators": [
+        
+        {
+          "id": "13_21",
+          "title": "Neto emisije stakleničkih plinova sektora LULUCF",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_21/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_31",
+      "title": "Prosječne CO2 emisije po kilometru novih putničkih automobila",
+      "indicators": [
+        
+        {
+          "id": "13_31",
+          "title": "Prosječne CO2 emisije po kilometru novih putničkih automobila",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_31/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_40",
+      "title": "Ekonomski gubici povezani s klimom",
+      "indicators": [
+        
+        {
+          "id": "13_40",
+          "title": "Ekonomski gubici povezani s klimom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_50",
+      "title": "Doprinos međunarodnoj obavezi od 100 milijardi USD za izdatke povezane s klimom",
+      "indicators": [
+        
+        {
+          "id": "13_50",
+          "title": "Doprinos međunarodnoj obavezi od 100 milijardi USD za izdatke povezane s klimom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13_70",
+      "title": "Izdavanje zelenih obveznica",
+      "indicators": [
+        
+        {
+          "id": "13_70",
+          "title": "Izdavanje zelenih obveznica",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/13_70/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_10",
+      "title": "Marine protected areas",
+      "indicators": [
+        
+        {
+          "id": "14_10",
+          "title": "Marine protected areas",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_10/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_21",
+      "title": "Estimated trends in fish stock biomass",
+      "indicators": [
+        
+        {
+          "id": "14_21",
+          "title": "Estimated trends in fish stock biomass",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_21/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_30",
+      "title": "Estimated trend in fishing pressure",
+      "indicators": [
+        
+        {
+          "id": "14_30",
+          "title": "Estimated trend in fishing pressure",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_30/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_40",
+      "title": "Bathing sites with excellent water quality",
+      "indicators": [
+        
+        {
+          "id": "14_40",
+          "title": "Bathing sites with excellent water quality",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_40/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_50",
+      "title": "Global mean surface seawater acidity",
+      "indicators": [
+        
+        {
+          "id": "14_50",
+          "title": "Global mean surface seawater acidity",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_50/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14_60",
+      "title": "Marine waters affected by eutrophication",
+      "indicators": [
+        
+        {
+          "id": "14_60",
+          "title": "Marine waters affected by eutrophication",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/14_60/",
+          "status": "notapplicable"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_10",
+      "title": "Udio šumskog pokrivača",
+      "indicators": [
+        
+        {
+          "id": "15_10",
+          "title": "Udio šumskog pokrivača",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_20",
+      "title": "Zaštićena kopnena područja",
+      "indicators": [
+        
+        {
+          "id": "15_20",
+          "title": "Zaštićena kopnena područja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_42",
+      "title": "Uticaj suše na ekosisteme",
+      "indicators": [
+        
+        {
+          "id": "15_42",
+          "title": "Uticaj suše na ekosisteme",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_42/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_50",
+      "title": "Područje ugroženo teškom erozijom tla vodom",
+      "indicators": [
+        
+        {
+          "id": "15_50",
+          "title": "Područje ugroženo teškom erozijom tla vodom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_60",
+      "title": "Indeks ptica",
+      "indicators": [
+        
+        {
+          "id": "15_60",
+          "title": "Indeks ptica",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_60/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15_61",
+      "title": "Indeks livadskih leptira",
+      "indicators": [
+        
+        {
+          "id": "15_61",
+          "title": "Indeks livadskih leptira",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/15_61/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_10",
+      "title": "Standardizovana stopa smrtnosti zbog ubistava",
+      "indicators": [
+        
+        {
+          "id": "16_10",
+          "title": "Standardizovana stopa smrtnosti zbog ubistava",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_20",
+      "title": "Stanovništvo koje prijavljuje kriminal, nasilje ili vandalizam u svojoj zajednici",
+      "indicators": [
+        
+        {
+          "id": "16_20",
+          "title": "Stanovništvo koje prijavljuje kriminal, nasilje ili vandalizam u svojoj zajednici",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_30",
+      "title": "Ukupna potrošnja opće vlade na sudove",
+      "indicators": [
+        
+        {
+          "id": "16_30",
+          "title": "Ukupna potrošnja opće vlade na sudove",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_30/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_40",
+      "title": "Percipirana nezavisnost pravosudnog sistema: vrlo ili prilično dobra",
+      "indicators": [
+        
+        {
+          "id": "16_40",
+          "title": "Percipirana nezavisnost pravosudnog sistema: vrlo ili prilično dobra",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_50",
+      "title": "Indeks percipirane korupcije",
+      "indicators": [
+        
+        {
+          "id": "16_50",
+          "title": "Indeks percipirane korupcije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16_70",
+      "title": "Žrtve trgovine ljudima prema spolu",
+      "indicators": [
+        
+        {
+          "id": "16_70",
+          "title": "Žrtve trgovine ljudima prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/16_70/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_10",
+      "title": "Službena razvojna pomoć",
+      "indicators": [
+        
+        {
+          "id": "17_10",
+          "title": "Službena razvojna pomoć",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_10/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_20",
+      "title": "Finansiranje EU-a zemljama u razvoju",
+      "indicators": [
+        
+        {
+          "id": "17_20",
+          "title": "Finansiranje EU-a zemljama u razvoju",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_20/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_31",
+      "title": "Uvoz EU-a iz najmanje razvijenih zemalja",
+      "indicators": [
+        
+        {
+          "id": "17_31",
+          "title": "Uvoz EU-a iz najmanje razvijenih zemalja",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_31/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_40",
+      "title": "Bruto dug opće vlade",
+      "indicators": [
+        
+        {
+          "id": "17_40",
+          "title": "Bruto dug opće vlade",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_40/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_50",
+      "title": "Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima",
+      "indicators": [
+        
+        {
+          "id": "17_50",
+          "title": "Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_50/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17_60",
+      "title": "Udio domaćinstava sa brzom internet vezom",
+      "indicators": [
+        
+        {
+          "id": "17_60",
+          "title": "Udio domaćinstava sa brzom internet vezom",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/17_60/",
           "status": "notstarted"
         }]
     }
