@@ -75,7 +75,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/2-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-30",
@@ -343,7 +343,7 @@
         
         {
           "id": "7-10",
-          "title": "Примарна и коначна потрошња енергије",
+          "title": "Примарна и финална потрошња енергије",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/7-10/",
@@ -567,7 +567,7 @@
         
         {
           "id": "11-11",
-          "title": "Stanovništvo koje živi u kućanstvima pogođenim bukom",
+          "title": "Стопа тешке стамбене депривације",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/11-11/",

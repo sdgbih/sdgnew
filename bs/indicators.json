@@ -75,7 +75,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/bs/2-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-30",
@@ -343,7 +343,7 @@
         
         {
           "id": "7-10",
-          "title": "Primarna i konačna potrošnja energije",
+          "title": "Primarna i finalna potrošnja energije",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/bs/7-10/",
