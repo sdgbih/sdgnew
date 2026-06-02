@@ -48,6 +48,16 @@ indicator_metadata:
   - name: methodology_characteristics
     label: global_indicators.methodology-label
     scope: national
+  # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
+  - name: eu_indicator_definition
+    label: global_indicators.description-label
+    scope: global
+  - name: eu_rationale
+    label: global_indicators.intention-label
+    scope: global
+  - name: eu_methodology_characteristics
+    label: global_indicators.methodology-label
+    scope: global
   # Back-up varijante za svaki slučaj
   - name: national_indicator_definition
     label: global_indicators.description-label
