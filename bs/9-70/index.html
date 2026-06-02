@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260602075833">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260602095346">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1429,18 +1429,51 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Opis globalnog indikatora </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Ovaj indikator mjeri intenzitet emisija čestica (PM10 i PM2.5) iz proizvodnog sektora (NACE Rev. 2 sektor „C“). Emisije u zrak se definišu kao tokovi gasovitih i čestica materijala koji se emituju u atmosferu.  Sitne i krupne čestice (PM10) su manje od 10 mikrometara u prečniku i mogu se nositi duboko u pluća, gdje mogu izazvati upalu i pogoršati stanje ljudi koji pate od bolesti srca i pluća. Fine čestice (PM2.5) su manje od 2,5 mikrometara u prečniku i stoga su podskup čestica PM10. Njihovi negativni uticaji na zdravlje su ozbiljniji od PM10 jer se mogu uvući dalje u pluća i mogu biti toksičniji.  Intenzitet emisije se izračunava dijeljenjem emisija PM sektora sa njegovom bruto dodanom vrijednošću (BDV), koja se definiše kao proizvodnja (u osnovnim cijenama) umanjena za intermedijarnu potrošnju (u kupovnim cijenama)</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">NASLOV RATIONALE </th>
+        <td>
           
+            <p>Indikator se koristi za praćenje napretka prema cilju održivog razvoja 9 u industriji, inovacijama i infrastrukturi, koji je ugrađen u prioritete Evropske komisije za period 2024-2029. godine pod nazivom „Nova era za evropsku odbranu i sigurnost“.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">NASLOV METODOLGOGIJA </th>
+        <td>
+          
+            <p>SDG 9 prepoznaje važnost tehnološkog napretka i inovacija za pronalaženje trajnih rješenja za društvene, ekonomske i ekološke izazove kao što su otvaranje novih radnih mjesta i promocija resursne i energetske efikasnosti. Da bi se podstakle inovacije i preduzetništvo, SDG 9 takođe nastoji da poveća pristup finansijskim uslugama za mala preduzeća i da premosti digitalni jaz povećanjem pristupa informacionim i komunikacionim tehnologijama. Sa svojim Čistim industrijskim dogovorom iz februara 2025. godine, Evropska komisija iznosi konkretne akcije za pretvaranje dekarbonizacije u pokretač rasta evropskih industrija. To uključuje snižavanje cijena energije, stvaranje kvalitetnih radnih mjesta i prave uslove za napredak kompanija.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1753,12 +1786,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260602075833'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260602095346'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260602075833"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260602095346"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
