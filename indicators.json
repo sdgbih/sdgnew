@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/1-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-31",
@@ -39,7 +39,7 @@
         },
         {
           "id": "1-41",
-          "title": "In work at-risk-of_x0002_poverty rate",
+          "title": "In work at - risk - of poverty rate",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/1-41/",
@@ -387,7 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/7-60/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },

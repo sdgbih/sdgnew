@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260529161302">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260602075833">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -324,7 +324,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Varijable&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -376,7 +376,15 @@ layout-indicator-iframe
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
         
         
       </thead>
@@ -385,11 +393,39 @@ layout-indicator-iframe
         <tr>
           
           
+          <td>2014</td>
+          
+          
+          
+          <td>2.24</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
           <td>2015</td>
           
           
           
-          <td class="table-value">29.0</td>
+          <td>2.27</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -401,7 +437,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">31.5</td>
+          <td>2.14</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -413,7 +457,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">34.0</td>
+          <td>2.21</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -425,7 +477,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">31.5</td>
+          <td>2.08</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -437,7 +497,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">34.0</td>
+          <td>2.21</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -449,7 +517,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">36.5</td>
+          <td>2.18</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -461,7 +537,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">39.0</td>
+          <td>2.26</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -473,7 +557,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">41.5</td>
+          <td>2.37</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -485,7 +577,255 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">39.0</td>
+          <td>2.54</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>2.64</td>
+          
+          
+          
+          <td>Euro po kilogramu ekvivalenta nafte (KGOE)</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>4.75</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>4.85</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>4.6</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>4.75</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>4.56</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>4.94</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>4.85</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>5.13</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
+          
+          
+          
+          <td>5.86</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td>6.69</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>7.21</td>
+          
+          
+          
+          <td>Standard kupovne moći (PPS) po kilogramu ekvivalenta nafte</td>
+          
+          
+          
+          <td class="table-value">Energetska produktivnost</td>
           
           
         </tr>
@@ -498,7 +838,7 @@ layout-indicator-iframe
   
   <div id="datatableFooter">
     
-    <p>Izvor: Energy balance</p>
+    <p>Izvor: ESS, Energy balance</p>
     
     
     
@@ -608,7 +948,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>Energy balance</dd>
+        <dd>ESS, Energy balance</dd>
         
 
         
@@ -620,6 +960,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Nacionalni referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_07_30_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_07_30)</a></dd>
+        
         
 
         
@@ -681,7 +1032,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>Energy balance</dd>
+        <dd>ESS, Energy balance</dd>
         
 
         
@@ -693,6 +1044,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Nacionalni referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_07_30_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_07_30)</a></dd>
+        
         
 
         
@@ -1367,7 +1729,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>Energy balance</p>
+            <p>ESS, Energy balance</p>
 
           
         </td>
@@ -1393,8 +1755,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link do izvora podataka </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_07_30/default/table" target="_blank">
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1535,12 +1916,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260529161302'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260602075833'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260529161302"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260602075833"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
