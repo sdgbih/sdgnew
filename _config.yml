@@ -71,7 +71,9 @@ indicator_metadata:
   - name: national_indicator_rationale
     label: global_indicators.intention-label
     scope: national
-
+  - name: long_term_objective
+    label: global_indicators.long_term_objective-label
+    scope: national
 # Osnovne postavke za vidljivost
 hide_empty_metadata: true
 remote_data_prefix: https://sdgbih.github.io/sdgnewdata/
