@@ -195,7 +195,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/4-31/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-40",
@@ -203,11 +203,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/4-40/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-60",
-          "title": "Учешће одраслих у учењу у посљедње четири недеље по полу",
+          "title": "Учешће одраслих у учењу по полу",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/4-60/",
@@ -387,7 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/7-60/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

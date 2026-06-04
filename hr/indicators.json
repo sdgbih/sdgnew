@@ -195,7 +195,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/4-31/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-40",
@@ -203,11 +203,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/4-40/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-60",
-          "title": "Sudjelovanje odraslih u učenju u protekla četiri tjedna po spolu",
+          "title": "Sudjelovanje odraslih u učenju po spolu",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/4-60/",
@@ -387,7 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/7-60/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

@@ -195,7 +195,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/4-31/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-40",
@@ -203,11 +203,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/4-40/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-60",
-          "title": "Adult participation in learning in the past four weeks by sex",
+          "title": "Adult participation in learning by sex",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/4-60/",
@@ -387,7 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/7-60/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
