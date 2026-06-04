@@ -75,18 +75,6 @@ accessible_tabs: true
 accessible_charts: true
 series_toggle: true
 
-# Chart info
-  - name: graph_type
-  field:
-      element: select
-      label: Graph type
-      translation_key: metadata_fields.graph_type
-      options:
-        - name: 'line'
-          value: 'line'
-        - name: 'bar'
-          value: 'bar'
-      scope: graph  
 data_fields:
   series: SERIES
   units: UNIT_MEASURE
