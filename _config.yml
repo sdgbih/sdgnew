@@ -50,7 +50,7 @@ indicator_metadata:
     scope: national
   - name: methodology_long_term_objective
     label: global_indicators.long_term_objective-label
-    scope: global  
+    scope: national  
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
   - name: eu_indicator_definition
     label: global_indicators.description-label
