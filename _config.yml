@@ -48,7 +48,7 @@ indicator_metadata:
   - name: methodology_characteristics
     label: global_indicators.methodology-label
     scope: national
-  - name: long_term_objective
+  - name: long_objective
     label: global_indicators.long_term_objective-label
     scope: national  
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
@@ -61,7 +61,7 @@ indicator_metadata:
   - name: eu_methodology_characteristics
     label: global_indicators.methodology-label
     scope: global
-  - name: eu_long_term_objective
+  - name: eu_long_objective
     label: global_indicators.long_term_objective-label
     scope: global  
   # Back-up varijante za svaki slučaj
