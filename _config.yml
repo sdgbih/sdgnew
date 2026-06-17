@@ -72,7 +72,7 @@ indicator_metadata:
     label: global_indicators.intention-label
     scope: national
 # Osnovne postavke za vidljivost
-hide_empty_metadata: false
+hide_empty_metadata: true
 remote_data_prefix: https://sdgbih.github.io/sdgnewdata/
 repository_url_data: https://github.com/sdgbih/sdgnewdata/
 
