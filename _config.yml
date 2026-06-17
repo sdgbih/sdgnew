@@ -40,7 +40,7 @@ exclude:
 # REGISTRACIJA POLJA (Ovo ih "otključava" na stranici)
 indicator_metadata:
   - name: indicator_definition
-    label: global_indicators.description-label
+    label: global_indicators.definition-label
     scope: national
   - name: rationale
     label: global_indicators.intention-label
@@ -53,7 +53,7 @@ indicator_metadata:
     scope: national  
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
   - name: eu_indicator_definition
-    label: global_indicators.description-label
+    label: global_indicators.definition-label
     scope: global
   - name: eu_rationale
     label: global_indicators.intention-label
