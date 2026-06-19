@@ -39,16 +39,16 @@ exclude:
 
 # REGISTRACIJA POLJA (Ovo ih "otključava" na stranici)
 indicator_metadata:
-  - name: indicator_definition
+  - name: national_indicator_definition
     label: global_indicators.definition-label
     scope: national
-  - name: rationale
+  - name: national_rationale
     label: global_indicators.intention-label
     scope: national
-  - name: methodology_characteristics
+  - name: national_methodology_characteristics
     label: global_indicators.methodology-label
     scope: national
-  - name: long_objective
+  - name: national_long_objective
     label: global_indicators.long_term_objective-label
     scope: national  
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
