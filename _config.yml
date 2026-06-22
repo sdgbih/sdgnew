@@ -56,7 +56,7 @@ indicator_metadata:
     label: global_indicators.definition-label
     scope: global
   - name: eu_rationale
-    label: global_indicators.intention-label
+    label: global_indicators.rationale-label
     scope: global
   - name: eu_methodology_characteristics
     label: global_indicators.methodology-label
