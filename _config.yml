@@ -54,6 +54,7 @@ indicator_metadata:
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
   - name: eu_indicator_definition
     label: global_indicators.definition-label
+    translation_key: global_indicators.eu_indicator_definition
     scope: global
   - name: eu_rationale
     label: global_indicators.rationale-label
