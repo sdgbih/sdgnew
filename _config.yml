@@ -45,12 +45,15 @@ indicator_metadata:
     scope: national
   - name: national_rationale
     label: global_indicators.intention-label
+    translation_key: global_indicators.national_rationale
     scope: national
   - name: national_methodology_characteristics
     label: global_indicators.methodology-label
+    translation_key: global_indicators.national_methodology_characteristics
     scope: national
   - name: national_long_objective
     label: global_indicators.long_term_objective-label
+    translation_key: global_indicators.national_long_objective
     scope: national  
   # EU metapodaci tab (scope: global) — ista sadržaj kao national, ali odvojeno editabilno
   - name: eu_indicator_definition
@@ -59,12 +62,15 @@ indicator_metadata:
     scope: global
   - name: eu_rationale
     label: global_indicators.rationale-label
+    translation_key: global_indicators.eu_rationale
     scope: global
   - name: eu_methodology_characteristics
     label: global_indicators.methodology-label
+    translation_key: global_indicators.eu_methodology_characteristics
     scope: global
   - name: eu_long_objective
     label: global_indicators.long_term_objective-label
+    translation_key: global_indicators.eu_long_objective
     scope: global  
   # Back-up varijante za svaki slučaj
   - name: national_indicator_definition
