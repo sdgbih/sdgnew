@@ -41,6 +41,7 @@ exclude:
 indicator_metadata:
   - name: national_indicator_definition
     label: global_indicators.definition-label
+    translation_key: global_indicators.national_indicator_definition
     scope: national
   - name: national_rationale
     label: global_indicators.intention-label
