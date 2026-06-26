@@ -299,7 +299,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/6-30/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-40",
@@ -307,7 +307,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/6-40/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-50",
@@ -315,7 +315,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/6-50/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-60",
@@ -331,7 +331,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/6-70/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -387,7 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/7-60/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -399,7 +399,7 @@
         
         {
           "id": "8-10",
-          "title": "БДП по глави становника",
+          "title": "Реални БДП по глави становника",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/8-10/",
@@ -411,7 +411,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/8-11/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-20",
