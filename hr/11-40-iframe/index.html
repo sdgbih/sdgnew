@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260707084154">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260707111605">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -309,7 +309,7 @@ layout-indicator-iframe
   data-id="11-40"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Smrtnost u cestovnom prometu"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Smrtnost u cestovnom prometu&quot;,&quot;title&quot;:&quot;Smrtnost u cestovnom prometu&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -324,7 +324,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Varijable&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -376,7 +376,15 @@ layout-indicator-iframe
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
         
         
       </thead>
@@ -385,59 +393,19 @@ layout-indicator-iframe
         <tr>
           
           
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">71.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">70.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">70.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">70.4</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
           <td>2019</td>
           
           
           
-          <td class="table-value">65.2</td>
+          <td>261</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
           
           
         </tr>
@@ -449,7 +417,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">65.0</td>
+          <td>244</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
           
           
         </tr>
@@ -461,7 +437,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">64.8</td>
+          <td>255</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
           
           
         </tr>
@@ -473,7 +457,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">64.6</td>
+          <td>222</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
           
           
         </tr>
@@ -485,7 +477,35 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">64.4</td>
+          <td>255</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>222</td>
+          
+          
+          
+          <td>Broj</td>
+          
+          
+          
+          <td class="table-value">Smrtnost u cestovnom prometu</td>
           
           
         </tr>
@@ -498,7 +518,7 @@ layout-indicator-iframe
   
   <div id="datatableFooter">
     
-    <p>Izvor: Ministarstvo</p>
+    <p>Izvor: The Transport Community</p>
     
     
     
@@ -608,7 +628,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>Ministarstvo</dd>
+        <dd>The Transport Community</dd>
         
 
         
@@ -681,7 +701,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>Ministarstvo</dd>
+        <dd>The Transport Community</dd>
         
 
         
@@ -1106,18 +1126,51 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">OPIS </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Pokazatelj mjeri broj smrtnih slučajeva uzrokovanih prometnim nesrećama, uključujući vozače i putnike motornih vozila i bicikala, kao i pješake. Osobe koje umru u prometnim nesrećama do 30 dana nakon što se nesreća dogodila računaju se kao smrtni slučajevi u prometnim nesrećama.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">NAMJERA </th>
+        <td>
           
+            <p>Pokazatelj se koristi za praćenje napretka prema Cilju održivog razvoja 11 o tome da gradovi i ljudska naselja budu uključivi, sigurni, otporni i održivi, ​​te Cilju održivog razvoja 3 o dobrom zdravlju i dobrobiti. Cilj održivog razvoja 11 ugrađen je u prioritete Europske komisije u okviru „Novo doba europske obrane i sigurnosti“, „Potpora ljudima, jačanje naših društava i našeg socijalnog modela“, „Održavanje kvalitete života: sigurnost hrane, vode i prirode“ te „Zaštita naše demokracije, poštivanje naših vrijednosti“. Cilj održivog razvoja 3 ugrađen je u prioritete Europske komisije u okviru „Potpora ljudima, jačanje naših društava i našeg socijalnog modela“. Pokazatelj se može smatrati sličnim globalnom pokazatelju Cilja održivog razvoja 3.6.1 „Stopa smrtnosti u prometnim nesrećama“.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
+        <td>
+          
+            <p>Cilj održivog razvoja 11 ima za cilj obnovu i planiranje gradova i drugih ljudskih naselja tako da nude prilike za sve, s pristupom osnovnim uslugama, energiji, stanovanju, prijevozu, zelenim javnim površinama i više, uz istovremeno poboljšanje korištenja resursa i smanjenje utjecaja na okoliš. Uz dobro, o riziku informirano i pametno planiranje i upravljanje, Cilj održivog razvoja 11 zamišlja gradove kao ekološki otporna ljudska naselja koja potiču osobnu sigurnost. Cilj održivog razvoja 3 ima za cilj osigurati zdravlje i dobrobit za sve u svim dobnim skupinama poboljšanjem reproduktivnog, majčinog i dječjeg zdravlja; okončanjem epidemija glavnih zaraznih bolesti; smanjenjem nezaraznih i mentalnih bolesti. Također poziva na smanjenje čimbenika rizika za zdravlje u ponašanju i okolišu. Strateški akcijski plan sigurnosti u prometu i Okvir politike sigurnosti u prometu EU 2021.-2030. postavili su cilj smanjenja smrtnih slučajeva i teških ozljeda za 50% do 2030. u usporedbi s 2019. i ambiciozne planove sigurnosti u prometu za postizanje nula smrtnih slučajeva u prometu do 2050. („Vizija nula“).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1430,7 +1483,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>Ministarstvo</p>
+            <p>The Transport Community</p>
 
           
         </td>
@@ -1456,8 +1509,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link do izvora podataka </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://www.transport-community.org/" target="_blank">
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1603,12 +1675,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260707084154'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260707111605'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260707084154"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260707111605"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

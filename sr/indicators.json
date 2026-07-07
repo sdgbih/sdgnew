@@ -511,7 +511,7 @@
         
         {
           "id": "10-10",
-          "title": "Разлике у БДП-у по становнику",
+          "title": "БДП по глави становника прилагођен куповној моћи",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-10/",
@@ -523,7 +523,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-30",
@@ -531,15 +531,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-30/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-41",
-          "title": "Неједнакост у дохотку - однос удjела петтина по дохотку",
+          "title": "Неједнакост у дохотку - oднос квинтила прихода",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-41/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-50",
@@ -547,7 +547,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-50/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-60",
@@ -555,7 +555,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/10-60/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -571,7 +571,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/11-11/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-20",
@@ -579,7 +579,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/11-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-32",

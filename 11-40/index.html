@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260707084154">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260707111605">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -473,7 +473,7 @@ data-event-label="high"
   data-id="11-40"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Road traffic deaths"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Road traffic deaths&quot;,&quot;title&quot;:&quot;Road traffic deaths&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -488,7 +488,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -540,7 +540,15 @@ data-event-label="high"
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
         
         
       </thead>
@@ -549,59 +557,19 @@ data-event-label="high"
         <tr>
           
           
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">71.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">70.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">70.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">70.4</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
           <td>2019</td>
           
           
           
-          <td class="table-value">65.2</td>
+          <td>261</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
           
           
         </tr>
@@ -613,7 +581,15 @@ data-event-label="high"
           
           
           
-          <td class="table-value">65.0</td>
+          <td>244</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
           
           
         </tr>
@@ -625,7 +601,15 @@ data-event-label="high"
           
           
           
-          <td class="table-value">64.8</td>
+          <td>255</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
           
           
         </tr>
@@ -637,7 +621,15 @@ data-event-label="high"
           
           
           
-          <td class="table-value">64.6</td>
+          <td>222</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
           
           
         </tr>
@@ -649,7 +641,35 @@ data-event-label="high"
           
           
           
-          <td class="table-value">64.4</td>
+          <td>255</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>222</td>
+          
+          
+          
+          <td>Number</td>
+          
+          
+          
+          <td class="table-value">Road traffic deaths</td>
           
           
         </tr>
@@ -662,7 +682,7 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
-    <p>Source: Ministarstvo</p>
+    <p>Source: The Transport Community</p>
     
     
     
@@ -772,7 +792,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Source:</dt>
-        <dd>Ministarstvo</dd>
+        <dd>The Transport Community</dd>
         
 
         
@@ -845,7 +865,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Source:</dt>
-        <dd>Ministarstvo</dd>
+        <dd>The Transport Community</dd>
         
 
         
@@ -1274,18 +1294,51 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Description </th>
+        <td>
           
-      
-      
-      
-        
+            <p>The indicator measures the number of fatalities caused by road accidents, including drivers and passengers of motorised vehicles and pedal cycles as well as pedestrians. Persons dying on road accidents up to 30 days after the occurrence of the accident are counted as road accident fatalities.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Intention </th>
+        <td>
           
+            <p>Indicator is used to monitor progress towards SDG 11 on making cities and human settlements inclusive, safe, resilient and sustainable and SDG 3 on good health and well-being. SDG 11 is embedded in the European Commission’s Priorities under ‘A new era for European Defence and Security’, ‘Supporting people, strengthening our societies and our social model’, ‘Sustaining our quality of life: food security, water and nature’ and ‘Protecting our democracy, upholding our values’. SDG 3 is embedded in the European Commission’s Priorities under ‘Supporting people, strengthening our societies and our social model’. The indicator can be considered as similar to the global SDG indicator 3.6.1 “Death rate due to road traffic injuries”.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Content and progress </th>
+        <td>
+          
+            <p>SDG 11 aims to renew and plan cities and other human settlements so that they offer opportunities for all, with access to basic services, energy, housing, transportation, green public spaces and others, while improving resource use and reducing environmental impacts. With sound, risk-informed and smart planning and management, SDG 11 envisions cities as environmentally resilient human settlements that foster personal safety. SDG 3 aims to ensure health and well-being for all at all ages by improving reproductive, maternal and child health; ending the epidemics of major communicable diseases; reducing non-communicable and mental diseases. It also calls for reducing behavioural and environmental health-risk factors. The Strategic Action Plan on Road Safety and the EU road safety policy framework 2021–2030 set a 50 % reduction target for deaths and for serious injuries by 2030 compared to 2019 and ambitious road safety plans to reach zero road deaths by 2050 (‘Vision Zero’).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1598,7 +1651,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Ministarstvo</p>
+            <p>The Transport Community</p>
 
           
         </td>
@@ -1624,8 +1677,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://www.transport-community.org/" target="_blank">
+                Link <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1838,12 +1910,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260707084154'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260707111605'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260707084154"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260707111605"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
