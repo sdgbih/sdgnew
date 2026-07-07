@@ -123,7 +123,7 @@ var translations = {
         
         Indicator 8.40 -
         
-        Long-term unemployment rate - Indicators For The Sustainable Development Goals
+        Employment rate - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260626122138">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260707062448">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -444,7 +444,7 @@ data-event-label="high"
                         
                         Indicator 8.40
                         
-                        <span class="lead-copy">Long-term unemployment rate</span>
+                        <span class="lead-copy">Employment rate</span>
                     </h1>
                 </div>
             </div>
@@ -472,8 +472,8 @@ data-event-label="high"
   data-indicatorid='indicator_8-40'
   data-id="8-40"
   data-country="Bosnia and Herzegovina"
-  data-charttitle="Long-term unemployment rate"
-  data-charttitles="null"
+  data-charttitle="Employment rate"
+  data-charttitles="[{&quot;series&quot;:&quot;Long-term unemployment rate by sex&quot;,&quot;title&quot;:&quot;Long-term unemployment rate by sex&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -488,7 +488,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;SEX&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Both sexes&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sex&quot;},{&quot;name&quot;:&quot;AGE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;15 to 74 years old&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -523,151 +523,15 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/headline/8-40.csv" class="btn btn-primary btn-download" download="indicator_8-40.csv" tabindex="0" role="button">Download headline data (.csv)</a>
-    
     <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/data/8-40.csv" class="btn btn-primary btn-download" download='indicator_8-40.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Long-term unemployment rate</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">23.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">24.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">26.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">28.4</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td class="table-value">30.2</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">27.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td class="table-value">28.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2022</td>
-          
-          
-          
-          <td class="table-value">30.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2023</td>
-          
-          
-          
-          <td class="table-value">32.4</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No headline data available</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    <p>Source: ESS (LFS)</p>
-    
-    
-    
-    
-  </div>
   
 
 </div>
@@ -751,7 +615,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Long-term unemployment rate
+            Long-term unemployment rate by sex
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -1296,23 +1160,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Description </th>
+        <td>
           
-      
-      
-      
-        
+            <p>The indicator measures the share of the population in the labour force aged 15 to 74 who has been unemployed for 12 months or more. Population in the labour force are those who are either employed or unemployed. Unemployed persons are defined as persons aged 15-74 who were without work during the reference week, were currently available to start working within the next two weeks and were either actively seeking work in the last four weeks or had already found a job to start within the next three months. The unemployment period is defined as the duration of a job search, or as the length of time since the last job was held (if shorter than the time spent on a job search).</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Intention </th>
+        <td>
           
-      
-      
-      
+            <p>Indicator is used to monitor progress towards SDG 8 on decent work and economic growth, which is embedded in the European Commission’s Priorities under ‘A new plan for Europe’s sustainable prosperity and competitiveness’ and ‘Supporting people, strengthening our societies and our social model’. The indicator is also included in the Social Scoreboard for the European Pillar of Social Rights. The European pillar of social rights sets out a number of key principles and rights to support fair and well-functioning labour markets and welfare systems. It serves as a compass for a renewed process of convergence towards better working and living conditions among participating member states. It is primarily conceived for the euro area, but is applicable to all member states wishing to participate. The Active Inclusion Approach is a Commission recommendation to enable every citizen, notably the most disadvantaged, to fully participate in society, including having a job.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Content and progress </th>
+        <td>
           
+            <p>The European Pillar of Social Rights sets out 20 key principles and rights essential for fair and well-functioning labour markets and social protection systems. The European Pillar of Social Rights Action Plan, adopted in 2021, turns the Principles into concrete actions to benefit citizens. It also proposes an ambitious employment target of 78 % of the population aged 20 to 64 for the EU to reach by 2030. In support of this, the Action Plan proposes to halve the gender employment gap by 2030 compared with 2019 and to decrease the rate of young people neither in employment nor in education or training (NEET) aged 15 to 29 to 9 % by 2030.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Long-term objective </th>
+        <td>
+          
+            <p>global_indicators.8-40-long_term_objectiv</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1879,12 +1787,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260626122138'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260707062448'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260626122138"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260707062448"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -107,7 +107,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/2-60/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -431,7 +431,7 @@
         },
         {
           "id": "8-40",
-          "title": "Long-term unemployment rate",
+          "title": "Employment rate",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/8-40/",
@@ -443,7 +443,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/8-60/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
