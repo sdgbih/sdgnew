@@ -483,7 +483,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/9-50/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-60",
@@ -491,7 +491,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/9-60/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-70",
@@ -499,7 +499,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/hr/9-70/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
