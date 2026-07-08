@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260708075652">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260708105049">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -473,7 +473,7 @@ data-event-label="high"
   data-id="12-51"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Generation of waste"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Generation of waste by hazardousness&quot;,&quot;title&quot;:&quot;Generation of waste by hazardousness&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -488,7 +488,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;HAZARD_WASTE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;HAZ_NHAZ&quot;,&quot;HAZ&quot;,&quot;NHAZ&quot;,&quot;&quot;]},&quot;title&quot;:&quot;HAZARD_WASTE&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -523,151 +523,15 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/headline/12-51.csv" class="btn btn-primary btn-download" download="indicator_12-51.csv" tabindex="0" role="button">Download headline data (.csv)</a>
-    
     <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/data/12-51.csv" class="btn btn-primary btn-download" download='indicator_12-51.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Generation of waste</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">62.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">63.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">60.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">62.4</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td class="table-value">64.2</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">66.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td class="table-value">67.8</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2022</td>
-          
-          
-          
-          <td class="table-value">64.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2023</td>
-          
-          
-          
-          <td class="table-value">66.4</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No headline data available</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    <p>Source: Waste Statistics</p>
-    
-    
-    
-    
-  </div>
   
 
 </div>
@@ -751,7 +615,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Generation of waste
+            Generation of waste by hazardousness
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -772,7 +636,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Source:</dt>
-        <dd>Waste Statistics</dd>
+        <dd>Eurostat</dd>
         
 
         
@@ -845,7 +709,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Source:</dt>
-        <dd>Waste Statistics</dd>
+        <dd>Eurostat</dd>
         
 
         
@@ -1274,18 +1138,51 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Description </th>
+        <td>
           
-      
-      
-      
-        
+            <p>This indicator is defined as all waste generated in a country. It covers waste generated by industrial production (including the waste management sector itself) and by households. Major mineral wastes, dredging spoils and soils are included. This leads to high quantities of waste in some countries with substantial economic activities such as mining and construction.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Intention </th>
+        <td>
           
+            <p>Indicator is used to monitor progress towards SDG 12 on ensuring sustainable consumption and production patterns which is embedded in the European Commission’s Priorities under ‘Sustaining our quality of life: food security, water and nature’. The indicator can be considered as part of the global SDG indicator 11.6.1 “Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities”. Increasing the circularity of Europe’s economy is a key priority of the new Industrial Strategy of the EU adopted in 2020 and one of the key elements of the European Green Deal.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Content and progress </th>
+        <td>
+          
+            <p>The European Commission adopted the new circular economy action plan (CEAP) in March 2020. The EU’s transition to a circular economy will reduce pressure on natural resources and will create sustainable growth and jobs. The new action plan announces initiatives along the entire life cycle of products. It targets how products are designed, promotes circular economy processes, encourages sustainable consumption, and aims to ensure that waste is prevented and the resources used are kept in the EU economy for as long as possible. Building on existing EU policies and legislation, the Circular Economy Package establishes a programme of action with measures covering the whole cycle from production and consumption to waste management. The Package includes commitments on ecodesign, waste prevention and reuse, clean material cycles and ambitious quantitative targets on increasing recycling and reducing landfilling, obligations to improve the separate collection of waste, as well as the promotion of efficient use of bio-based resources. The Sustainable Consumption and Production and Sustainable Industrial Policy (SCP/SIP) Action Plan includes a series of proposals on sustainable consumption and production that will contribute to improving the environmental performance of products and increase the demand for more sustainable goods and production technologies.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1598,7 +1495,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Waste Statistics</p>
+            <p>Eurostat</p>
 
           
         </td>
@@ -1624,8 +1521,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_12_51/default/table?lang=en" target="_blank">
+                Link <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1838,12 +1754,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260708075652'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260708105049'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260708075652"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260708105049"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

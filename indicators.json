@@ -667,7 +667,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/12-61/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -679,11 +679,11 @@
         
         {
           "id": "13-10",
-          "title": "Net greenhouse gas emissions",
+          "title": "Domestic net greenhouse gas emissions",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/13-10/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-21",
@@ -691,7 +691,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/13-21/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-31",
@@ -699,7 +699,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/13-31/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-40",
@@ -715,7 +715,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/13-50/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-70",
@@ -723,7 +723,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/13-70/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
