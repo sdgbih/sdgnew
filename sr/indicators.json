@@ -790,14 +790,6 @@
       "indicators": [
         
         {
-          "id": "15-10",
-          "title": "global_indicators.15-10-title",
-          "description": "",
-          "keywords": "",
-          "href": "/sdgnew/sr/15-10/",
-          "status": "complete"
-        },
-        {
           "id": "15-11",
           "title": "Шумска површина",
           "description": "",
@@ -835,7 +827,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/15-60/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-61",
@@ -843,7 +835,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/15-61/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -859,7 +851,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/16-10/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-20",
@@ -867,7 +859,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/16-20/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-30",
@@ -875,7 +867,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/16-30/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-40",
@@ -883,7 +875,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/sr/16-40/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-50",
