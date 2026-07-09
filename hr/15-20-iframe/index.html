@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260708122532">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260709075524">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -309,7 +309,7 @@ layout-indicator-iframe
   data-id="15-20"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Kopnena zaštićena područja"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Kopnena zaštićena područja&quot;,&quot;title&quot;:&quot;Kopnena zaštićena područja&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -324,7 +324,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Varijable&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -376,7 +376,15 @@ layout-indicator-iframe
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
         
         
       </thead>
@@ -389,7 +397,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">47.0</td>
+          <td>8.4</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -401,7 +417,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">48.8</td>
+          <td>8.4</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -413,7 +437,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">45.6</td>
+          <td>8.5</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -425,7 +457,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">47.4</td>
+          <td>8.5</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -437,7 +477,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">49.2</td>
+          <td>8.6</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -449,7 +497,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">51.0</td>
+          <td>8.9</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -461,7 +517,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">52.8</td>
+          <td>9.0</td>
+          
+          
+          
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -473,19 +537,15 @@ layout-indicator-iframe
           
           
           
-          <td class="table-value">49.6</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2023</td>
+          <td>9.0</td>
           
           
           
-          <td class="table-value">51.4</td>
+          <td>Postotak</td>
+          
+          
+          
+          <td class="table-value">Kopnena zaštićena područja</td>
           
           
         </tr>
@@ -498,7 +558,7 @@ layout-indicator-iframe
   
   <div id="datatableFooter">
     
-    <p>Izvor: </p>
+    <p>Izvor: EEA</p>
     
     
     
@@ -607,6 +667,9 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Izvor:</dt>
+        <dd>EEA</dd>
+        
 
         
 
@@ -676,6 +739,9 @@ data-event-label="Change to Table tab"
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Izvor:</dt>
+        <dd>EEA</dd>
         
 
         
@@ -1100,23 +1166,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">OPIS </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Ovaj pokazatelj mjeri opseg i udio kopnenih zaštićenih područja, koja uključuju nacionalno određena zaštićena područja i područja Natura 2000. Nacionalno određeno područje je područje zaštićeno nacionalnim zakonodavstvom. Područja Natura 2000 određena su radi zaštite europskih vrsta i staništa, kako je navedeno u direktivama EU o staništima i pticama.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">NAMJERA </th>
+        <td>
           
-      
-      
-      
+            <p>Pokazatelj se koristi za praćenje napretka prema Cilju održivog razvoja 15 o zaštiti, obnovi i promicanju održivog korištenja zemljišta, koji je uključen u Prioritete Europske komisije u okviru ‘Održavanja kvalitete života: sigurnost hrane, voda i priroda’. Pokazatelj se može smatrati sličnim globalnim pokazateljima Ciljeva održivog razvoja 15.1.2 “Udio važnih lokacija za kopnenu i slatkovodnu bioraznolikost koje su pokrivene zaštićenim područjima, prema vrsti ekosustava” i 15.4.1 “Pokrivenost važnih lokacija za planinsku bioraznolikost zaštićenim područjima”.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
+        <td>
           
+            <p>Direktiva EU o pticama i Direktiva o staništima imaju za cilj održavanje ili obnovu povoljnog stanja zaštićenih staništa i vrsta te zaštitu njihovog održivog korištenja i upravljanja. Direktiva o pticama štiti sve vrste divljih ptica i njihova staništa. Direktiva o staništima štiti više od 1300 drugih rijetkih, ugroženih ili endemskih vrsta divljih životinja i biljaka te 233 vrste prirodnih staništa. Osim toga, mreža zaštićenih područja Natura 2000 uključuje područja koja su države članice EU odredile u skladu s Direktivama o pticama i Direktivom o staništima.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">DUGOROČNI CILJ </th>
+        <td>
+          
+            <p>Strategija EU-a za biološku raznolikost ima za cilj zaštititi najmanje 30 % europskog kopna i mora, uključujući nacionalno određena područja i područja Natura 2000.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1330,8 +1440,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">DUGOROČNI CILJ </th>
+        <td>
           
+            <p>Strategija EU-a za biološku raznolikost ima za cilj zaštititi najmanje 30 % europskog kopna i mora, uključujući nacionalno određena područja i područja Natura 2000.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1419,6 +1540,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Organizacija </th>
+        <td>
+          
+            <p>EEA</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -1434,13 +1571,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link do izvora podataka </th>
+        <td>
           
-      
-      
-      
-        
+            
+            
+            
+            
+            
+              <a href="https://www.eea.europa.eu/en/europe-environment-2025/countries/bosnia-and-herzegovina/terrestrial-protected-areas?activeTab=570bee2d-1316-48cf-adde-4b640f92119b" target="_blank">
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+              </a>
+            
+
           
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1586,12 +1737,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260708122532'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260709075524'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260708122532"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260709075524"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
