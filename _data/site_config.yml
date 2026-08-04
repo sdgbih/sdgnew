@@ -56,9 +56,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: sdg@bhas.gov.ba
+  suggestions: sdg@bhas.gov.ba
+  functional: sdg@bhas.gov.ba
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -184,6 +184,9 @@ menu:
     dropdown: []
   - path: /about
     translation_key: menu.about
+    dropdown: []
+  - path: /publications
+    translation_key: menu.publications
     dropdown: []
 meta_tags: []
 metadata_edit_url: metadata
