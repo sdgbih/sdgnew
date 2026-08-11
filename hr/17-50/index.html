@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260811082237">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260811121239">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -475,10 +475,10 @@ data-event-label="high"
   data-id="17-50"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima&quot;,&quot;title&quot;:&quot;Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -490,14 +490,496 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Varijable&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Podkategorije</h4>
+    <p>Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/hr/headline/17-50.csv" class="btn btn-primary btn-download" download="indicator_17-50.csv" tabindex="0" role="button">Preuzmite CSV naslov</a>
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/hr/data/17-50.csv" class="btn btn-primary btn-download" download='indicator_17-50.csv' tabindex='0' role='button'>Preuzmi izvor CSV</a>
+
+    <p class="no-js-disaggregation-hint"></p>
+
+    
+    <h3></h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>9.11</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>10.6</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>10.89</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>10.42</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>10.26</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
+          
+          
+          
+          <td>8.73</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td>8.38</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>8.08</td>
+          
+          
+          
+          <td>Postotak od ukupnih prihoda od poreza i socijalnih doprinosa (isključujući imputirane socijalne doprinose)</td>
+          
+          
+          
+          <td class="table-value">Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+    
+  </div>
+
+  
+  <div id="datatableFooter">
+    
+    <p>Izvor: BHAS</p>
+    
+    
+    
+    
+  </div>
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative"></span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Grafikon</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tablica</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only"></span></i>
+      Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            Udio poreza na zaštitu okoliša u ukupnim poreznim prihodima
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Izvor:</dt>
+        <dd>BHAS</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Fusnota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Podaci posljednji put ažurirani:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Preuzmi grafikon kao sliku"
+          aria-label="Preuzmi grafikon kao sliku"
+          class='btn btn-primary btn-download'>
+          Preuzmi sliku grafikona
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info"></span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Izvor:</dt>
+        <dd>BHAS</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Fusnota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Podaci posljednji put ažurirani:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -876,23 +1358,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">OPIS CILJA </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Pokazatelj mjeri udio poreza na okoliš u ukupnim prihodima od poreza i socijalnih doprinosa. Porezi na okoliš definirani su kao porezi čija je porezna osnovica fizička jedinica (ili njezina zamjena) nečega što ima dokazan, specifičan negativan utjecaj na okoliš. Prihodi od poreza na okoliš dolaze iz četiri vrste poreza: poreza na energiju (koji doprinose oko tri četvrtine ukupnog iznosa), poreza na promet (oko jedne petine ukupnog iznosa) i poreza na onečišćenje i resurse (oko 4% ukupnog iznosa).</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">OBRAZLOŽENJE </th>
+        <td>
           
-      
-      
-      
+            <p>Pokazatelj se koristi za praćenje napretka prema Cilju održivog razvoja 17 o revitalizaciji globalnog partnerstva za održivi razvoj, koji je ugrađen u prioritete Europske komisije u okviru “Nove ere za europsku obranu i sigurnost” i “Zaštite naših demokracija, održavanja naših vrijednosti”.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
+        <td>
           
+            <p>U globalnom kontekstu, gdje obrasci potrošnje u jednoj regiji mogu ozbiljno utjecati na obrasce proizvodnje u drugim dijelovima svijeta, posebno je važno da cijene odražavaju stvarne troškove potrošnje i proizvodnje. Stoga bi trebale uključivati i plaćanja za štetu koju aktivnosti uzrokuju ljudskom zdravlju i okolišu. Politike EU-a, poput Europskog zelenog plana, pozivaju na prelazak s poreza na rad na poreze na energiju i okoliš kao dio „ozelenjavanja“ poreznih sustava, što znači da bi se prihodi od poreza na okoliš trebali povećati u odnosu na poreze na rad. Europski semestar prati napredak prema ciljevima postavljenim u europskim strategijama.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">DUGOROČNI CILJ </th>
+        <td>
+          
+            <p>Nema opisa</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1106,8 +1632,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">DUGOROČNI CILJ </th>
+        <td>
           
+            <p>Nema opisa</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1200,7 +1737,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>BHAS EEA</p>
+            <p>BHAS</p>
 
           
         </td>
@@ -1226,8 +1763,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link do izvora podataka </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://bhas.gov.ba/data/Publikacije/Saopstenja/2025/ENV_24_2023_Y1_1_BS.pdf" target="_blank">
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1441,12 +1997,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260811082237'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260811121239'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260811082237"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260811121239"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

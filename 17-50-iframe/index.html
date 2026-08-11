@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260811082237">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260811121239">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -309,10 +309,10 @@ layout-indicator-iframe
   data-id="17-50"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Shares of environmental taxes in total tax revenues"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Shares of environmental taxes in total tax revenues&quot;,&quot;title&quot;:&quot;Shares of environmental taxes in total tax revenues&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -324,14 +324,496 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/headline/17-50.csv" class="btn btn-primary btn-download" download="indicator_17-50.csv" tabindex="0" role="button">Download headline data (.csv)</a>
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/data/17-50.csv" class="btn btn-primary btn-download" download='indicator_17-50.csv' tabindex='0' role='button'>Download source data (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
+
+    
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Shares of environmental taxes in total tax revenues</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>9.11</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>10.6</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>10.89</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>10.42</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>10.26</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
+          
+          
+          
+          <td>8.73</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td>8.38</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>8.08</td>
+          
+          
+          
+          <td>Percentage of total revenues from taxes and social contributions (excluding imputed social contributions)</td>
+          
+          
+          
+          <td class="table-value">Shares of environmental taxes in total tax revenues</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+    
+  </div>
+
+  
+  <div id="datatableFooter">
+    
+    <p>Source: BHAS</p>
+    
+    
+    
+    
+  </div>
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Chart</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Table</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            Shares of environmental taxes in total tax revenues
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>BHAS</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Reference metadata:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Download chart image as PNG"
+          aria-label="Download chart image as PNG"
+          class='btn btn-primary btn-download'>
+          Download chart image (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Click to sort by this column</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>BHAS</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Reference metadata:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -706,23 +1188,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Goal Description </th>
+        <td>
           
-      
-      
-      
-        
+            <p>The indicator measures the share of environmental taxes in total revenues from taxes and social contributions. Environmental taxes are defined as taxes whose tax base is a physical unit (or proxy of it) of something that has a proven, specific negative impact on the environment. Environmental tax revenues stem from four types of taxes: energy taxes (which contribute around three-quarters of the total), transport taxes (about one fifth of the total) and pollution and resource taxes (about 4 % of the total).</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
           
-      
-      
-      
+            <p>Indicator is used to monitor progress towards SDG 17 on revitalizing the global partnership for sustainable development which is embedded in the European Commission’s Priorities under ‘A new era for European Defence and Security’ and ‘Protecting our democracy, upholding our values’.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Content and progress </th>
+        <td>
           
+            <p>In a global context, where consumption patterns in one region can severely impact production patterns elsewhere in the world, it is particularly important that prices reflect the real costs of consumption and production. They should, therefore, also include the payments for the damages activities cause to human health and the environment. EU policies such as the European Green Deal call for a shift from labour to energy and environmental taxes as part of a ‘greening’ of taxation systems, meaning that revenues from environmental taxes should increase relative to labour taxes. The European Semester monitors the progress towards the objectives laid down in the European strategies.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Long-term objective </th>
+        <td>
+          
+            <p>No description</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -936,8 +1462,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Long-term objective </th>
+        <td>
           
+            <p>No description</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1030,7 +1567,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>BHAS EEA</p>
+            <p>BHAS</p>
 
           
         </td>
@@ -1056,8 +1593,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
           
+            
+            
+            
+            
+            
+              <a href="https://bhas.gov.ba/data/Publikacije/Saopstenja/2025/ENV_24_2023_Y1_1_BS.pdf" target="_blank">
+                Link <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1203,12 +1759,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260811082237'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260811121239'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260811082237"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260811121239"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
