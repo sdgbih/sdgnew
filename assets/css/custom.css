@@ -1,6 +1,17 @@
-/* Sakriva legendu i naziv serije ispod grafikona */
+/* Sakriva legendu, naslove i pristupačne elemente na svim jezicima */
 #chart-legend, 
 .chartjs-legend, 
-.ct-legend {
+.ct-legend,
+.legend-headline,
+.legend-element,
+.legend-swatch,
+div[id*="legend"],
+ul[class*="legend"],
+[id*="heading"],
+[class*="heading"],
+.disaggregation-headline,
+#plot-legend,
+.sr-only,
+.visually-hidden {
   display: none !important;
 }
