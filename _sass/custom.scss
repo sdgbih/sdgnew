@@ -1,17 +1,9 @@
-/* Sakriva legendu, naslove i pristupačne elemente na svim jezicima */
+/* Sakriva samo legendu ispod grafikona, a ostavlja naslove iznad */
 #chart-legend, 
 .chartjs-legend, 
 .ct-legend,
-.legend-headline,
-.legend-element,
-.legend-swatch,
-div[id*="legend"],
-ul[class*="legend"],
-[id*="heading"],
-[class*="heading"],
-.disaggregation-headline,
 #plot-legend,
-.sr-only,
-.visually-hidden {
+.legend-element,
+.legend-swatch {
   display: none !important;
 }
