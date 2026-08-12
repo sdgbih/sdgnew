@@ -2728,11 +2728,7 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
-/* Sakriva samo legendu ispod grafikona, a ostavlja naslove iznad */
-#chart-legend,
-.chartjs-legend,
-.ct-legend,
-#plot-legend,
-.legend-element,
-.legend-swatch {
+/* Sakriva samo linijsku legendu ispod grafikona */
+#legend.legend-for-line-chart,
+ul#legend {
   display: none !important; }
