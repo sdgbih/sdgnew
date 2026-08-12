@@ -83,7 +83,13 @@ indicator_metadata:
 hide_empty_metadata: true
 remote_data_prefix: https://sdgbih.github.io/sdgnewdata/
 repository_url_data: https://github.com/sdgbih/sdgnewdata/
-
+# Onemogućavanje legende na svim grafikonima
+graph_config:
+  options:
+    plugins:
+      legend:
+        display: false
+        
 accessible_tabs: true
 accessible_charts: true
 series_toggle: true
