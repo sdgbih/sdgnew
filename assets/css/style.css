@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* open-sans-regular - latin */
 @font-face {
   font-family: 'Open Sans';
@@ -2727,3 +2728,20 @@ body.contrast-high #search-bar-on-page button:hover {
 
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
+
+/* Sakriva legendu, naslove i pristupačne elemente na svim jezicima */
+#chart-legend,
+.chartjs-legend,
+.ct-legend,
+.legend-headline,
+.legend-element,
+.legend-swatch,
+div[id*="legend"],
+ul[class*="legend"],
+[id*="heading"],
+[class*="heading"],
+.disaggregation-headline,
+#plot-legend,
+.sr-only,
+.visually-hidden {
+  display: none !important; }
