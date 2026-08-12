@@ -1,0 +1,6 @@
+/* Sakriva legendu i naziv serije ispod grafikona */
+#chart-legend, 
+.chartjs-legend, 
+.ct-legend {
+  display: none !important;
+}
