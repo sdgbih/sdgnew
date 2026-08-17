@@ -123,7 +123,7 @@ var translations = {
         
         Indikator 1.20 -
         
-        Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indikator - general.site_title
+        Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator - general.site_title
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260813102624">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260817092640">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -280,7 +280,7 @@ layout-indicator-iframe
                         
                         Indikator 1.20
                         
-                        <span class="lead-copy">Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indikator</span>
+                        <span class="lead-copy">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</span>
                     </h1>
                 </div>
             </div>
@@ -308,8 +308,8 @@ layout-indicator-iframe
   data-indicatorid='indicator_1-20'
   data-id="1-20"
   data-country="Bosnia and Herzegovina"
-  data-charttitle="Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indikator"
-  data-charttitles="[{&quot;series&quot;:&quot;Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indicator&quot;,&quot;title&quot;:&quot;Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indicator&quot;}]"
+  data-charttitle="Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator"
+  data-charttitles="[{&quot;series&quot;:&quot;Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator&quot;,&quot;title&quot;:&quot;Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
@@ -324,7 +324,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Serije&quot;},{&quot;name&quot;:&quot;INCOME_WEALTH_QUANTILE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Kvantil 1 (najsiromašniji)&quot;,&quot;Kvantil 2&quot;,&quot;Kvantil 3&quot;,&quot;Kvantil 4&quot;,&quot;Kvantil 5 (najbogatiji)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Kvantil dohotka ili bogatstva&quot;},{&quot;name&quot;:&quot;SOC_TRANSFER&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Opća socijalna zaštita (B1-B29)&quot;,&quot;Ukupni transferi statusa (B6-B23, B25-B29)&quot;,&quot;Dodaci za civilne osobe sa invaliditetom (B18–B20)&quot;,&quot;Naknade za zaštitu djece (B21-B23)&quot;,&quot;Naknade socijalne pomoći (B26–B29)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Transferi socijalne zaštite&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Godina&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Serije&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Mjerna jedinica&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Vrijednost&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -359,15 +359,171 @@ layout-indicator-iframe
   <div id="datatables">
 
     
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/headline/1-20.csv" class="btn btn-primary btn-download" download="indicator_1-20.csv" tabindex="0" role="button">Preuzmite CSV naslov</a>
+    
     <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/data/1-20.csv" class="btn btn-primary btn-download" download='indicator_1-20.csv' tabindex='0' role='button'>Preuzmi izvor CSV</a>
 
     <p class="no-js-disaggregation-hint"></p>
 
     
     <h3></h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">UNIT_MEASURE</th>
+        
+        
+        
+        <th scope="col" class="table-value">SERIES</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2001</td>
+          
+          
+          
+          <td>0.2</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2004</td>
+          
+          
+          
+          <td>0.1</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2007</td>
+          
+          
+          
+          <td>0.2</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>0.2</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>0.3</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>0.1</td>
+          
+          
+          
+          <td>Procenat</td>
+          
+          
+          
+          <td class="table-value">Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
     
   </div>
 
+  
+  <div id="datatableFooter">
+    
+    <p>Izvor: World Bank, Poverty and Inequality Platform</p>
+    
+    
+    
+    
+  </div>
   
 
 </div>
@@ -451,7 +607,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Raspodjela transfera socijalne zaštite stanovništvu u Bosni i Hercegovini - zamjenski indicator
+            Jaz siromaštva na 3,00 USD dnevno (PPP za 2021. godinu) (%) - zamjenski indikator
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -472,7 +628,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>GEA; IBHI; Maastricht Graduate School of Governance</dd>
+        <dd>World Bank, Poverty and Inequality Platform</dd>
         
 
         
@@ -484,6 +640,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://datanalytics.worldbank.org/PIP-Methodology/">World Bank PIP Methodology</a></dd>
+        
         
 
         
@@ -545,7 +712,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>GEA; IBHI; Maastricht Graduate School of Governance</dd>
+        <dd>World Bank, Poverty and Inequality Platform</dd>
         
 
         
@@ -557,6 +724,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://datanalytics.worldbank.org/PIP-Methodology/">World Bank PIP Methodology</a></dd>
+        
         
 
         
@@ -975,7 +1153,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OPIS CILJA </th>
         <td>
           
-            <p>Tabela daje pregled raspodjele odabranih socijalnih transfera po kvintilima stanovništva (petinama) od najsiromašnijih do najbogatijih u Bosni i Hercegovini. Studija, zasnovana na podacima APD iz 2011. godine, procenjuje da najsiromašnija petina stanovništva prima samo 17,3% ukupnog budžeta izdvojenog za novčane naknade socijalne zaštite, što znači da je uticaj ovih naknada na smanjenje siromaštva gotovo zanemarljiv. U stvari, ako ove naknade uopšte ne bi postojale, relativno siromaštvo u BiH bi se povećalo samo za 1,7 procentnih poena (sa 17,9% na 19,6%).</p>
+            <p>Jaz siromaštva na nivou od 3,00 dolara dnevno (PPP iz 2021.) predstavlja prosječni deficit prihoda ili potrošnje u odnosu na granicu siromaštva od 3,00 dolara dnevno (pri čemu se uzima da nesiromašni nemaju deficita), izražen kao procenat te granice siromaštva. Ova mjera odražava kako dubinu siromaštva, tako i njegovu obimnost.</p>
 
           
         </td>
@@ -991,7 +1169,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
-            <p>Relativna linija siromaštva postavljena na iznos od 60% medijana potrošnje po ekvivalentu odrasle osobe u BiH u 2011. godini iznosila je 416,4 KM mjesečno za jednočlano odraslo domaćinstvo u BiH.</p>
+            <p>Za zemlje s aktivnim programom praćenja siromaštva, Svjetska banka — u saradnji s nacionalnim institucijama, drugim razvojnim agencijama i civilnim društvom — redovno sprovodi analitičke aktivnosti kako bi procijenila obim i uzroke siromaštva i nejednakosti, ispitala uticaj privrednog rasta i javnih politika, te pregledala podatke iz anketa o domaćinstvima i metode mjerenja.</p>
 
           
         </td>
@@ -1007,7 +1185,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
-            <p>Ovo istraživanje ima za osnovni cilj ocijeniti efekte postojećih novčanih programa socijalne zaštite u BiH na prihode siromašnih domaćinstava.</p>
+            <p>Stope siromaštva procjenjuju se na osnovu odabranih anketa o potrošnji domaćinstava. Općenito, ankete ispituju reprezentativni uzorak domaćinstava u nekoj zemlji o njihovoj potrošnji ili prihodima. Ove ankete su često zvanična istraživanja koja zemlje koriste za praćenje i izvještavanje o stanju siromaštva.</p>
 
           
         </td>
@@ -1023,7 +1201,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
-            <p>Smanjiti broj ljudi koji su u riziku od siromaštva ili socijalne isključenosti za 15 miliona do 2030. godine u poređenju sa 2019. godinom (referenca politike: Akcioni plan za evropski stub socijalnih prava)</p>
+            <p>Tekst u izradi</p>
 
           
         </td>
@@ -1305,7 +1483,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>GEA; IBHI; Maastricht Graduate School of Governance</p>
+            <p>World Bank, Poverty and Inequality Platform</p>
 
           
         </td>
@@ -1341,7 +1519,7 @@ data-event-label="Change to indicator.sources tab"
             
             
             
-              <a href="https://www.researchgate.net/publication/311922608_Socijalni_transferi_u_BiH_-_Sta_siromasni_gradani_imaju_od_njih" target="_blank">
+              <a href="https://data.worldbank.org/indicator/SI.POV.GAPS?end=2025&locations=BA&start=2000&view=chart" target="_blank">
                 Link <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1497,12 +1675,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260813102624'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260817092640'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260813102624"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260817092640"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
