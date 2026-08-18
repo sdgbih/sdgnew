@@ -119,7 +119,7 @@
         
         {
           "id": "3-12",
-          "title": "Healthy life years based on self-perceived health (previous: Healthy life years at birth)",
+          "title": "Healthy life expectancy based on self-perceived health",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/3-12/",
@@ -163,7 +163,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdgnew/3-70/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
