@@ -343,10 +343,18 @@
         
         {
           "id": "7-10",
-          "title": "Primarna i finalna potrošnja energije",
+          "title": "Primarna potrošnja energije",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/bs/7-10/",
+          "status": "complete"
+        },
+        {
+          "id": "7-11",
+          "title": "Finalna potrošnja energije",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/bs/7-11/",
           "status": "complete"
         },
         {

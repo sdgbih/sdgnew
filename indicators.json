@@ -343,10 +343,18 @@
         
         {
           "id": "7-10",
-          "title": "Primary & final energy consumption",
+          "title": "Primary energy consumption",
           "description": "",
           "keywords": "",
           "href": "/sdgnew/7-10/",
+          "status": "complete"
+        },
+        {
+          "id": "7-11",
+          "title": "Final energy consumption",
+          "description": "",
+          "keywords": "",
+          "href": "/sdgnew/7-11/",
           "status": "complete"
         },
         {
