@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260820075228">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260820113905">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -475,10 +475,10 @@ data-event-label="high"
   data-id="17-10"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Службена развојна помоћ као удио у бруто националном дохотку"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Званична развојна помоћ&quot;,&quot;title&quot;:&quot;Званична развојна помоћ&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -490,14 +490,278 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Година&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Вриједност&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Година&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Варијабле&quot;},{&quot;name&quot;:&quot;PARTNER&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Примаоци службене развојне помоћи (ОДА) од Одбора за развојну помоћ (ДАЦ)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Геополитички субјект (партнер)&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Мјерна јединица&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Вриједност&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Подкатегорије</h4>
+    <p>Одаберите категорије из  падајућег менија испод како бисте видјели различите подјеле података.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/sr/data/17-10.csv" class="btn btn-primary btn-download" download='indicator_17-10.csv' tabindex='0' role='button'>Преузми извор CSV</a>
+
+    <p class="no-js-disaggregation-hint"></p>
+
+    
+    <h3></h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative"></span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Графикон</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Табела</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only"></span></i>
+      Превише је скупова података за приказ на графикону. Неће бити приказане све док не уклоните неке одабире.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            Званична развојна помоћ
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Извор:</dt>
+        <dd>OECD/World Bank</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Мјерна јединица:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Фуснота:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Подаци посљедњи пут ажурирани:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Преузми графикон као слику"
+          aria-label="Преузми графикон као слику"
+          class='btn btn-primary btn-download'>
+          Преузми слику графикона
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info"></span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Извор:</dt>
+        <dd>OECD/World Bank</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Мјерна јединица:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Фуснота:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Подаци посљедњи пут ажурирани:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -876,23 +1140,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">ОПИС </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Званична развојна помоћ (ОДА) састоји се од грантова, кредита и капиталних инвестиција које врши званични сектор са циљем промоције економског развоја и благостања у земљама у развоју. Исплате евидентирају стварни међународни трансфер финансијских средстава или робе или услуга вреднованих по трошку донатора. ОДА је овде представљена као удео у бруто националном дохотку (БНД). БНД по тржишним ценама једнак је бруто домаћем производу (БДП) умањеном за примарни доходак који резидентне јединице плаћају нерезидентним јединицама, плус примарни доходак који резидентне јединице примају од остатка света. Списак земаља и територија које испуњавају услове за ОДА утврђује Комитет за развојну помоћ ОЕЦД-а.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">ОБРАЗЛОЖЕЊЕ </th>
+        <td>
           
-      
-      
-      
+            <p>Индикатор се користи за праћење напретка ка Циљу одрживог развоја 17 о ревитализацији глобалног партнерства за одрживи развој, који је уграђен у приоритете Европске комисије у оквиру „Нова ера за европску одбрану и безбедност“ и „Заштита наших демократија, очување наших вредности“. Индикатор се може посматрати као сличан глобалном индикатору за Циљ одрживог развоја 17.2.1 „Нето званична развојна помоћ, укупна и најмање развијеним земљама, као удео у БНД-у донатора ОЕЦД-ДАЦ“. Развијене економије попут ЕУ могу подржати земље у развоју да се крећу ка одрживим – и од стране земаља – путевима развоја на различите начине. То укључује пружање званичне развојне помоћи (ОДА). Из тог разлога постоји дугорочни циљ да се 0,7% бруто националног дохотка (БНД) издвоји за ОДА.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">САДРЖАЈ И НАПРЕДАК </th>
+        <td>
           
+            <p>Европски консензус о развоју из јуна 2017. године истиче потребу да се висок удео званичне развојне помоћи додели најмање развијеним земљама и другим земљама са ниским приходима. Стога би 0,15-0,20% БНД-а требало доделити најмање развијеним земљама у кратком року, а овај износ би се повећао на 0,20% до 2030. године. Консензус заузима свеобухватан приступ имплементацији, комбинујући помоћ са другим ресурсима, са добрим политикама и ојачаним приступом кохерентности политика за развој.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">ДУГОРОЧНИ ЦИЉ </th>
+        <td>
+          
+            <p>Дугорочни циљ за овај индикатор је вредност 1.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1058,51 +1366,18 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">ОПИС </th>
-        <td>
-          
-            <p>Званична развојна помоћ (ОДА) састоји се од грантова, кредита и капиталних инвестиција које врши званични сектор са циљем промоције економског развоја и благостања у земљама у развоју. Исплате евидентирају стварни међународни трансфер финансијских средстава или робе или услуга вреднованих по трошку донатора. ОДА је овде представљена као удео у бруто националном дохотку (БНД). БНД по тржишним ценама једнак је бруто домаћем производу (БДП) умањеном за примарни доходак који резидентне јединице плаћају нерезидентним јединицама, плус примарни доходак који резидентне јединице примају од остатка света. Списак земаља и територија које испуњавају услове за ОДА утврђује Комитет за развојну помоћ ОЕЦД-а.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">ОБРАЗЛОЖЕЊЕ </th>
-        <td>
           
-            <p>Индикатор се користи за праћење напретка ка Циљу одрживог развоја 17 о ревитализацији глобалног партнерства за одрживи развој, који је уграђен у приоритете Европске комисије у оквиру „Нова ера за европску одбрану и безбедност“ и „Заштита наших демократија, очување наших вредности“. Индикатор се може посматрати као сличан глобалном индикатору за Циљ одрживог развоја 17.2.1 „Нето званична развојна помоћ, укупна и најмање развијеним земљама, као удео у БНД-у донатора ОЕЦД-ДАЦ“. Развијене економије попут ЕУ могу подржати земље у развоју да се крећу ка одрживим – и од стране земаља – путевима развоја на различите начине. То укључује пружање званичне развојне помоћи (ОДА). Из тог разлога постоји дугорочни циљ да се 0,7% бруто националног дохотка (БНД) издвоји за ОДА.</p>
-
-          
-        </td>
-        </tr>
+      
+      
+      
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">САДРЖАЈ И НАПРЕДАК </th>
-        <td>
           
-            <p>Европски консензус о развоју из јуна 2017. године истиче потребу да се висок удео званичне развојне помоћи додели најмање развијеним земљама и другим земљама са ниским приходима. Стога би 0,15-0,20% БНД-а требало доделити најмање развијеним земљама у кратком року, а овај износ би се повећао на 0,20% до 2030. године. Консензус заузима свеобухватан приступ имплементацији, комбинујући помоћ са другим ресурсима, са добрим политикама и ојачаним приступом кохерентности политика за развој.</p>
-
-          
-        </td>
-        </tr>
+      
+      
+      
         
-      
-  
+          
       
       
       
@@ -1195,6 +1470,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Организација </th>
+        <td>
+          
+            <p>OECD/World Bank</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -1210,13 +1501,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Линк до извора података </th>
+        <td>
           
-      
-      
-      
-        
+            
+            
+            
+            
+            
+              <a href="https://data.worldbank.org/indicator/DT.ODA.ODAT.GN.ZS?locations=BA" target="_blank">
+                Link <span class="visuallyhidden">отвара се у новом прозору</span>
+              </a>
+            
+
           
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1430,12 +1735,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260820075228'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260820113905'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260820075228"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260820113905"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

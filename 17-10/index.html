@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260820075228">
+        <link rel="stylesheet" href="/sdgnew/assets/css/style.css?v=20260820113905">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -475,10 +475,10 @@ data-event-label="high"
   data-id="17-10"
   data-country="Bosnia and Herzegovina"
   data-charttitle="Official development assistance as share of gross national income"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;Official development assistance&quot;,&quot;title&quot;:&quot;Official development assistance&quot;}]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -490,14 +490,278 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;SERIES&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;PARTNER&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Official Development Assistance (ODA) recipients from the Development Assistance Committee (DAC)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geopolitical entity (partner)&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/en/data/17-10.csv" class="btn btn-primary btn-download" download='indicator_17-10.csv' tabindex='0' role='button'>Download source data (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
+
+    
+    <h3>No headline data available</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdgnew/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Chart</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Table</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            Official development assistance
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>OECD/World Bank</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Download chart image as PNG"
+          aria-label="Download chart image as PNG"
+          class='btn btn-primary btn-download'>
+          Download chart image (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Click to sort by this column</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>OECD/World Bank</dd>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -876,23 +1140,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Description </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Official development assistance (ODA) consists of grants, loans and equity investments that are undertaken by the official sector with the objective of promoting economic development and welfare in developing countries. Disbursements record the actual international transfer of financial resources, or of goods or services valued at the cost of the donor. ODA is here presented as a share of Gross National Income (GNI). GNI at market prices equals Gross Domestic Product (GDP) minus primary income payable by resident units to non-resident units, plus primary income receivable by resident units from the rest of the world. The list of countries and territories eligible to receive ODA is determined by the OECD’s Development Assistance Committee.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
           
-      
-      
-      
+            <p>Indicator is used to monitor progress towards SDG 17 on revitalizing the global partnership for sustainable development which is embedded in the European Commission’s Priorities under ‘A new era for European Defence and Security’ and ‘Protecting our democracy, upholding our values’. The indicator can be considered as similar to global SDG indicator 17.2.1 “Net official development assistance, total and to least developed countries, as a proportion of the OECD-DAC donors’ GNI”. Advanced economies such as the EU can support developing countries to shift to sustainable — and country-led — development paths in various ways. This includes providing official development assistance (ODA). For this reason, there is a long-standing target of dedicating 0.7% of gross national income (GNI) to ODA.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Content and progress </th>
+        <td>
           
+            <p>The European Consensus on Development of June 2017 outlines the need to dedicate a high proportion of official development assistance to least developed countries (LDCs) and other low-income countries. Hence, 0.15-0.20 % of GNI should be allocated to LDCs in the short term, rising to 0.20 % by 2030. The Consensus takes a comprehensive approach to implementation, combining aid with other resources, with sound policies and a strengthened approach to Policy Coherence for Development.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Long-term objective </th>
+        <td>
+          
+            <p>The long-term objective for this indicator is a value of 1.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -1058,51 +1366,18 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Description </th>
-        <td>
-          
-            <p>Official development assistance (ODA) consists of grants, loans and equity investments that are undertaken by the official sector with the objective of promoting economic development and welfare in developing countries. Disbursements record the actual international transfer of financial resources, or of goods or services valued at the cost of the donor. ODA is here presented as a share of Gross National Income (GNI). GNI at market prices equals Gross Domestic Product (GDP) minus primary income payable by resident units to non-resident units, plus primary income receivable by resident units from the rest of the world. The list of countries and territories eligible to receive ODA is determined by the OECD’s Development Assistance Committee.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Rationale </th>
-        <td>
           
-            <p>Indicator is used to monitor progress towards SDG 17 on revitalizing the global partnership for sustainable development which is embedded in the European Commission’s Priorities under ‘A new era for European Defence and Security’ and ‘Protecting our democracy, upholding our values’. The indicator can be considered as similar to global SDG indicator 17.2.1 “Net official development assistance, total and to least developed countries, as a proportion of the OECD-DAC donors’ GNI”. Advanced economies such as the EU can support developing countries to shift to sustainable — and country-led — development paths in various ways. This includes providing official development assistance (ODA). For this reason, there is a long-standing target of dedicating 0.7% of gross national income (GNI) to ODA.</p>
-
-          
-        </td>
-        </tr>
+      
+      
+      
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Content and progress </th>
-        <td>
           
-            <p>The European Consensus on Development of June 2017 outlines the need to dedicate a high proportion of official development assistance to least developed countries (LDCs) and other low-income countries. Hence, 0.15-0.20 % of GNI should be allocated to LDCs in the short term, rising to 0.20 % by 2030. The Consensus takes a comprehensive approach to implementation, combining aid with other resources, with sound policies and a strengthened approach to Policy Coherence for Development.</p>
-
-          
-        </td>
-        </tr>
+      
+      
+      
         
-      
-  
+          
       
       
       
@@ -1195,6 +1470,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>OECD/World Bank</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -1210,13 +1501,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
           
-      
-      
-      
-        
+            
+            
+            
+            
+            
+              <a href="https://data.worldbank.org/indicator/DT.ODA.ODAT.GN.ZS?locations=BA" target="_blank">
+                Link <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
           
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1430,12 +1735,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdgnew/assets/js/sdg.js?v=20260820075228'></script>
+<script src='/sdgnew/assets/js/sdg.js?v=20260820113905'></script>
 
 
     
     
-    <script src="/sdgnew/assets/js/custom.js?v=20260820075228"></script><script>
+    <script src="/sdgnew/assets/js/custom.js?v=20260820113905"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
