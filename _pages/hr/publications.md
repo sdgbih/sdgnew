@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publikacije
+title: DOKUMENTI
 language: hr
 permalink: /hr/publications/
 ---
