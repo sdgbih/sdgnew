@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publikacije
+title: Dokumenti
 language: bs
 permalink: /bs/publications/
 ---
