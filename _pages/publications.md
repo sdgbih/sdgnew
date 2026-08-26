@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: DOCUMENTS
 language: en
 permalink: /publications/
 ---
