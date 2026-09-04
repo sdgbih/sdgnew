@@ -10,7 +10,7 @@
           "title": "Udio stanovništva ispod linije siromaštva od 8,30 USD dnevno (PKM iz 2021.) (% stanovništva) - zamjenski pokazatelj",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-10/",
+          "href": "/hr/1-10/",
           "status": "complete"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Jaz siromaštva na 8,30 USD dnevno (PKM iz 2021.) (%) – zamjenski pokazatelj",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-20/",
+          "href": "/hr/1-20/",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Stopa teške materijalne i socijalne deprivacije prema dobroj grupi i spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-31/",
+          "href": "/hr/1-31/",
           "status": "notstarted"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Osobe koje žive u kućanstvima s vrlo niskim intenzitetom rada, po dobnim skupinama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-40/",
+          "href": "/hr/1-40/",
           "status": "notstarted"
         },
         {
@@ -42,7 +42,7 @@
           "title": "Stopa zaposlenih u riziku od siromaštva",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-41/",
+          "href": "/hr/1-41/",
           "status": "notstarted"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Pristupačno stanovanje - zamjenski pokazatelj",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/1-50/",
+          "href": "/hr/1-50/",
           "status": "complete"
         }]
     }
@@ -66,7 +66,7 @@
           "title": "Stopa pretilosti prema indeksu tjelesne mase (BMI)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-10/",
+          "href": "/hr/2-10/",
           "status": "complete"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Realni faktorski dohodak poljoprivrede po godišnjoj radnoj jedinici (AWU)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-20/",
+          "href": "/hr/2-20/",
           "status": "notstarted"
         },
         {
@@ -82,7 +82,7 @@
           "title": "Državna potpora poljoprivrednom istraživanju i razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-30/",
+          "href": "/hr/2-30/",
           "status": "complete"
         },
         {
@@ -90,7 +90,7 @@
           "title": "Površina pod organskom poljoprivredom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-40/",
+          "href": "/hr/2-40/",
           "status": "complete"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Uporaba i rizik kemijskih pesticida",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-53/",
+          "href": "/hr/2-53/",
           "status": "notstarted"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Emisije amonijaka iz poljoprivrede",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/2-60/",
+          "href": "/hr/2-60/",
           "status": "complete"
         }]
     }
@@ -122,7 +122,7 @@
           "title": "Očekivano trajanje života u dobrom zdravlju na temelju samoprocjene zdravlja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-12/",
+          "href": "/hr/3-12/",
           "status": "complete"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Udio ljudi sa dobrim ili vrlo dobrim percipiranim zdravljem prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-20/",
+          "href": "/hr/3-20/",
           "status": "notstarted"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Prevalencija pušenja prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-30/",
+          "href": "/hr/3-30/",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Standardizirani mortalitet koji se može spriječiti i liječiti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-42/",
+          "href": "/hr/3-42/",
           "status": "notstarted"
         },
         {
@@ -154,7 +154,7 @@
           "title": "Samoprijavljena nezadovoljena potreba za liječničkim pregledom i skrbi prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-60/",
+          "href": "/hr/3-60/",
           "status": "notstarted"
         },
         {
@@ -162,7 +162,7 @@
           "title": "Potrošnja antibiotika u zajednici i bolničkom sektoru – definirane dnevne doze (DDD) dnevno",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/3-70/",
+          "href": "/hr/3-70/",
           "status": "complete"
         }]
     }
@@ -178,7 +178,7 @@
           "title": "Rano napuštanje obrazovanja i obuke po spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-10/",
+          "href": "/hr/4-10/",
           "status": "complete"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Visoko obrazovanje prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-20/",
+          "href": "/hr/4-20/",
           "status": "complete"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Sudjelovanje u obrazovanju u ranom djetinjstvu prema spolu (djeca u dobi od 3 godine i više)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-31/",
+          "href": "/hr/4-31/",
           "status": "complete"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Petnaestogodišnjaci s niskim rezultatima u čitanju, matematici ili prirodnim znanostima",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-40/",
+          "href": "/hr/4-40/",
           "status": "notstarted"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Sudjelovanje odraslih u učenju po spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-60/",
+          "href": "/hr/4-60/",
           "status": "complete"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Udio pojedinaca koji posjeduju barem osnovne digitalne vještine, po spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/4-70/",
+          "href": "/hr/4-70/",
           "status": "complete"
         }]
     }
@@ -234,7 +234,7 @@
           "title": "Fizičko i seksualno nasilje nad ženama po dobnim skupinama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-11/",
+          "href": "/hr/5-11/",
           "status": "complete"
         },
         {
@@ -242,7 +242,7 @@
           "title": "Razlika u plaćama između spolova u neprilagođenom obliku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-20/",
+          "href": "/hr/5-20/",
           "status": "notstarted"
         },
         {
@@ -250,7 +250,7 @@
           "title": "Razlika u zaposlenosti među spolovima, prema vrsti zaposlenja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-30/",
+          "href": "/hr/5-30/",
           "status": "complete"
         },
         {
@@ -258,7 +258,7 @@
           "title": "Osobe izvan radne snage zbog obveza brige o drugima po spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-40/",
+          "href": "/hr/5-40/",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Mjesta koja zauzimaju žene u nacionalnim parlamentima i vladama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-50/",
+          "href": "/hr/5-50/",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Pozicije koje zauzimaju žene na višim rukovodećim pozicijama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/5-61/",
+          "href": "/hr/5-61/",
           "status": "complete"
         }]
     }
@@ -290,7 +290,7 @@
           "title": "Stanovništvo spojeno na barem sekundarni sustav otpadnih voda",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-20/",
+          "href": "/hr/6-20/",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Udio vodnih tijela s dobrom kvalitetom površinskih i podzemnih voda - zamjenski pokazatelj",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-30/",
+          "href": "/hr/6-30/",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Nitrati u podzemnim vodama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-40/",
+          "href": "/hr/6-40/",
           "status": "notstarted"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Fosfat u rijekama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-50/",
+          "href": "/hr/6-50/",
           "status": "notstarted"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Indeks iskorištenosti vode, plus (WEI+)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-60/",
+          "href": "/hr/6-60/",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Pesticidi u rijekama",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/6-70/",
+          "href": "/hr/6-70/",
           "status": "notstarted"
         }]
     }
@@ -346,7 +346,7 @@
           "title": "Primarna potrošnja energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-10/",
+          "href": "/hr/7-10/",
           "status": "complete"
         },
         {
@@ -354,7 +354,7 @@
           "title": "Krajnja potrošnja energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-11/",
+          "href": "/hr/7-11/",
           "status": "complete"
         },
         {
@@ -362,7 +362,7 @@
           "title": "Konačna potrošnja energije u kućanstvima po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-20/",
+          "href": "/hr/7-20/",
           "status": "complete"
         },
         {
@@ -370,7 +370,7 @@
           "title": "Produktivnost energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-30/",
+          "href": "/hr/7-30/",
           "status": "complete"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Udio obnovljive energije u bruto konačnoj potrošnji energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-40/",
+          "href": "/hr/7-40/",
           "status": "complete"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Ovisnost o uvozu energije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-50/",
+          "href": "/hr/7-50/",
           "status": "complete"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Stanovništvo koje nije u stanju da zagrije dom adekvatno",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/7-60/",
+          "href": "/hr/7-60/",
           "status": "notstarted"
         }]
     }
@@ -410,7 +410,7 @@
           "title": "Stvarni BDP po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-10/",
+          "href": "/hr/8-10/",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Udio ulaganja u BDP",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-11/",
+          "href": "/hr/8-11/",
           "status": "notstarted"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Mladi koji nisu zaposleni niti uključeni u obrazovanje ili osposobljavanje",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-20/",
+          "href": "/hr/8-20/",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Stopa zaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-30/",
+          "href": "/hr/8-30/",
           "status": "complete"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Stopa dugotrajne nezaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-40/",
+          "href": "/hr/8-40/",
           "status": "complete"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Smrtonosne nesreće na radu na 100 000 radnika",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/8-60/",
+          "href": "/hr/8-60/",
           "status": "complete"
         }]
     }
@@ -466,7 +466,7 @@
           "title": "Bruto domaća potrošnja za istraživanje i razvoj (R&D)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-10/",
+          "href": "/hr/9-10/",
           "status": "complete"
         },
         {
@@ -474,7 +474,7 @@
           "title": "Osoblje za istraživanje i razvoj (R&R)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-30/",
+          "href": "/hr/9-30/",
           "status": "complete"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Prijave patenata Europskom patentskom uredu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-40/",
+          "href": "/hr/9-40/",
           "status": "complete"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Udio autobusa i vlakova u unutarnjem putničkom prometu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-50/",
+          "href": "/hr/9-50/",
           "status": "notstarted"
         },
         {
@@ -498,7 +498,7 @@
           "title": "Udio željeznice i unutarnjih plovnih putova u unutarnjem transportu tereta",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-60/",
+          "href": "/hr/9-60/",
           "status": "notstarted"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Intenzitet emisija u zrak u industriji",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/9-70/",
+          "href": "/hr/9-70/",
           "status": "notstarted"
         }]
     }
@@ -522,7 +522,7 @@
           "title": "BDP po stanovniku prilagođen kupovnoj moći",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-10/",
+          "href": "/hr/10-10/",
           "status": "complete"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Nejednakosti u dohotku kućanstava po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-20/",
+          "href": "/hr/10-20/",
           "status": "notstarted"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Relativni medijan rizika od siromaštva",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-30/",
+          "href": "/hr/10-30/",
           "status": "notstarted"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Gini indeks - zamjenski pokazatelj",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-41/",
+          "href": "/hr/10-41/",
           "status": "complete"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Udio prihoda donjih 40% stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-50/",
+          "href": "/hr/10-50/",
           "status": "notstarted"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Zahtjevi za azil",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/10-60/",
+          "href": "/hr/10-60/",
           "status": "complete"
         }]
     }
@@ -578,7 +578,7 @@
           "title": "Stupanj ozbiljnog stambenog zaostatka",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-11/",
+          "href": "/hr/11-11/",
           "status": "notstarted"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Stanovništvo koje živi u kućanstvima pogođenim bukom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-20/",
+          "href": "/hr/11-20/",
           "status": "notstarted"
         },
         {
@@ -594,7 +594,7 @@
           "title": "Indeks prekrivanja tla",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-32/",
+          "href": "/hr/11-32/",
           "status": "complete"
         },
         {
@@ -602,7 +602,7 @@
           "title": "Smrtnost u cestovnom prometu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-40/",
+          "href": "/hr/11-40/",
           "status": "complete"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Prerane smrti zbog izloženosti finim česticama (PM2,5)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-52/",
+          "href": "/hr/11-52/",
           "status": "complete"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Postotak recikliranja komunalnog otpada",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/11-60/",
+          "href": "/hr/11-60/",
           "status": "complete"
         }]
     }
@@ -634,7 +634,7 @@
           "title": "Potrošnja opasnih kemikalija",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-10/",
+          "href": "/hr/12-10/",
           "status": "notstarted"
         },
         {
@@ -642,7 +642,7 @@
           "title": "Materijalni otisak",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-21/",
+          "href": "/hr/12-21/",
           "status": "complete"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Otisak potrošnje",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-31/",
+          "href": "/hr/12-31/",
           "status": "notstarted"
         },
         {
@@ -658,7 +658,7 @@
           "title": "Stopa kružne upotrebe materijala",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-41/",
+          "href": "/hr/12-41/",
           "status": "complete"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Nastajanje otpada",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-51/",
+          "href": "/hr/12-51/",
           "status": "complete"
         },
         {
@@ -674,7 +674,7 @@
           "title": "Bruto dodana vrijednost u sektoru ekoloških dobara i usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/12-61/",
+          "href": "/hr/12-61/",
           "status": "notstarted"
         }]
     }
@@ -690,7 +690,7 @@
           "title": "Domaće neto emisije stakleničkih plinova",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-10/",
+          "href": "/hr/13-10/",
           "status": "complete"
         },
         {
@@ -698,7 +698,7 @@
           "title": "Neto emisije stakleničkih plinova u sektoru LULUCF",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-21/",
+          "href": "/hr/13-21/",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Prosječne emisije CO2 po km novih putničkih automobila",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-31/",
+          "href": "/hr/13-31/",
           "status": "notstarted"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Ekonomski gubici povezani s klimom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-40/",
+          "href": "/hr/13-40/",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Doprinos međunarodnoj obvezi od 100 milijardi USD za izdatke vezane uz klimu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-50/",
+          "href": "/hr/13-50/",
           "status": "notstarted"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Izdavanje zelenih obveznica",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/13-70/",
+          "href": "/hr/13-70/",
           "status": "notstarted"
         }]
     }
@@ -746,7 +746,7 @@
           "title": "Zaštićena morska područja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-10/",
+          "href": "/hr/14-10/",
           "status": "notapplicable"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Procijenjeni trendovi u biomasi ribljeg fonda",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-21/",
+          "href": "/hr/14-21/",
           "status": "notapplicable"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Procenjeni trend pritiska ribolova",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-30/",
+          "href": "/hr/14-30/",
           "status": "notapplicable"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Mjesta za kupanje s izvrsnim kvalitetom vode",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-40/",
+          "href": "/hr/14-40/",
           "status": "notapplicable"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Globalna prosječna kiselost površinske morske vode",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-50/",
+          "href": "/hr/14-50/",
           "status": "notapplicable"
         },
         {
@@ -786,7 +786,7 @@
           "title": "Morske vode pogođene eutrofikacijom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/14-60/",
+          "href": "/hr/14-60/",
           "status": "notapplicable"
         }]
     }
@@ -802,7 +802,7 @@
           "title": "Šumska površina",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-11/",
+          "href": "/hr/15-11/",
           "status": "complete"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Kopnena zaštićena područja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-20/",
+          "href": "/hr/15-20/",
           "status": "complete"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Utjecaj suše na ekosustave",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-42/",
+          "href": "/hr/15-42/",
           "status": "complete"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Područje ugroženo teškom erozijom tla vodom",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-50/",
+          "href": "/hr/15-50/",
           "status": "notstarted"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Indeks ptica",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-60/",
+          "href": "/hr/15-60/",
           "status": "notstarted"
         },
         {
@@ -842,7 +842,7 @@
           "title": "Indeks livadskih leptira",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/15-61/",
+          "href": "/hr/15-61/",
           "status": "notstarted"
         }]
     }
@@ -858,7 +858,7 @@
           "title": "Standardizirana stopa smrtnosti zbog ubojstava",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-10/",
+          "href": "/hr/16-10/",
           "status": "complete"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Stanovništvo koje prijavljuje kriminal, nasilje ili vandalizam u svojoj zajednici",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-20/",
+          "href": "/hr/16-20/",
           "status": "notstarted"
         },
         {
@@ -874,7 +874,7 @@
           "title": "Ukupni izdaci opće vlade za sudove",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-30/",
+          "href": "/hr/16-30/",
           "status": "notstarted"
         },
         {
@@ -882,7 +882,7 @@
           "title": "Percipirana neovisnost pravosudnog sustava: vrlo ili prilično dobra",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-40/",
+          "href": "/hr/16-40/",
           "status": "notstarted"
         },
         {
@@ -890,7 +890,7 @@
           "title": "Indeks percepcije korupcije",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-50/",
+          "href": "/hr/16-50/",
           "status": "complete"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Žrtve trgovine ljudima prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/16-70/",
+          "href": "/hr/16-70/",
           "status": "complete"
         }]
     }
@@ -914,7 +914,7 @@
           "title": "Službena razvojna pomoć kao udio u bruto nacionalnom dohotku",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-10/",
+          "href": "/hr/17-10/",
           "status": "complete"
         },
         {
@@ -922,7 +922,7 @@
           "title": "Financiranje EU-a zemljama u razvoju prema izvoru financiranja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-20/",
+          "href": "/hr/17-20/",
           "status": "notstarted"
         },
         {
@@ -930,7 +930,7 @@
           "title": "Uvoz EU-a iz najmanje razvijenih zemalja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-31/",
+          "href": "/hr/17-31/",
           "status": "notstarted"
         },
         {
@@ -938,7 +938,7 @@
           "title": "Bruto dug opće države",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-40/",
+          "href": "/hr/17-40/",
           "status": "complete"
         },
         {
@@ -946,7 +946,7 @@
           "title": "Udio poreza na okoliš u ukupnim poreznim prihodima",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-50/",
+          "href": "/hr/17-50/",
           "status": "complete"
         },
         {
@@ -954,7 +954,7 @@
           "title": "Pokrivenost brzim internetom, prema vrsti područja",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/hr/17-60/",
+          "href": "/hr/17-60/",
           "status": "complete"
         }]
     }

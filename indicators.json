@@ -10,7 +10,7 @@
           "title": "Poverty headcount ratio at $8.30 a day (2021 PPP) (% of population) - proxy indicator",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-10/",
+          "href": "/1-10/",
           "status": "complete"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Poverty gap at $8.30 a day (2021 PPP) (%) - proxy indicator",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-20/",
+          "href": "/1-20/",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Severe material and social deprivation rate by age group and sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-31/",
+          "href": "/1-31/",
           "status": "notstarted"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Persons living in households with very low work intensity, by age group",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-40/",
+          "href": "/1-40/",
           "status": "notstarted"
         },
         {
@@ -42,7 +42,7 @@
           "title": "In work at - risk - of poverty rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-41/",
+          "href": "/1-41/",
           "status": "notstarted"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Affordable Housing - proxy indicator",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/1-50/",
+          "href": "/1-50/",
           "status": "complete"
         }]
     }
@@ -66,7 +66,7 @@
           "title": "Obesity rate by body mass index (BMI)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-10/",
+          "href": "/2-10/",
           "status": "complete"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Agricultural real factor income per annual work unit (AWU)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-20/",
+          "href": "/2-20/",
           "status": "notstarted"
         },
         {
@@ -82,7 +82,7 @@
           "title": "Government support to agricultural research and development",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-30/",
+          "href": "/2-30/",
           "status": "complete"
         },
         {
@@ -90,7 +90,7 @@
           "title": "Area under organic farming",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-40/",
+          "href": "/2-40/",
           "status": "complete"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Use and risk of chemical pesticides",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-53/",
+          "href": "/2-53/",
           "status": "notstarted"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Ammonia emissions from agriculture",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/2-60/",
+          "href": "/2-60/",
           "status": "complete"
         }]
     }
@@ -122,7 +122,7 @@
           "title": "Healthy life expectancy based on self-perceived health",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-12/",
+          "href": "/3-12/",
           "status": "complete"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Share of people with good or very good perceived health by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-20/",
+          "href": "/3-20/",
           "status": "notstarted"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Smoking prevalence by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-30/",
+          "href": "/3-30/",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Standardised preventable and treatable mortality",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-42/",
+          "href": "/3-42/",
           "status": "notstarted"
         },
         {
@@ -154,7 +154,7 @@
           "title": "Self-reported unmet need for medical examination and care by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-60/",
+          "href": "/3-60/",
           "status": "notstarted"
         },
         {
@@ -162,7 +162,7 @@
           "title": "Consumption of antibiotics in the community and hospital sectors – defined daily doses (DDD) per day",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/3-70/",
+          "href": "/3-70/",
           "status": "complete"
         }]
     }
@@ -178,7 +178,7 @@
           "title": "Early leavers from education and training by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-10/",
+          "href": "/4-10/",
           "status": "complete"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Tertiary educational attainment by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-20/",
+          "href": "/4-20/",
           "status": "complete"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Participation in early childhood education by sex (children aged 3 and over)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-31/",
+          "href": "/4-31/",
           "status": "complete"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Low achieving 15-year-olds in reading, mathematics or science",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-40/",
+          "href": "/4-40/",
           "status": "notstarted"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Adult participation in learning by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-60/",
+          "href": "/4-60/",
           "status": "complete"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Share of individuals having at least basic digital skills, by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/4-70/",
+          "href": "/4-70/",
           "status": "complete"
         }]
     }
@@ -234,7 +234,7 @@
           "title": "Physical and sexual violence to women by age group",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-11/",
+          "href": "/5-11/",
           "status": "complete"
         },
         {
@@ -242,7 +242,7 @@
           "title": "Gender pay gap in unadjusted form",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-20/",
+          "href": "/5-20/",
           "status": "notstarted"
         },
         {
@@ -250,7 +250,7 @@
           "title": "Gender employment gap, by type of employment",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-30/",
+          "href": "/5-30/",
           "status": "complete"
         },
         {
@@ -258,7 +258,7 @@
           "title": "Persons outside the labour force due to caring responsibilities by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-40/",
+          "href": "/5-40/",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Seats held by women in national parliaments and governments",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-50/",
+          "href": "/5-50/",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Positions held by women in senior management positions",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/5-61/",
+          "href": "/5-61/",
           "status": "complete"
         }]
     }
@@ -290,7 +290,7 @@
           "title": "Population connected to at least secondary wastewater treatment",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-20/",
+          "href": "/6-20/",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Proportion of bodies of water with good ambient water quality - proxy indicator",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-30/",
+          "href": "/6-30/",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Nitrate in groundwater",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-40/",
+          "href": "/6-40/",
           "status": "notstarted"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Phosphate in rivers",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-50/",
+          "href": "/6-50/",
           "status": "notstarted"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Water exploitation index, plus (WEI+)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-60/",
+          "href": "/6-60/",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Pesticides in rivers (NEW)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/6-70/",
+          "href": "/6-70/",
           "status": "notstarted"
         }]
     }
@@ -346,7 +346,7 @@
           "title": "Primary energy consumption",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-10/",
+          "href": "/7-10/",
           "status": "complete"
         },
         {
@@ -354,7 +354,7 @@
           "title": "Final energy consumption",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-11/",
+          "href": "/7-11/",
           "status": "complete"
         },
         {
@@ -362,7 +362,7 @@
           "title": "Final energy consumption in households per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-20/",
+          "href": "/7-20/",
           "status": "complete"
         },
         {
@@ -370,7 +370,7 @@
           "title": "Energy productivity",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-30/",
+          "href": "/7-30/",
           "status": "complete"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Share of renewable energy in gross final energy consumption",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-40/",
+          "href": "/7-40/",
           "status": "complete"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Energy import dependency",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-50/",
+          "href": "/7-50/",
           "status": "complete"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Population unable to keep home adequately warm",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/7-60/",
+          "href": "/7-60/",
           "status": "notstarted"
         }]
     }
@@ -410,7 +410,7 @@
           "title": "Real GDP per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-10/",
+          "href": "/8-10/",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Investment share of GDP",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-11/",
+          "href": "/8-11/",
           "status": "notstarted"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Young people neither in employment nor in education and training",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-20/",
+          "href": "/8-20/",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Employment rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-30/",
+          "href": "/8-30/",
           "status": "complete"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Long - term unemployment rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-40/",
+          "href": "/8-40/",
           "status": "complete"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Fatal accidents at work per 100 000 workers",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/8-60/",
+          "href": "/8-60/",
           "status": "complete"
         }]
     }
@@ -466,7 +466,7 @@
           "title": "Gross domestic expenditure on R&D",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-10/",
+          "href": "/9-10/",
           "status": "complete"
         },
         {
@@ -474,7 +474,7 @@
           "title": "R&D personnel",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-30/",
+          "href": "/9-30/",
           "status": "complete"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Patent applications to the European Patent Office",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-40/",
+          "href": "/9-40/",
           "status": "complete"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Share of busses and trains in inland passenger transport",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-50/",
+          "href": "/9-50/",
           "status": "notstarted"
         },
         {
@@ -498,7 +498,7 @@
           "title": "Share of rail and inland waterways activity in inland freight transport",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-60/",
+          "href": "/9-60/",
           "status": "notstarted"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Air emission intensity of industry",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/9-70/",
+          "href": "/9-70/",
           "status": "notstarted"
         }]
     }
@@ -522,7 +522,7 @@
           "title": "Purchasing power adjusted GDP per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-10/",
+          "href": "/10-10/",
           "status": "complete"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Disparities in household income per capita",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-20/",
+          "href": "/10-20/",
           "status": "notstarted"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Relative median at-risk-of-poverty gap",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-30/",
+          "href": "/10-30/",
           "status": "notstarted"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Gini index - proxy indicator",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-41/",
+          "href": "/10-41/",
           "status": "complete"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Income share of the bottom 40 % of the population",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-50/",
+          "href": "/10-50/",
           "status": "notstarted"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Asylum applications",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/10-60/",
+          "href": "/10-60/",
           "status": "complete"
         }]
     }
@@ -578,7 +578,7 @@
           "title": "Severe housing deprivation rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-11/",
+          "href": "/11-11/",
           "status": "notstarted"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Population living in households suffering from noise",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-20/",
+          "href": "/11-20/",
           "status": "notstarted"
         },
         {
@@ -594,7 +594,7 @@
           "title": "Soil sealing index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-32/",
+          "href": "/11-32/",
           "status": "complete"
         },
         {
@@ -602,7 +602,7 @@
           "title": "Road traffic deaths",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-40/",
+          "href": "/11-40/",
           "status": "complete"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Premature deaths due to exposure to fine particulate matter (PM2.5)",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-52/",
+          "href": "/11-52/",
           "status": "complete"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Recycling rate of municipal waste",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/11-60/",
+          "href": "/11-60/",
           "status": "complete"
         }]
     }
@@ -634,7 +634,7 @@
           "title": "Consumption of hazardous chemicals",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-10/",
+          "href": "/12-10/",
           "status": "notstarted"
         },
         {
@@ -642,7 +642,7 @@
           "title": "Material footprint",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-21/",
+          "href": "/12-21/",
           "status": "complete"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Consumption footprint",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-31/",
+          "href": "/12-31/",
           "status": "notstarted"
         },
         {
@@ -658,7 +658,7 @@
           "title": "Circular material use rate",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-41/",
+          "href": "/12-41/",
           "status": "complete"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Generation of waste",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-51/",
+          "href": "/12-51/",
           "status": "complete"
         },
         {
@@ -674,7 +674,7 @@
           "title": "Gross value added in environmental goods and services sector",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/12-61/",
+          "href": "/12-61/",
           "status": "notstarted"
         }]
     }
@@ -690,7 +690,7 @@
           "title": "Domestic net greenhouse gas emissions",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-10/",
+          "href": "/13-10/",
           "status": "complete"
         },
         {
@@ -698,7 +698,7 @@
           "title": "Net greenhouse gas emissions of the LULUCF sector",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-21/",
+          "href": "/13-21/",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Average CO2 emissions per km from new passenger cars",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-31/",
+          "href": "/13-31/",
           "status": "notstarted"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Climate-related economic losses",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-40/",
+          "href": "/13-40/",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Contribution to the international 100bn USD commitment on climate related expenditure",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-50/",
+          "href": "/13-50/",
           "status": "notstarted"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Green bond issuance",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/13-70/",
+          "href": "/13-70/",
           "status": "notstarted"
         }]
     }
@@ -746,7 +746,7 @@
           "title": "Marine protected areas",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-10/",
+          "href": "/14-10/",
           "status": "notapplicable"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Estimated trends in fish stock biomass",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-21/",
+          "href": "/14-21/",
           "status": "notapplicable"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Estimated trend in fishing pressure",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-30/",
+          "href": "/14-30/",
           "status": "notapplicable"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Bathing sites with excellent water quality",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-40/",
+          "href": "/14-40/",
           "status": "notapplicable"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Global mean surface seawater acidity",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-50/",
+          "href": "/14-50/",
           "status": "notapplicable"
         },
         {
@@ -786,7 +786,7 @@
           "title": "Marine waters affected by eutrophication",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/14-60/",
+          "href": "/14-60/",
           "status": "notapplicable"
         }]
     }
@@ -802,7 +802,7 @@
           "title": "Forest area",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-11/",
+          "href": "/15-11/",
           "status": "complete"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Terrestrial protected areas",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-20/",
+          "href": "/15-20/",
           "status": "complete"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Drought impact on ecosystems",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-42/",
+          "href": "/15-42/",
           "status": "complete"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Area at risk of severe soil erosion by water",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-50/",
+          "href": "/15-50/",
           "status": "notstarted"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Common bird index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-60/",
+          "href": "/15-60/",
           "status": "notstarted"
         },
         {
@@ -842,7 +842,7 @@
           "title": "Grassland butterfly index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/15-61/",
+          "href": "/15-61/",
           "status": "notstarted"
         }]
     }
@@ -858,7 +858,7 @@
           "title": "Standardised death rate due to homicid",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-10/",
+          "href": "/16-10/",
           "status": "complete"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Population reporting crime, violence or vandalism in their are",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-20/",
+          "href": "/16-20/",
           "status": "notstarted"
         },
         {
@@ -874,7 +874,7 @@
           "title": "General government total expenditure on law courts",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-30/",
+          "href": "/16-30/",
           "status": "notstarted"
         },
         {
@@ -882,7 +882,7 @@
           "title": "Perceived independence of the justice system: very or fairly good",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-40/",
+          "href": "/16-40/",
           "status": "notstarted"
         },
         {
@@ -890,7 +890,7 @@
           "title": "Corruption Perceptions Index",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-50/",
+          "href": "/16-50/",
           "status": "complete"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Victims of trafficking in human beings by sex",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/16-70/",
+          "href": "/16-70/",
           "status": "complete"
         }]
     }
@@ -914,7 +914,7 @@
           "title": "Official development assistance as share of gross national income",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-10/",
+          "href": "/17-10/",
           "status": "complete"
         },
         {
@@ -922,7 +922,7 @@
           "title": "EU financing to developing countries by financing source",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-20/",
+          "href": "/17-20/",
           "status": "notstarted"
         },
         {
@@ -930,7 +930,7 @@
           "title": "EU imports from least developed countries",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-31/",
+          "href": "/17-31/",
           "status": "notstarted"
         },
         {
@@ -938,7 +938,7 @@
           "title": "General government gross debt",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-40/",
+          "href": "/17-40/",
           "status": "complete"
         },
         {
@@ -946,7 +946,7 @@
           "title": "Shares of environmental taxes in total tax revenues",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-50/",
+          "href": "/17-50/",
           "status": "complete"
         },
         {
@@ -954,7 +954,7 @@
           "title": "High-speed internet coverage, by type of area",
           "description": "",
           "keywords": "",
-          "href": "/sdgnew/17-60/",
+          "href": "/17-60/",
           "status": "complete"
         }]
     }
