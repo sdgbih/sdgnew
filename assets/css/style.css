@@ -2732,3 +2732,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 #legend.legend-for-line-chart,
 ul#legend {
   display: none !important; }
+
+@media only screen and (min-width: 700px) {
+  .site-intro {
+    background-image: url("../img/novisdgkrug.png") !important; } }
