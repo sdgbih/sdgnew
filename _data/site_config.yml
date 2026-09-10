@@ -66,10 +66,12 @@ footer_language_toggle: none
 footer_menu:
   - path: 'mailto:sdg@bhas.gov.ba'
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
+  - path: 'https://x.com/bhas_statistics'
     translation_key: general.twitter
   - path: 'https://facebook.com/BHAS.BIH'
     translation_key: general.facebook
+  - path: 'https://www.youtube.com/channel/UCKMxex_u6OLC5mOOizChlYg/videos'
+    translation_key: general.youtube 
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
