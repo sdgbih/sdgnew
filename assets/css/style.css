@@ -2756,5 +2756,5 @@ header .nav-link {
 
 /* Smanjenje fonta za tekst preuzimanja podataka na naslovnoj strani */
 .site-intro .lead, .download-section p, .frontpage-downloads p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   /* Smanji vrijednost po želji, npr. 0.85rem ili 14px */ }
