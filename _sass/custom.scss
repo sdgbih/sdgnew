@@ -3,7 +3,13 @@
 ul#legend {
   display: none !important;
 }
-.site-intro { @media only screen and (min-width: 700px) { background-image: url('../img/novisdgkrug.png') !important; } }
+
+.site-intro {
+  @media only screen and (min-width: 700px) {
+    background-image: url('../img/novisdgkrug.png') !important;
+  }
+}
+
 /* Poboljšanje zaglavlja portala */
 header .navbar {
   padding-top: 10px;
@@ -23,7 +29,13 @@ header .nav-link {
   padding-top: 6px;
   padding-bottom: 6px;
 }
-/* Smanjenje fonta za tekst preuzimanja podataka na naslovnoj strani */
-.site-intro .lead, .download-section p, .frontpage-downloads p {
-    font-size: 0.6rem; /* Smanji vrijednost po želji, npr. 0.85rem ili 14px */
+
+/* Smanjenje naslova kartice za preuzimanje podataka */
+.frontpage-cards .card:has(.zip-download-container) .card-title {
+  font-size: 1.1rem;
+}
+
+/* Veličina teksta linka za preuzimanje podataka */
+.frontpage-cards .card:has(.zip-download-container) .zip-download-container a {
+  font-size: 0.9rem;
 }
