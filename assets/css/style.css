@@ -2753,3 +2753,8 @@ header .navbar-nav {
 header .nav-link {
   padding-top: 6px;
   padding-bottom: 6px; }
+
+/* Smanjenje fonta za tekst preuzimanja podataka na naslovnoj strani */
+.site-intro .lead, .download-section p, .frontpage-downloads p {
+  font-size: 0.8rem;
+  /* Smanji vrijednost po želji, npr. 0.85rem ili 14px */ }
