@@ -4,3 +4,22 @@ ul#legend {
   display: none !important;
 }
 .site-intro { @media only screen and (min-width: 700px) { background-image: url('../img/novisdgkrug.png') !important; } }
+/* Poboljšanje zaglavlja portala */
+header .navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header .navbar-brand img {
+  max-height: 105px;
+  width: auto;
+}
+
+header .navbar-nav {
+  margin-top: 8px;
+}
+
+header .nav-link {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
