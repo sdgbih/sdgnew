@@ -91,3 +91,30 @@ series_toggle: true
 data_fields:
   series: SERIES
   units: UNIT_MEASURE
+progress_status:
+  status_heading: status.progress_status
+  status_help: ''
+  status_types:
+    - value: not_available
+      label: status.progress_not_available
+      alt: status.progress_not_available
+    - value: deterioration
+      label: status.deterioration
+      image: assets/img/progress/red-gauge.png
+      alt: status.deterioration
+    - value: limited_progress
+      label: status.progress_limited_progress
+      image: assets/img/progress/orange-gauge.png
+      alt: status.progress_limited_progress
+    - value: moderate_progress
+      label: status.progress_moderate_progress
+      image: assets/img/progress/yellow-gauge.png
+      alt: status.progress_moderate_progress
+    - value: substantial_progress
+      label: status.progress_substantial_progress
+      image: assets/img/progress/green-gauge.png
+      alt: status.progress_substantial_progress
+    - value: target_achieved
+      label: status.target_achieved
+      image: assets/img/progress/target-achieved-gauge.png
+      alt: status.target_achieved
