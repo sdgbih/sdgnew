@@ -111,9 +111,9 @@ progress_status:
       image: assets/img/progress/yellow-gauge.png
       alt: status.progress_moderate_progress
     - value: substantial_progress
-      label: status.progress_substantial_progress
+      label: status.substantial_progress
       image: assets/img/progress/green-gauge.png
-      alt: status.progress_substantial_progress
+      alt: status.substantial_progress
     - value: target_achieved
       label: status.target_achieved
       image: assets/img/progress/target-achieved-gauge.png
