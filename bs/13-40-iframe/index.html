@@ -121,9 +121,9 @@ var translations = {
         
     <title>
         
-         13.40 -
+        Indikator 13.40 -
         
-        Ekonomski gubici povezani s klimom - general.site_title
+        Ekonomski gubici povezani s klimom - EU Indikatori za ciljeve održivog razvoja
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114415">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114619">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -173,7 +173,7 @@ layout-indicator-iframe
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Razvojna verzija","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href=\"mailto:sdg@bhas.gov.ba\">povratne informacije</a>.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
 
 
 <script type="text/template" id="item_template">
@@ -196,10 +196,10 @@ layout-indicator-iframe
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Podkategorije - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select"></button>
-            <button data-type="clear"></button>
+            <button data-type="select">Označi sve</button>
+            <button data-type="clear">Obriši sve</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -210,10 +210,10 @@ layout-indicator-iframe
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Dostupno kada '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' je označeno
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          
+          Nema opcija zbog gornjih filtera
         </div>
       <% }%>
 
@@ -225,9 +225,9 @@ layout-indicator-iframe
   
   <% if(units.length > 1) { %>
   
-    <h4></h4>
+    <h4>Mjerna jedinica</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Mjerna jedinica</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -242,9 +242,9 @@ layout-indicator-iframe
   
   <% if(serieses.length > 1) { %>
   
-    <h4></h4>
+    <h4>Grafikon</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Grafikon</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var isProxy = (proxySerieses.includes(seriesItem)) %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
@@ -256,9 +256,9 @@ layout-indicator-iframe
   
 </script>
 
-<script>translations['indicator'] = null;</script>
+<script>translations['indicator'] = {"chart":"Grafikon","clear_all":"Obriši sve","clear_selections":"Obriši označeno","data_not_available":"Ovi podaci nisu dostupni. Odaberite alternativne podatke za prikaz.","dataset_size_warning":"Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.","download_chart":"Preuzmite grafikon CSV","download_chart_image":"Preuzmi sliku grafikona","download_chart_image_title":"Preuzmi grafikon kao sliku","download_csv":"Preuzmi CSV","download_csv_title":"Preuzmi kao CSV","download_geojson":"Preuzmi GeoJSON","download_geojson_title":"Preuzmi kao GeoJSON","download_headline":"Preuzmite CSV naslov","download_headline_title":"Preuzmi podatke o naslovu kao CSV","download_source":"Preuzmi izvor CSV","download_source_sdmx":"Preuzmi izvor SDMX","download_source_sdmx_title":"Preuzmi izvorne podatke kao SDMX","download_source_title":"Preuzmi izvorne podatke kao CSV","download_table":"Preuzmite tabelu CSV","edit":"Uredi","edit_data":"Uredi podatke","edit_metadata":"Uredi metapodatke","footnote":"Fusnota","geographical_area":"Geografsko područje","global_metadata":"EU SDG Indikator INFO","global_metadata_blurb":"Ova tabela pruža informacije o metapodacima za SDG indikatore kako ih je definisala Statistička komisija UN-a. Kompletne globalne metapodatke pruža Odjel za statistiku UN-a.","legend_help":"Kliknite na legendu kako biste uklonili pojedine linije s grafikona.","loading":"Učitavanje","loading_map":"Učitavanje mape","map":"Mapa","national_metadata":"Nacionalni Indikator INFO","national_metadata_blurb":null,"next":"Sljedeći indikator","no_data_hint":"Nema opcija zbog gornjih filtera","previous":"Prethodni indikator","select_all":"Označi sve","series":"Grafikon","series_help":"Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.","source":"Izvor","sources":"Izvori","sub_categories":"Podkategorije","table":"Tabela","unit_of_measurement":"Mjerna jedinica","units_type":"Jedinica mjere","variable_hint":"Dostupno kada '%field' je označeno","view_indicator_list":"Pogledajte listu indikatora ovog cilja"};</script>
 
-<script>translations['data'] = null;</script>
+<script>translations['data'] = {"Entity":"Entitet","Month":"Mjesec","Total retail trade 2019":"Ukupna trgovina na malo 2019","Total retail trade 2020":"Ukupna trgovina na malo 2020","Total retail trade 2021":"Ukupna trgovina na malo 2021","Type":"Tip","Value":"Vrijednost","Year":"Godina","available for final consumption_2019":"Raspoloživo za finalnu potrošnju 2019","available for final consumption_2020":"Raspoloživo za finalnu potrošnju 2020","available for final consumption_2021":"Raspoloživo za finalnu potrošnju 2021","average monthly gross earning":"Prosječna mjesečna bruto plaća","average monthly paid off net earning":"Prosječna mjesečna isplaćena neto plaća","capital goods":"Kapitalni proizvodi","consumer durables":"Trajni proizvodi za široku potrošnju","consumer non-durables":"Netrajni proizvodi za široku potrošnju","cross- border traffic total - Entry":"Ukupan granični promet - Ulaz","cross- border traffic total - Exit":"Ukupan granični promet - Izlaz","customs":"Carinske dažbine, naknade za carinsko evidentiranje i posebne dažbine","domestic market 2019":"Domaće tržište 2019","domestic market 2020":"Domaće tržište 2020","domestic market 2021":"Domaće tržište 2021","domestic tourist_2019":"Domaći turisti 2019","domestic tourist_2020":"Domaći turisti 2020","domestic tourist_2021":"Domaći turisti 2021","employed 2019":"Zaposleni 2019","employed 2020":"Zaposleni 2020","employed 2021":"Zaposleni 2021","energy":"Energija","excise duties on domestic goods":"Akciza na domaće proizvode","excise duties on import goods":"Akciza na uvozne proizvode","export_2019":"Izvoz 2019","export_2020":"Izvoz 2020","export_2021":"Izvoz 2021","final trend":"Finalni trend Q/Q-1","foreign tourist_2019":"Strani turisti 2019","foreign tourist_2020":"Strani turisti 2020","foreign tourist_2021":"Strani turisti 2021","freight transported":"Prevezeni teret","import_2019":"Uvoz 2019","import_2020":"Uvoz 2020","import_2021":"Uvoz 2021","intermediate goods":"Intermedijarni proizvodi","non seasonal":"Nedesezonirani podaci Q/Q-4","non-domestic market 2019":"Nedomaće tržište 2019","non-domestic market 2020":"Nedomaće tržište 2020","non-domestic market 2021":"Nedomaće tržište 2021","other income and charges":"Ostali prihodi i naknade","overall index 2019":"Ukupan indeks 2019","overall index 2020":"Ukupan indeks 2020","overall index 2021":"Ukupan indeks 2021","road tax on petroleum products":"Posebna taksa (putarina) na naftne derivate","seasonal":"Desezonirani podaci Q/Q-1","tons of goods transported":"Prеvеzеnо tоnа rоbе","total":"Ukupno","type of product":"Vrsta proizvoda","type of revenue":"Naziv prihoda","vat":"Porez na dodanu vrijednost"};</script>
 
 
 <div class="heading goal-banner indicator goal-13">
@@ -268,7 +268,7 @@ layout-indicator-iframe
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/bs/13/" aria-label=" 13" title=" 13">
                     <img src="/assets/img/goals//bs/13.png"
-                        alt="global_goals.13-short -  13"
+                        alt="Akcije u suzbijanju klimatskih promjena - Cilj 13"
                         id="goal-13"
                         class="goal-icon-image goal-icon-image-" />
                 </a>
@@ -278,7 +278,7 @@ layout-indicator-iframe
                 <div>
                     <h1>
                         
-                         13.40
+                        Indikator 13.40
                         
                         <span class="lead-copy">Ekonomski gubici povezani s klimom</span>
                     </h1>
@@ -339,8 +339,8 @@ layout-indicator-iframe
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4></h4>
-    <p></p>
+    <h4>Podkategorije</h4>
+    <p>Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -359,7 +359,7 @@ layout-indicator-iframe
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/data/13-40.csv" class="btn btn-primary btn-download" download='indicator_13-40.csv' tabindex='0' role='button'></a>
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/data/13-40.csv" class="btn btn-primary btn-download" download='indicator_13-40.csv' tabindex='0' role='button'>Preuzmi izvor CSV</a>
 
     <p class="no-js-disaggregation-hint"></p>
 
@@ -406,7 +406,7 @@ data-event-action="Change data view"
 data-event-label="Change to Chart tab"
 
         
-      >indicator.chart</button>
+      >Grafikon</button>
     </li>
     
     <li role="presentation"
@@ -430,7 +430,7 @@ data-event-action="Change data view"
 data-event-label="Change to Table tab"
 
         
-      >indicator.table</button>
+      >Tabela</button>
     </li>
     
   </ul>
@@ -443,7 +443,7 @@ data-event-label="Change to Table tab"
 
     <div id="dataset-size-warning" style="display:none" role="alert">
       <i class="fa fa-bolt"><span class="sr-only"></span></i>
-      
+      Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.
     </div>
 
     
@@ -471,13 +471,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Izvor:</dt>
         <dd>European Environment Agency (EEA)</dd>
         
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -491,7 +491,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >indicator.footnote:</dt>
+        >Fusnota:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -500,7 +500,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >metadata_fields.national_data_update_url:</dt>
+        >Podaci posljednji put ažurirani:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -516,10 +516,10 @@ data-event-label="Change to Table tab"
       <div id="chartSelectionDownload" class="clearfix">
         <button
           id="btnSave"
-          title=""
-          aria-label=""
+          title="Preuzmi grafikon kao sliku"
+          aria-label="Preuzmi grafikon kao sliku"
           class='btn btn-primary btn-download'>
-          
+          Preuzmi sliku grafikona
         </button><!--
    --></div>
     </div>
@@ -544,13 +544,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Izvor:</dt>
         <dd>European Environment Agency (EEA)</dd>
         
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -564,7 +564,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >indicator.footnote:</dt>
+        >Fusnota:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -573,7 +573,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >metadata_fields.national_data_update_url:</dt>
+        >Podaci posljednji put ažurirani:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -619,7 +619,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            >indicator.national_metadata</button>
+            >Nacionalni Indikator INFO</button>
         </li>
     
         
@@ -640,7 +640,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            >indicator.global_metadata</button>
+            >EU SDG Indikator INFO</button>
         </li>
     
         
@@ -661,7 +661,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >indicator.sources</button>
+            >Izvori</button>
         </li>
     
     
@@ -1154,7 +1154,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_indicator_definition </th>
+        <th scope="row">OPIS </th>
         <td>
           
             <p>Indikator mjeri ekonomske gubitke uzrokovane vremenskim i klimatskim događajima. Vremenski i klimatski događaji definirani su kao meteorološki događaji (oluje, lavine), hidrološki događaji (poplave) i klimatološki događaji (toplotni valovi, hladni valovi, suše, šumski požari) na osnovu klasifikacije Međunarodnog vijeća za nauku (ICSU). Pored godišnjih podataka, predstavljen je i izglađeni vremenski niz zasnovan na 30-godišnjim prosjekima. U skladu s normalnim klimatskim periodom kako ga definira Svjetska meteorološka organizacija, ovi 30-godišnji prosječni podaci odražavaju trendove isključujući značajnu klimatsku varijabilnost na kraćim vremenskim skalama zbog prirodnih faktora. Indikator se zasniva na podacima iz CATDAT-a RiskLayer-a.</p>
@@ -1170,7 +1170,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_rationale </th>
+        <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
             <p>Indikator se koristi za praćenje napretka prema Cilju održivog razvoja 13 o klimatskim akcijama, koji je ugrađen u prioritete Evropske komisije u okviru „Održavanje kvalitete života: sigurnost hrane, voda i priroda“. Cilj održivog razvoja 13 nastoji provesti obavezu prema Okvirnoj konvenciji Ujedinjenih naroda o klimatskim promjenama za postizanje klimatski neutralnog svijeta do sredine stoljeća kako bi se globalno zagrijavanje ograničilo na znatno ispod 2°C, a cilj je 1,5°C (u usporedbi s predindustrijskim vremenom). Također ima za cilj jačanje otpornosti i adaptivnih kapaciteta zemalja na prirodne opasnosti povezane s klimom i katastrofe koje iz toga proizlaze. Ovaj indikator može se smatrati sličnim globalnim pokazateljima Ciljeva održivog razvoja 1.5.2 i 11.5.2 „Direktni ekonomski gubitak uslijed katastrofa u odnosu na globalni BDP“ (vezano za pokazatelj Sendai).</p>
@@ -1186,7 +1186,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_methodology_characteristics </th>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
             <p>EU stavlja otpornost na katastrofe i klimatske promjene kao centralni cilj svoje humanitarne pomoći. Marker otpornosti EU koristi se u svim humanitarnim projektima za definiranje načina smanjenja rizika od katastrofa i jačanje kapaciteta ljudi za suočavanje s katastrofama i krizama. Akcioni plan za Sendai okvir za smanjenje rizika od katastrofa 2015-2030 uključuje snažan fokus na prilagođavanje klimatskim promjenama, povezujući ga sa strategijama smanjenja rizika od katastrofa i njihovom koherentnom provedbom u zemljama partnerima EU. Nova Strategija prilagođavanja EU potiče pametnije, brže i sistematičnije prilagođavanje kako bi se ispunila vizija da će EU 2050. godine biti društvo otporno na klimatske promjene, u potpunosti prilagođeno neizbježnim utjecajima klimatskih promjena.</p>
@@ -1202,7 +1202,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_long_objective </th>
+        <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
             <p>Strategija EU za prilagođavanje 2021; Referenca politike: CLIM039; 8. Akcioni program za okoliš; Osiguranje od klimatskih gubitaka; Ekonomski gubici; Katastrofe; Prirodne opasnosti.</p>
@@ -1245,7 +1245,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div class="col-md-6">
       
-        <h4 class="sr-only"> 1</h4>
+        <h4 class="sr-only">Izvor 1</h4>
       
       
       <table class="table metadata-content">
@@ -1302,7 +1302,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_organisation_1 </th>
+        <th scope="row">Organizacija </th>
         <td>
           
             <p>European Environment Agency (EEA)</p>
@@ -1333,7 +1333,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_url_1 </th>
+        <th scope="row">Link do izvora podataka </th>
         <td>
           
             
@@ -1342,7 +1342,7 @@ data-event-label="Change to indicator.sources tab"
             
             
               <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_13_40/default/table" target="_blank">
-                Link <span class="visuallyhidden"></span>
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
 
@@ -1492,17 +1492,17 @@ data-event-label="Change to indicator.sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Sakriti';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20260918114415'></script>
+<script src='/assets/js/sdg.js?v=20260918114619'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20260918114415"></script><script>
+    <script src="/assets/js/custom.js?v=20260918114619"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

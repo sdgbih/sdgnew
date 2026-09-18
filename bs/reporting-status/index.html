@@ -119,7 +119,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>status.reporting_status - general.site_title</title>
+    <title>Status izvještavanja - EU Indikatori za ciljeve održivog razvoja</title>
 
 
 
@@ -142,7 +142,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114415">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114619">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -168,9 +168,9 @@ layout-reportingstatus
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Razvojna verzija","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href=\"mailto:sdg@bhas.gov.ba\">povratne informacije</a>.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Prijeđi na glavni sadržaj</a>
 <div class="container internet-explorer-message">
     <h2 class="internet-explorer-message-title"></h2>
     <p class="internet-explorer-message-body"></p>
@@ -179,9 +179,9 @@ layout-reportingstatus
     
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag"></strong>
+    <strong class="phase-tag">Razvojna verzija</strong>
     
-    
+    Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href="mailto:sdg@bhas.gov.ba">povratne informacije</a>.
     
   </div>
 </div>
@@ -192,7 +192,7 @@ layout-reportingstatus
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/bs/" id="home" aria-label="" title="">
-    <img src="/assets/img/SDG_logo.png" alt="general.sdg - header.tag_line" />
+    <img src="/assets/img/SDG_logo.png" alt="Ciljevi održivog razvoja - 17 ciljeva za transformiranje našeg svijeta" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
                 <span class="navbar-toggler-icon"></span>
@@ -200,25 +200,25 @@ layout-reportingstatus
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/bs/">general.home</a>
+    <a class="nav-link" href="/bs/">Naslovna</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/goals">general.goals</a>
+    <a class="nav-link" href="/bs/goals">Ciljevi</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/reporting-status">menu.reporting_status</a>
+    <a class="nav-link" href="/bs/reporting-status">Status izvještavanja</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/news">menu.updates</a>
+    <a class="nav-link" href="/bs/news">Ažuriranja</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/about">menu.about</a>
+    <a class="nav-link" href="/bs/about">O nama</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/publications">menu.publications</a>
+    <a class="nav-link" href="/bs/publications">Dokumenti</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/bs/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search"></label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="">
+        <label class="visually-hidden" for="indicator_search">Pretraživanje</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Pretraživanje">
         <span class="input-group-append">
             <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
@@ -239,19 +239,19 @@ layout-reportingstatus
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      
+      Bosanski
     </button>
     <ul class="dropdown-menu"><li>
             <a class="dropdown-item" href="/reporting-status/">
-              
+              English
             </a>
           </li><li>
             <a class="dropdown-item" href="/sr/reporting-status/">
-              
+              Српски
             </a>
           </li><li>
             <a class="dropdown-item" href="/hr/reporting-status/">
-              
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -263,22 +263,22 @@ layout-reportingstatus
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
             <a class="language-toggle-link" href="/reporting-status/">
-                
+                English
             </a>
         </li><li class="language-option-bs list-inline-item">
             <span class="language-toggle-active-language">
-                
+                Bosanski
             </span>
         </li><li class="language-option-sr list-inline-item">
             <a class="language-toggle-link" href="/sr/reporting-status/">
-                
+                Српски
             </a>
         </li><li class="language-option-hr list-inline-item">
             <a class="language-toggle-link" href="/hr/reporting-status/">
-                
+                Hrvatski
             </a>
         </li></ul>
-</div></span><a title="" aria-label=""
+</div></span><a title="Omogući visoki kontrast" aria-label="Omogući visoki kontrast"
     data-contrast-switch-to="" role="button" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -303,9 +303,9 @@ data-event-label="high"
   <nav>
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         <li class="breadcrumb-item" >
-            <a href="/bs/"></a>
+            <a href="/bs/">Naslovna</a>
         </li>
-        <li class="breadcrumb-item active">status.reporting_status</li>
+        <li class="breadcrumb-item active">Status izvještavanja</li>
     </ol>
 </nav>
 </div>
@@ -313,7 +313,7 @@ data-event-label="high"
 
   <h1>
   
-    status.reporting_status
+    Status izvještavanja
   
 </h1>
 
@@ -332,30 +332,30 @@ data-event-label="high"
   <div class="goal goal-overall">
     
     <div class="frame goal-tiles">
-        <img src="/assets/img/SDG Wheel_Transparent-01.png" alt="" width="100" height="100" class="goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/SDG Wheel_Transparent-01.png" alt="Ciljevi održivog razvoja" width="100" height="100" class="goal-icon-image goal-icon-image-"/>
     </div>
     
     <div class="details">
         <h2 class="status-goal">
-            
+            Ukupni status izvještavanja
         </h2>
-        <span class="total"><span>103</span> </span>
+        <span class="total"><span>103</span> indikatori</span>
         
         <div class="summary">
             <div class="statuses">
             
             <div>
-                <span class="status complete"><span class="status-inner">60</span></span><strong>status.reported_online</strong><span class="value">58%</span>
+                <span class="status complete"><span class="status-inner">60</span></span><strong>Dostupno na portalu</strong><span class="value">58%</span>
             </div>
             
             
             <div>
-                <span class="status notstarted"><span class="status-inner">37</span></span><strong>status.no_data_available</strong><span class="value">36%</span>
+                <span class="status notstarted"><span class="status-inner">37</span></span><strong>Podaci nisu dostupni</strong><span class="value">36%</span>
             </div>
             
             
             <div>
-                <span class="status notapplicable"><span class="status-inner">6</span></span><strong>status.not_applicable</strong><span class="value">6%</span>
+                <span class="status notapplicable"><span class="status-inner">6</span></span><strong>Nije primjenjivo</strong><span class="value">6%</span>
             </div>
             <br style="clear:both;">
             </div>
@@ -365,51 +365,51 @@ data-event-label="high"
             
             
             
-            <span class="complete" style="width:58.25242718446602%" title="status.reported_online: 58%"></span>
+            <span class="complete" style="width:58.25242718446602%" title="Dostupno na portalu: 58%"></span>
             
             
             
             
             
-            <span class="notstarted" style="width:35.92233009708738%" title="status.no_data_available: 36%"></span>
+            <span class="notstarted" style="width:35.92233009708738%" title="Podaci nisu dostupni: 36%"></span>
             
             
             
             
             
-            <span class="notapplicable" style="width:5.825242718446602%" title="status.not_applicable: 6%"></span>
+            <span class="notapplicable" style="width:5.825242718446602%" title="Nije primjenjivo: 6%"></span>
             </div>
         
     </div>
     <br style="clear:both;">
 </div>
-  <h2></h2><div class="goal reporting-status-item">
+  <h2>Status prema cilju</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/1/" title=" 1" aria-label=" 1">
-        <img src="/assets/img/goals//bs/1.png" alt="global_goals.1-short -  1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/1.png" alt="Okončati siromaštvo - Cilj 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/1/">global_goals.1-short</a>
+            <a href="/bs/1/">Okončati siromaštvo</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -419,19 +419,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -440,30 +440,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/2/" title=" 2" aria-label=" 2">
-        <img src="/assets/img/goals//bs/2.png" alt="global_goals.2-short -  2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/2.png" alt="Okončati glad - Cilj 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/2/">global_goals.2-short</a>
+            <a href="/bs/2/">Okončati glad</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">4</span></span><strong>status.reported_online</strong><span class="value">67%</span>
+                    <span class="status complete"><span class="status-inner">4</span></span><strong>Dostupno na portalu</strong><span class="value">67%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>status.no_data_available</strong><span class="value">33%</span>
+                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>Podaci nisu dostupni</strong><span class="value">33%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -473,19 +473,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:66.66666666666666%" title="status.reported_online: 67%"></span>
+                <span class="complete" style="width:66.66666666666666%" title="Dostupno na portalu: 67%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:33.33333333333333%" title="status.no_data_available: 33%"></span>
+                <span class="notstarted" style="width:33.33333333333333%" title="Podaci nisu dostupni: 33%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -494,30 +494,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/3/" title=" 3" aria-label=" 3">
-        <img src="/assets/img/goals//bs/3.png" alt="global_goals.3-short -  3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/3.png" alt="Zdrav život i dobrobit - Cilj 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/3/">global_goals.3-short</a>
+            <a href="/bs/3/">Zdrav život i dobrobit</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -527,19 +527,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -548,30 +548,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/4/" title=" 4" aria-label=" 4">
-        <img src="/assets/img/goals//bs/4.png" alt="global_goals.4-short -  4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/4.png" alt="Kvalitetno obrazovanje - Cilj 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/4/">global_goals.4-short</a>
+            <a href="/bs/4/">Kvalitetno obrazovanje</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">5</span></span><strong>status.reported_online</strong><span class="value">83%</span>
+                    <span class="status complete"><span class="status-inner">5</span></span><strong>Dostupno na portalu</strong><span class="value">83%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>status.no_data_available</strong><span class="value">17%</span>
+                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>Podaci nisu dostupni</strong><span class="value">17%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -581,19 +581,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:83.33333333333334%" title="status.reported_online: 83%"></span>
+                <span class="complete" style="width:83.33333333333334%" title="Dostupno na portalu: 83%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:16.666666666666664%" title="status.no_data_available: 17%"></span>
+                <span class="notstarted" style="width:16.666666666666664%" title="Podaci nisu dostupni: 17%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -602,30 +602,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/5/" title=" 5" aria-label=" 5">
-        <img src="/assets/img/goals//bs/5.png" alt="global_goals.5-short -  5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/5.png" alt="Rodna ravnopravnost - Cilj 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/5/">global_goals.5-short</a>
+            <a href="/bs/5/">Rodna ravnopravnost</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">5</span></span><strong>status.reported_online</strong><span class="value">83%</span>
+                    <span class="status complete"><span class="status-inner">5</span></span><strong>Dostupno na portalu</strong><span class="value">83%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>status.no_data_available</strong><span class="value">17%</span>
+                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>Podaci nisu dostupni</strong><span class="value">17%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -635,19 +635,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:83.33333333333334%" title="status.reported_online: 83%"></span>
+                <span class="complete" style="width:83.33333333333334%" title="Dostupno na portalu: 83%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:16.666666666666664%" title="status.no_data_available: 17%"></span>
+                <span class="notstarted" style="width:16.666666666666664%" title="Podaci nisu dostupni: 17%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -656,30 +656,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/6/" title=" 6" aria-label=" 6">
-        <img src="/assets/img/goals//bs/6.png" alt="global_goals.6-short -  6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/6.png" alt="Pitka voda i sanitarni uslovi - Cilj 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/6/">global_goals.6-short</a>
+            <a href="/bs/6/">Pitka voda i sanitarni uslovi</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -689,19 +689,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -710,30 +710,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/7/" title=" 7" aria-label=" 7">
-        <img src="/assets/img/goals//bs/7.png" alt="global_goals.7-short -  7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/7.png" alt="Pristupačna i čista energija - Cilj 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/7/">global_goals.7-short</a>
+            <a href="/bs/7/">Pristupačna i čista energija</a>
         </h3>
-        <span class="total">7 </span>
+        <span class="total">7 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">6</span></span><strong>status.reported_online</strong><span class="value">86%</span>
+                    <span class="status complete"><span class="status-inner">6</span></span><strong>Dostupno na portalu</strong><span class="value">86%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>status.no_data_available</strong><span class="value">14%</span>
+                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>Podaci nisu dostupni</strong><span class="value">14%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -743,19 +743,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:85.71428571428571%" title="status.reported_online: 86%"></span>
+                <span class="complete" style="width:85.71428571428571%" title="Dostupno na portalu: 86%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:14.285714285714285%" title="status.no_data_available: 14%"></span>
+                <span class="notstarted" style="width:14.285714285714285%" title="Podaci nisu dostupni: 14%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -764,30 +764,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/8/" title=" 8" aria-label=" 8">
-        <img src="/assets/img/goals//bs/8.png" alt="global_goals.8-short -  8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/8.png" alt="Dostojanstven rad i održiv ekonomski rast - Cilj 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/8/">global_goals.8-short</a>
+            <a href="/bs/8/">Dostojanstven rad i održiv ekonomski rast</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">5</span></span><strong>status.reported_online</strong><span class="value">83%</span>
+                    <span class="status complete"><span class="status-inner">5</span></span><strong>Dostupno na portalu</strong><span class="value">83%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>status.no_data_available</strong><span class="value">17%</span>
+                    <span class="status notstarted"><span class="status-inner">1</span></span><strong>Podaci nisu dostupni</strong><span class="value">17%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -797,19 +797,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:83.33333333333334%" title="status.reported_online: 83%"></span>
+                <span class="complete" style="width:83.33333333333334%" title="Dostupno na portalu: 83%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:16.666666666666664%" title="status.no_data_available: 17%"></span>
+                <span class="notstarted" style="width:16.666666666666664%" title="Podaci nisu dostupni: 17%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -818,30 +818,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/9/" title=" 9" aria-label=" 9">
-        <img src="/assets/img/goals//bs/9.png" alt="global_goals.9-short -  9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/9.png" alt="Industrija, inovacija i infrastruktura - Cilj 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/9/">global_goals.9-short</a>
+            <a href="/bs/9/">Industrija, inovacija i infrastruktura</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -851,19 +851,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -872,30 +872,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/10/" title=" 10" aria-label=" 10">
-        <img src="/assets/img/goals//bs/10.png" alt="global_goals.10-short -  10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/10.png" alt="Smanjiti nejednakost - Cilj 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/10/">global_goals.10-short</a>
+            <a href="/bs/10/">Smanjiti nejednakost</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -905,19 +905,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -926,30 +926,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/11/" title=" 11" aria-label=" 11">
-        <img src="/assets/img/goals//bs/11.png" alt="global_goals.11-short -  11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/11.png" alt="Održivi gradovi i naselja - Cilj 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/11/">global_goals.11-short</a>
+            <a href="/bs/11/">Održivi gradovi i naselja</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">4</span></span><strong>status.reported_online</strong><span class="value">67%</span>
+                    <span class="status complete"><span class="status-inner">4</span></span><strong>Dostupno na portalu</strong><span class="value">67%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>status.no_data_available</strong><span class="value">33%</span>
+                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>Podaci nisu dostupni</strong><span class="value">33%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -959,19 +959,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:66.66666666666666%" title="status.reported_online: 67%"></span>
+                <span class="complete" style="width:66.66666666666666%" title="Dostupno na portalu: 67%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:33.33333333333333%" title="status.no_data_available: 33%"></span>
+                <span class="notstarted" style="width:33.33333333333333%" title="Podaci nisu dostupni: 33%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -980,30 +980,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/12/" title=" 12" aria-label=" 12">
-        <img src="/assets/img/goals//bs/12.png" alt="global_goals.12-short -  12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/12.png" alt="Održiva potrošnja i proizvodnja - Cilj 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/12/">global_goals.12-short</a>
+            <a href="/bs/12/">Održiva potrošnja i proizvodnja</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1013,19 +1013,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1034,30 +1034,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/13/" title=" 13" aria-label=" 13">
-        <img src="/assets/img/goals//bs/13.png" alt="global_goals.13-short -  13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/13.png" alt="Akcije u suzbijanju klimatskih promjena - Cilj 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/13/">global_goals.13-short</a>
+            <a href="/bs/13/">Akcije u suzbijanju klimatskih promjena</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1067,19 +1067,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1088,30 +1088,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/14/" title=" 14" aria-label=" 14">
-        <img src="/assets/img/goals//bs/14.png" alt="global_goals.14-short -  14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/14.png" alt="Život pod vodom - Cilj 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/14/">global_goals.14-short</a>
+            <a href="/bs/14/">Život pod vodom</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Dostupno na portalu</strong><span class="value">0%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">0</span></span><strong>status.no_data_available</strong><span class="value">0%</span>
+                    <span class="status notstarted"><span class="status-inner">0</span></span><strong>Podaci nisu dostupni</strong><span class="value">0%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">6</span></span><strong>status.not_applicable</strong><span class="value">100%</span>
+                    <span class="status notapplicable"><span class="status-inner">6</span></span><strong>Nije primjenjivo</strong><span class="value">100%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1121,19 +1121,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Dostupno na portalu: 0%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:0.0%" title="status.no_data_available: 0%"></span>
+                <span class="notstarted" style="width:0.0%" title="Podaci nisu dostupni: 0%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:100.0%" title="status.not_applicable: 100%"></span>
+                <span class="notapplicable" style="width:100.0%" title="Nije primjenjivo: 100%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1142,30 +1142,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/15/" title=" 15" aria-label=" 15">
-        <img src="/assets/img/goals//bs/15.png" alt="global_goals.15-short -  15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/15.png" alt="Život na tlu - Cilj 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/15/">global_goals.15-short</a>
+            <a href="/bs/15/">Život na tlu</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1175,19 +1175,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1196,30 +1196,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/16/" title=" 16" aria-label=" 16">
-        <img src="/assets/img/goals//bs/16.png" alt="global_goals.16-short -  16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/16.png" alt="Mir i pravda - Cilj 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/16/">global_goals.16-short</a>
+            <a href="/bs/16/">Mir i pravda</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">50%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Dostupno na portalu</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>status.no_data_available</strong><span class="value">50%</span>
+                    <span class="status notstarted"><span class="status-inner">3</span></span><strong>Podaci nisu dostupni</strong><span class="value">50%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1229,19 +1229,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:50.0%" title="status.reported_online: 50%"></span>
+                <span class="complete" style="width:50.0%" title="Dostupno na portalu: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:50.0%" title="status.no_data_available: 50%"></span>
+                <span class="notstarted" style="width:50.0%" title="Podaci nisu dostupni: 50%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1250,30 +1250,30 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/bs/17/" title=" 17" aria-label=" 17">
-        <img src="/assets/img/goals//bs/17.png" alt="global_goals.17-short -  17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="/assets/img/goals//bs/17.png" alt="Partnerstvo za održivi razvoj - Cilj 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/bs/17/">global_goals.17-short</a>
+            <a href="/bs/17/">Partnerstvo za održivi razvoj</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indikatori</span>
         
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">4</span></span><strong>status.reported_online</strong><span class="value">67%</span>
+                    <span class="status complete"><span class="status-inner">4</span></span><strong>Dostupno na portalu</strong><span class="value">67%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>status.no_data_available</strong><span class="value">33%</span>
+                    <span class="status notstarted"><span class="status-inner">2</span></span><strong>Podaci nisu dostupni</strong><span class="value">33%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nije primjenjivo</strong><span class="value">0%</span>
                 </div>
                 <br style="clear:both;">
             </div>
@@ -1283,19 +1283,19 @@ data-event-label="high"
                 
                 
                 
-                <span class="complete" style="width:66.66666666666666%" title="status.reported_online: 67%"></span>
+                <span class="complete" style="width:66.66666666666666%" title="Dostupno na portalu: 67%"></span>
                 
                 
                 
                 
                 
-                <span class="notstarted" style="width:33.33333333333333%" title="status.no_data_available: 33%"></span>
+                <span class="notstarted" style="width:33.33333333333333%" title="Podaci nisu dostupni: 33%"></span>
                 
                 
                 
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span>
+                <span class="notapplicable" style="width:0.0%" title="Nije primjenjivo: 0%"></span>
                 </div>
         
         <div class="divider"></div>
@@ -1320,31 +1320,31 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org"></a>
+                            <a href="https://open-sdg.org">Izgrađeno pomoću Open SDG-a</a>
                         </li>
                         
                         <li>
                             
-                            <a href="mailto:sdg@bhas.gov.ba" target="_blank">menu.contact_us</a>
+                            <a href="mailto:sdg@bhas.gov.ba" target="_blank">Kontaktirajte nas</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://x.com/bhas_statistics" target="_blank">general.twitter</a>
+                            <a href="https://x.com/bhas_statistics" target="_blank">X.com</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://facebook.com/BHAS.BIH" target="_blank">general.facebook</a>
+                            <a href="https://facebook.com/BHAS.BIH" target="_blank">Facebook</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://www.youtube.com/channel/UCKMxex_u6OLC5mOOizChlYg/videos" target="_blank">general.youtube</a>
+                            <a href="https://www.youtube.com/channel/UCKMxex_u6OLC5mOOizChlYg/videos" target="_blank">YouTube</a>
                             
                         </li>
                         <li>
-                            <a href="/bs/about/cookies-and-privacy/">menu.cookies</a>
+                            <a href="/bs/about/cookies-and-privacy/">Kolačići</a>
                             
                         </li>
                         
@@ -1381,17 +1381,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Sakriti';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20260918114415'></script>
+<script src='/assets/js/sdg.js?v=20260918114619'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20260918114415"></script><script>
+    <script src="/assets/js/custom.js?v=20260918114619"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -121,9 +121,9 @@ var translations = {
         
     <title>
         
-         4.10 -
+        Indikator 4.10 -
         
-        Rano napuštanje obrazovanja i obuke po spolu - general.site_title
+        Rano napuštanje obrazovanja i obuke po spolu - EU Indikatori za ciljeve održivog razvoja
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114415">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114619">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -173,9 +173,9 @@ layout-indicator
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Razvojna verzija","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href=\"mailto:sdg@bhas.gov.ba\">povratne informacije</a>.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Prijeđi na glavni sadržaj</a>
 <div class="container internet-explorer-message">
     <h2 class="internet-explorer-message-title"></h2>
     <p class="internet-explorer-message-body"></p>
@@ -184,9 +184,9 @@ layout-indicator
     
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag"></strong>
+    <strong class="phase-tag">Razvojna verzija</strong>
     
-    
+    Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href="mailto:sdg@bhas.gov.ba">povratne informacije</a>.
     
   </div>
 </div>
@@ -197,7 +197,7 @@ layout-indicator
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/bs/" id="home" aria-label="" title="">
-    <img src="/assets/img/SDG_logo.png" alt="general.sdg - header.tag_line" />
+    <img src="/assets/img/SDG_logo.png" alt="Ciljevi održivog razvoja - 17 ciljeva za transformiranje našeg svijeta" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
                 <span class="navbar-toggler-icon"></span>
@@ -205,25 +205,25 @@ layout-indicator
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/bs/">general.home</a>
+    <a class="nav-link" href="/bs/">Naslovna</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/goals">general.goals</a>
+    <a class="nav-link" href="/bs/goals">Ciljevi</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/reporting-status">menu.reporting_status</a>
+    <a class="nav-link" href="/bs/reporting-status">Status izvještavanja</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/news">menu.updates</a>
+    <a class="nav-link" href="/bs/news">Ažuriranja</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/about">menu.about</a>
+    <a class="nav-link" href="/bs/about">O nama</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/bs/publications">menu.publications</a>
+    <a class="nav-link" href="/bs/publications">Dokumenti</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/bs/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search"></label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="">
+        <label class="visually-hidden" for="indicator_search">Pretraživanje</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Pretraživanje">
         <span class="input-group-append">
             <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
@@ -244,19 +244,19 @@ layout-indicator
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      
+      Bosanski
     </button>
     <ul class="dropdown-menu"><li>
             <a class="dropdown-item" href="/4-10/">
-              
+              English
             </a>
           </li><li>
             <a class="dropdown-item" href="/sr/4-10/">
-              
+              Српски
             </a>
           </li><li>
             <a class="dropdown-item" href="/hr/4-10/">
-              
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -268,22 +268,22 @@ layout-indicator
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
             <a class="language-toggle-link" href="/4-10/">
-                
+                English
             </a>
         </li><li class="language-option-bs list-inline-item">
             <span class="language-toggle-active-language">
-                
+                Bosanski
             </span>
         </li><li class="language-option-sr list-inline-item">
             <a class="language-toggle-link" href="/sr/4-10/">
-                
+                Српски
             </a>
         </li><li class="language-option-hr list-inline-item">
             <a class="language-toggle-link" href="/hr/4-10/">
-                
+                Hrvatski
             </a>
         </li></ul>
-</div></span><a title="" aria-label=""
+</div></span><a title="Omogući visoki kontrast" aria-label="Omogući visoki kontrast"
     data-contrast-switch-to="" role="button" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -318,10 +318,10 @@ data-event-label="high"
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Podkategorije - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select"></button>
-            <button data-type="clear"></button>
+            <button data-type="select">Označi sve</button>
+            <button data-type="clear">Obriši sve</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -332,10 +332,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Dostupno kada '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' je označeno
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          
+          Nema opcija zbog gornjih filtera
         </div>
       <% }%>
 
@@ -347,9 +347,9 @@ data-event-label="high"
   
   <% if(units.length > 1) { %>
   
-    <h4></h4>
+    <h4>Mjerna jedinica</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Mjerna jedinica</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -364,9 +364,9 @@ data-event-label="high"
   
   <% if(serieses.length > 1) { %>
   
-    <h4></h4>
+    <h4>Grafikon</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Grafikon</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var isProxy = (proxySerieses.includes(seriesItem)) %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
@@ -378,9 +378,9 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = null;</script>
+<script>translations['indicator'] = {"chart":"Grafikon","clear_all":"Obriši sve","clear_selections":"Obriši označeno","data_not_available":"Ovi podaci nisu dostupni. Odaberite alternativne podatke za prikaz.","dataset_size_warning":"Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.","download_chart":"Preuzmite grafikon CSV","download_chart_image":"Preuzmi sliku grafikona","download_chart_image_title":"Preuzmi grafikon kao sliku","download_csv":"Preuzmi CSV","download_csv_title":"Preuzmi kao CSV","download_geojson":"Preuzmi GeoJSON","download_geojson_title":"Preuzmi kao GeoJSON","download_headline":"Preuzmite CSV naslov","download_headline_title":"Preuzmi podatke o naslovu kao CSV","download_source":"Preuzmi izvor CSV","download_source_sdmx":"Preuzmi izvor SDMX","download_source_sdmx_title":"Preuzmi izvorne podatke kao SDMX","download_source_title":"Preuzmi izvorne podatke kao CSV","download_table":"Preuzmite tabelu CSV","edit":"Uredi","edit_data":"Uredi podatke","edit_metadata":"Uredi metapodatke","footnote":"Fusnota","geographical_area":"Geografsko područje","global_metadata":"EU SDG Indikator INFO","global_metadata_blurb":"Ova tabela pruža informacije o metapodacima za SDG indikatore kako ih je definisala Statistička komisija UN-a. Kompletne globalne metapodatke pruža Odjel za statistiku UN-a.","legend_help":"Kliknite na legendu kako biste uklonili pojedine linije s grafikona.","loading":"Učitavanje","loading_map":"Učitavanje mape","map":"Mapa","national_metadata":"Nacionalni Indikator INFO","national_metadata_blurb":null,"next":"Sljedeći indikator","no_data_hint":"Nema opcija zbog gornjih filtera","previous":"Prethodni indikator","select_all":"Označi sve","series":"Grafikon","series_help":"Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.","source":"Izvor","sources":"Izvori","sub_categories":"Podkategorije","table":"Tabela","unit_of_measurement":"Mjerna jedinica","units_type":"Jedinica mjere","variable_hint":"Dostupno kada '%field' je označeno","view_indicator_list":"Pogledajte listu indikatora ovog cilja"};</script>
 
-<script>translations['data'] = null;</script>
+<script>translations['data'] = {"Entity":"Entitet","Month":"Mjesec","Total retail trade 2019":"Ukupna trgovina na malo 2019","Total retail trade 2020":"Ukupna trgovina na malo 2020","Total retail trade 2021":"Ukupna trgovina na malo 2021","Type":"Tip","Value":"Vrijednost","Year":"Godina","available for final consumption_2019":"Raspoloživo za finalnu potrošnju 2019","available for final consumption_2020":"Raspoloživo za finalnu potrošnju 2020","available for final consumption_2021":"Raspoloživo za finalnu potrošnju 2021","average monthly gross earning":"Prosječna mjesečna bruto plaća","average monthly paid off net earning":"Prosječna mjesečna isplaćena neto plaća","capital goods":"Kapitalni proizvodi","consumer durables":"Trajni proizvodi za široku potrošnju","consumer non-durables":"Netrajni proizvodi za široku potrošnju","cross- border traffic total - Entry":"Ukupan granični promet - Ulaz","cross- border traffic total - Exit":"Ukupan granični promet - Izlaz","customs":"Carinske dažbine, naknade za carinsko evidentiranje i posebne dažbine","domestic market 2019":"Domaće tržište 2019","domestic market 2020":"Domaće tržište 2020","domestic market 2021":"Domaće tržište 2021","domestic tourist_2019":"Domaći turisti 2019","domestic tourist_2020":"Domaći turisti 2020","domestic tourist_2021":"Domaći turisti 2021","employed 2019":"Zaposleni 2019","employed 2020":"Zaposleni 2020","employed 2021":"Zaposleni 2021","energy":"Energija","excise duties on domestic goods":"Akciza na domaće proizvode","excise duties on import goods":"Akciza na uvozne proizvode","export_2019":"Izvoz 2019","export_2020":"Izvoz 2020","export_2021":"Izvoz 2021","final trend":"Finalni trend Q/Q-1","foreign tourist_2019":"Strani turisti 2019","foreign tourist_2020":"Strani turisti 2020","foreign tourist_2021":"Strani turisti 2021","freight transported":"Prevezeni teret","import_2019":"Uvoz 2019","import_2020":"Uvoz 2020","import_2021":"Uvoz 2021","intermediate goods":"Intermedijarni proizvodi","non seasonal":"Nedesezonirani podaci Q/Q-4","non-domestic market 2019":"Nedomaće tržište 2019","non-domestic market 2020":"Nedomaće tržište 2020","non-domestic market 2021":"Nedomaće tržište 2021","other income and charges":"Ostali prihodi i naknade","overall index 2019":"Ukupan indeks 2019","overall index 2020":"Ukupan indeks 2020","overall index 2021":"Ukupan indeks 2021","road tax on petroleum products":"Posebna taksa (putarina) na naftne derivate","seasonal":"Desezonirani podaci Q/Q-1","tons of goods transported":"Prеvеzеnо tоnа rоbе","total":"Ukupno","type of product":"Vrsta proizvoda","type of revenue":"Naziv prihoda","vat":"Porez na dodanu vrijednost"};</script>
 
 
 <div class="container">
@@ -389,17 +389,17 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item">
-            <a href="/bs/">general.home</a>
+            <a href="/bs/">Naslovna</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="/bs/goals">general.goals</a>
+            <a href="/bs/goals">Ciljevi</a>
         </li>
         
         <li class="breadcrumb-item">
             <a href="/bs/4/"
-               title=" 4 - global_goals.4-short"
-               aria-label="  - ">
-                4
+               title="Cilj 4 - Kvalitetno obrazovanje"
+               aria-label="Cilj  - ">
+               Cilj 4
             </a>
         </li>
         
@@ -413,12 +413,12 @@ data-event-label="high"
     <div class="text-left">
         <a class="btn btn-primary" href="/bs/3-70/" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="d-none d-md-inline"></span>
+            <span id="previous-link" class="d-none d-md-inline">Prethodni indikator</span>
         </a>
     </div>
     <div class="text-right">
         <a class="btn btn-primary" href="/bs/4-20/" aria-labelledby="next-link">
-            <span id="next-link" class="d-none d-md-inline"></span>
+            <span id="next-link" class="d-none d-md-inline">Sljedeći indikator</span>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
     </div>
@@ -434,7 +434,7 @@ data-event-label="high"
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/bs/4/" aria-label=" 4" title=" 4">
                     <img src="/assets/img/goals//bs/4.png"
-                        alt="global_goals.4-short -  4"
+                        alt="Kvalitetno obrazovanje - Cilj 4"
                         id="goal-4"
                         class="goal-icon-image goal-icon-image-" />
                 </a>
@@ -444,7 +444,7 @@ data-event-label="high"
                 <div>
                     <h1>
                         
-                         4.10
+                        Indikator 4.10
                         
                         <span class="lead-copy">Rano napuštanje obrazovanja i obuke po spolu</span>
                     </h1>
@@ -463,7 +463,7 @@ data-event-label="high"
   
 <div class="row indicator-progress">
     <div class="col-sm-2 progress-status-heading">
-        status.progress_status
+        Status napretka
     </div>
     <div class="col-sm-10">
         
@@ -472,12 +472,12 @@ data-event-label="high"
         <div class="progress-status">
         
             <div class="progress-status-label">
-                status.substantial_progress
+                Značajan napredak
             </div>
         
         
             <div class="progress-status-image">
-                <img src="/assets/img/progress/green-gauge.png" alt="status.substantial_progress" />
+                <img src="/assets/img/progress/green-gauge.png" alt="Značajan napredak" />
             </div>
         
         </div>
@@ -531,8 +531,8 @@ data-event-label="high"
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4></h4>
-    <p></p>
+    <h4>Podkategorije</h4>
+    <p>Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -551,7 +551,7 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/data/4-10.csv" class="btn btn-primary btn-download" download='indicator_4-10.csv' tabindex='0' role='button'></a>
+    <a role="button" href="https://sdgbih.github.io/sdgnewdata/bs/data/4-10.csv" class="btn btn-primary btn-download" download='indicator_4-10.csv' tabindex='0' role='button'>Preuzmi izvor CSV</a>
 
     <p class="no-js-disaggregation-hint"></p>
 
@@ -598,7 +598,7 @@ data-event-action="Change data view"
 data-event-label="Change to Chart tab"
 
         
-      >indicator.chart</button>
+      >Grafikon</button>
     </li>
     
     <li role="presentation"
@@ -622,7 +622,7 @@ data-event-action="Change data view"
 data-event-label="Change to Table tab"
 
         
-      >indicator.table</button>
+      >Tabela</button>
     </li>
     
   </ul>
@@ -635,7 +635,7 @@ data-event-label="Change to Table tab"
 
     <div id="dataset-size-warning" style="display:none" role="alert">
       <i class="fa fa-bolt"><span class="sr-only"></span></i>
-      
+      Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.
     </div>
 
     
@@ -663,13 +663,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Izvor:</dt>
         <dd>BHAS, EUROSTAT (EU-LFS)</dd>
         
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -694,7 +694,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >indicator.footnote:</dt>
+        >Fusnota:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -703,7 +703,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >metadata_fields.national_data_update_url:</dt>
+        >Podaci posljednji put ažurirani:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -719,10 +719,10 @@ data-event-label="Change to Table tab"
       <div id="chartSelectionDownload" class="clearfix">
         <button
           id="btnSave"
-          title=""
-          aria-label=""
+          title="Preuzmi grafikon kao sliku"
+          aria-label="Preuzmi grafikon kao sliku"
           class='btn btn-primary btn-download'>
-          
+          Preuzmi sliku grafikona
         </button><!--
    --></div>
     </div>
@@ -747,13 +747,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Izvor:</dt>
         <dd>BHAS, EUROSTAT (EU-LFS)</dd>
         
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Mjerna jedinica:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -778,7 +778,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >indicator.footnote:</dt>
+        >Fusnota:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -787,7 +787,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >metadata_fields.national_data_update_url:</dt>
+        >Podaci posljednji put ažurirani:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -833,7 +833,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            >indicator.national_metadata</button>
+            >Nacionalni Indikator INFO</button>
         </li>
     
         
@@ -854,7 +854,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            >indicator.global_metadata</button>
+            >EU SDG Indikator INFO</button>
         </li>
     
         
@@ -875,13 +875,13 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >indicator.sources</button>
+            >Izvori</button>
         </li>
     
     
     
         <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab"></a>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Uredi</a>
         </li>
     
 </ul>
@@ -1190,7 +1190,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.national_indicator_definition </th>
+        <th scope="row">OPIS </th>
         <td>
           
             <p>Indikator mjeri udio stanovništva u dobi od 18 do 24 godine sa najviše nižim srednjim obrazovanjem koje nije bilo uključeno u bilo kakvo (formalno ili neformalno) obrazovanje ili obuku tokom četiri sedmice koje su prethodile istraživanju.</p>
@@ -1206,7 +1206,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.national_rationale </th>
+        <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
             <p>Indikator se koristi za praćenje napretka prema cilju održivog razvoja 4 o kvalitetnom obrazovanju i cilju održivog razvoja 5 o rodnoj ravnopravnosti, koji su ugrađeni u prioritete Evropske komisije pod „Podrška ljudima, jačanje naših društava i našeg socijalnog modela“ i „Novi plan za održivi prosperitet i konkurentnost Evrope“. Vijeće Evropske unije 26. februara 2021. godine usvojilo je Rezoluciju o strateškom okviru za evropsku saradnju u obrazovanju i obuci prema Evropskom obrazovnom prostoru i šire (2021–2030), okvir koji se bavi pet strateških prioriteta: (1) Poboljšanje kvaliteta, jednakosti, inkluzije i uspjeha za sve u obrazovanju i obuci; (2) Ostvarivanje cjeloživotnog učenja i mobilnosti za sve; (3) Jačanje kompetencija i motivacije u obrazovnoj profesiji; (4) Jačanje evropskog visokog obrazovanja; i (5) Podrška zelenim i digitalnim tranzicijama u i kroz obrazovanje i obuku.</p>
@@ -1222,7 +1222,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.national_methodology_characteristics </th>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
             <p>Rezolucija Vijeća postavlja cilj na nivou EU da udio osoba koje rano napuštaju obrazovanje i obuku, mjereno ovim indikatorom ciljeva održivog razvoja, bude manji od 9% do 2030. godine. Indikator je uključen kao glavni indikator u Pregled socijalnih indikatora za Evropski stub socijalnih prava. Obrazovanje i obuka su ključni pokretači rasta i zapošljavanja jer pomažu u poboljšanju zaposlenosti, produktivnosti, inovacija i konkurentnosti. Nastavak obrazovanja nakon osnovnog nivoa je važan jer je veća vjerovatnoća da će ljudi sa višim kvalifikacijama biti zaposleni i manje je vjerovatno da će se suočiti sa siromaštvom u ekonomiji zasnovanoj na znanju. Osobe sa niskim nivoom obrazovanja ne samo da se mogu suočiti sa većim poteškoćama na tržištu rada, već imaju i veći rizik od siromaštva i socijalne isključenosti.</p>
@@ -1238,7 +1238,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.national_long_objective </th>
+        <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
             <p>Dugoročni cilj za ovaj indikator je vrijednost od 4</p>
@@ -1416,7 +1416,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_indicator_definition </th>
+        <th scope="row">OPIS </th>
         <td>
           
             <p>Indikator mjeri udio stanovništva u dobi od 18 do 24 godine sa najviše nižim srednjim obrazovanjem koje nije bilo uključeno u bilo kakvo (formalno ili neformalno) obrazovanje ili obuku tokom četiri sedmice koje su prethodile istraživanju.</p>
@@ -1432,7 +1432,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_rationale </th>
+        <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
             <p>Indikator se koristi za praćenje napretka prema cilju održivog razvoja 4 o kvalitetnom obrazovanju i cilju održivog razvoja 5 o rodnoj ravnopravnosti, koji su ugrađeni u prioritete Evropske komisije pod „Podrška ljudima, jačanje naših društava i našeg socijalnog modela“ i „Novi plan za održivi prosperitet i konkurentnost Evrope“. Vijeće Evropske unije 26. februara 2021. godine usvojilo je Rezoluciju o strateškom okviru za evropsku saradnju u obrazovanju i obuci prema Evropskom obrazovnom prostoru i šire (2021–2030), okvir koji se bavi pet strateških prioriteta: (1) Poboljšanje kvaliteta, jednakosti, inkluzije i uspjeha za sve u obrazovanju i obuci; (2) Ostvarivanje cjeloživotnog učenja i mobilnosti za sve; (3) Jačanje kompetencija i motivacije u obrazovnoj profesiji; (4) Jačanje evropskog visokog obrazovanja; i (5) Podrška zelenim i digitalnim tranzicijama u i kroz obrazovanje i obuku.</p>
@@ -1448,7 +1448,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_methodology_characteristics </th>
+        <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
             <p>Rezolucija Vijeća postavlja cilj na nivou EU da udio osoba koje rano napuštaju obrazovanje i obuku, mjereno ovim indikatorom ciljeva održivog razvoja, bude manji od 9% do 2030. godine. Indikator je uključen kao glavni indikator u Pregled socijalnih indikatora za Evropski stub socijalnih prava. Obrazovanje i obuka su ključni pokretači rasta i zapošljavanja jer pomažu u poboljšanju zaposlenosti, produktivnosti, inovacija i konkurentnosti. Nastavak obrazovanja nakon osnovnog nivoa je važan jer je veća vjerovatnoća da će ljudi sa višim kvalifikacijama biti zaposleni i manje je vjerovatno da će se suočiti sa siromaštvom u ekonomiji zasnovanoj na znanju. Osobe sa niskim nivoom obrazovanja ne samo da se mogu suočiti sa većim poteškoćama na tržištu rada, već imaju i veći rizik od siromaštva i socijalne isključenosti.</p>
@@ -1464,7 +1464,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">global_indicators.eu_long_objective </th>
+        <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
             <p>Dugoročni cilj za ovaj indikator je vrijednost od 4</p>
@@ -1507,7 +1507,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div class="col-md-6">
       
-        <h4 class="sr-only"> 1</h4>
+        <h4 class="sr-only">Izvor 1</h4>
       
       
       <table class="table metadata-content">
@@ -1564,7 +1564,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_organisation_1 </th>
+        <th scope="row">Organizacija </th>
         <td>
           
             <p>BHAS, EUROSTAT (EU-LFS)</p>
@@ -1595,7 +1595,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_url_1 </th>
+        <th scope="row">Link do izvora podataka </th>
         <td>
           
             
@@ -1604,7 +1604,7 @@ data-event-label="Change to indicator.sources tab"
             
             
               <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_04_10/default/table" target="_blank">
-                Link <span class="visuallyhidden"></span>
+                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
 
@@ -1735,11 +1735,11 @@ data-event-label="Change to indicator.sources tab"
   
 
 
-  <a class="btn btn-primary" href="data"></a>
+  <a class="btn btn-primary" href="data">Uredi podatke</a>
   
 
   
-  <a class="btn btn-primary" href="metadata"></a>
+  <a class="btn btn-primary" href="metadata">Uredi metapodatke</a>
   
 
   
@@ -1766,31 +1766,31 @@ data-event-label="Change to indicator.sources tab"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org"></a>
+                            <a href="https://open-sdg.org">Izgrađeno pomoću Open SDG-a</a>
                         </li>
                         
                         <li>
                             
-                            <a href="mailto:sdg@bhas.gov.ba" target="_blank">menu.contact_us</a>
+                            <a href="mailto:sdg@bhas.gov.ba" target="_blank">Kontaktirajte nas</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://x.com/bhas_statistics" target="_blank">general.twitter</a>
+                            <a href="https://x.com/bhas_statistics" target="_blank">X.com</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://facebook.com/BHAS.BIH" target="_blank">general.facebook</a>
+                            <a href="https://facebook.com/BHAS.BIH" target="_blank">Facebook</a>
                             
                         </li>
                         <li>
                             
-                            <a href="https://www.youtube.com/channel/UCKMxex_u6OLC5mOOizChlYg/videos" target="_blank">general.youtube</a>
+                            <a href="https://www.youtube.com/channel/UCKMxex_u6OLC5mOOizChlYg/videos" target="_blank">YouTube</a>
                             
                         </li>
                         <li>
-                            <a href="/bs/about/cookies-and-privacy/">menu.cookies</a>
+                            <a href="/bs/about/cookies-and-privacy/">Kolačići</a>
                             
                         </li>
                         
@@ -1827,17 +1827,17 @@ data-event-label="Change to indicator.sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Sakriti';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20260918114415'></script>
+<script src='/assets/js/sdg.js?v=20260918114619'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20260918114415"></script><script>
+    <script src="/assets/js/custom.js?v=20260918114619"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
