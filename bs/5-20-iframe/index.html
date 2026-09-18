@@ -121,9 +121,9 @@ var translations = {
         
     <title>
         
-        Indikator 5.20 -
+         5.20 -
         
-        Razlika u platama između spolova u neprilagođenom obliku - EU Indikatori za ciljeve održivog razvoja
+        Razlika u platama između spolova u neprilagođenom obliku - general.site_title
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20260918112841">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20260918114415">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -173,7 +173,7 @@ layout-indicator-iframe
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Razvojna verzija","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Portal je trenutno u fazi razvoja. Pozdravljamo vaše <a href=\"mailto:sdg@bhas.gov.ba\">povratne informacije</a>.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
+<script>translations['header'] = null;</script>
 
 
 <script type="text/template" id="item_template">
@@ -196,10 +196,10 @@ layout-indicator-iframe
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Podkategorije - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Označi sve</button>
-            <button data-type="clear">Obriši sve</button>
+            <button data-type="select"></button>
+            <button data-type="clear"></button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -210,10 +210,10 @@ layout-indicator-iframe
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Dostupno kada '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' je označeno
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          Nema opcija zbog gornjih filtera
+          
         </div>
       <% }%>
 
@@ -225,9 +225,9 @@ layout-indicator-iframe
   
   <% if(units.length > 1) { %>
   
-    <h4>Mjerna jedinica</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">Mjerna jedinica</legend>
+      <legend class="sr-only"></legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -242,9 +242,9 @@ layout-indicator-iframe
   
   <% if(serieses.length > 1) { %>
   
-    <h4>Grafikon</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">Grafikon</legend>
+      <legend class="sr-only"></legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var isProxy = (proxySerieses.includes(seriesItem)) %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
@@ -256,9 +256,9 @@ layout-indicator-iframe
   
 </script>
 
-<script>translations['indicator'] = {"chart":"Grafikon","clear_all":"Obriši sve","clear_selections":"Obriši označeno","data_not_available":"Ovi podaci nisu dostupni. Odaberite alternativne podatke za prikaz.","dataset_size_warning":"Previše je skupova podataka za prikaz na grafikonu. Neće biti prikazane sve dok ne uklonite neke odabire.","download_chart":"Preuzmite grafikon CSV","download_chart_image":"Preuzmi sliku grafikona","download_chart_image_title":"Preuzmi grafikon kao sliku","download_csv":"Preuzmi CSV","download_csv_title":"Preuzmi kao CSV","download_geojson":"Preuzmi GeoJSON","download_geojson_title":"Preuzmi kao GeoJSON","download_headline":"Preuzmite CSV naslov","download_headline_title":"Preuzmi podatke o naslovu kao CSV","download_source":"Preuzmi izvor CSV","download_source_sdmx":"Preuzmi izvor SDMX","download_source_sdmx_title":"Preuzmi izvorne podatke kao SDMX","download_source_title":"Preuzmi izvorne podatke kao CSV","download_table":"Preuzmite tabelu CSV","edit":"Uredi","edit_data":"Uredi podatke","edit_metadata":"Uredi metapodatke","footnote":"Fusnota","geographical_area":"Geografsko područje","global_metadata":"EU SDG Indikator INFO","global_metadata_blurb":"Ova tabela pruža informacije o metapodacima za SDG indikatore kako ih je definisala Statistička komisija UN-a. Kompletne globalne metapodatke pruža Odjel za statistiku UN-a.","legend_help":"Kliknite na legendu kako biste uklonili pojedine linije s grafikona.","loading":"Učitavanje","loading_map":"Učitavanje mape","map":"Mapa","national_metadata":"Nacionalni Indikator INFO","national_metadata_blurb":null,"next":"Sljedeći indikator","no_data_hint":"Nema opcija zbog gornjih filtera","previous":"Prethodni indikator","select_all":"Označi sve","series":"Grafikon","series_help":"Odaberite kategorije iz  padajućeg menija ispod kako biste vidjeli različite podjele podataka.","source":"Izvor","sources":"Izvori","sub_categories":"Podkategorije","table":"Tabela","unit_of_measurement":"Mjerna jedinica","units_type":"Jedinica mjere","variable_hint":"Dostupno kada '%field' je označeno","view_indicator_list":"Pogledajte listu indikatora ovog cilja"};</script>
+<script>translations['indicator'] = null;</script>
 
-<script>translations['data'] = {"Entity":"Entitet","Month":"Mjesec","Total retail trade 2019":"Ukupna trgovina na malo 2019","Total retail trade 2020":"Ukupna trgovina na malo 2020","Total retail trade 2021":"Ukupna trgovina na malo 2021","Type":"Tip","Value":"Vrijednost","Year":"Godina","available for final consumption_2019":"Raspoloživo za finalnu potrošnju 2019","available for final consumption_2020":"Raspoloživo za finalnu potrošnju 2020","available for final consumption_2021":"Raspoloživo za finalnu potrošnju 2021","average monthly gross earning":"Prosječna mjesečna bruto plaća","average monthly paid off net earning":"Prosječna mjesečna isplaćena neto plaća","capital goods":"Kapitalni proizvodi","consumer durables":"Trajni proizvodi za široku potrošnju","consumer non-durables":"Netrajni proizvodi za široku potrošnju","cross- border traffic total - Entry":"Ukupan granični promet - Ulaz","cross- border traffic total - Exit":"Ukupan granični promet - Izlaz","customs":"Carinske dažbine, naknade za carinsko evidentiranje i posebne dažbine","domestic market 2019":"Domaće tržište 2019","domestic market 2020":"Domaće tržište 2020","domestic market 2021":"Domaće tržište 2021","domestic tourist_2019":"Domaći turisti 2019","domestic tourist_2020":"Domaći turisti 2020","domestic tourist_2021":"Domaći turisti 2021","employed 2019":"Zaposleni 2019","employed 2020":"Zaposleni 2020","employed 2021":"Zaposleni 2021","energy":"Energija","excise duties on domestic goods":"Akciza na domaće proizvode","excise duties on import goods":"Akciza na uvozne proizvode","export_2019":"Izvoz 2019","export_2020":"Izvoz 2020","export_2021":"Izvoz 2021","final trend":"Finalni trend Q/Q-1","foreign tourist_2019":"Strani turisti 2019","foreign tourist_2020":"Strani turisti 2020","foreign tourist_2021":"Strani turisti 2021","freight transported":"Prevezeni teret","import_2019":"Uvoz 2019","import_2020":"Uvoz 2020","import_2021":"Uvoz 2021","intermediate goods":"Intermedijarni proizvodi","non seasonal":"Nedesezonirani podaci Q/Q-4","non-domestic market 2019":"Nedomaće tržište 2019","non-domestic market 2020":"Nedomaće tržište 2020","non-domestic market 2021":"Nedomaće tržište 2021","other income and charges":"Ostali prihodi i naknade","overall index 2019":"Ukupan indeks 2019","overall index 2020":"Ukupan indeks 2020","overall index 2021":"Ukupan indeks 2021","road tax on petroleum products":"Posebna taksa (putarina) na naftne derivate","seasonal":"Desezonirani podaci Q/Q-1","tons of goods transported":"Prеvеzеnо tоnа rоbе","total":"Ukupno","type of product":"Vrsta proizvoda","type of revenue":"Naziv prihoda","vat":"Porez na dodanu vrijednost"};</script>
+<script>translations['data'] = null;</script>
 
 
 <div class="heading goal-banner indicator goal-5">
@@ -268,7 +268,7 @@ layout-indicator-iframe
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/bs/5/" aria-label=" 5" title=" 5">
                     <img src="/assets/img/goals//bs/5.png"
-                        alt="Rodna ravnopravnost - Cilj 5"
+                        alt="global_goals.5-short -  5"
                         id="goal-5"
                         class="goal-icon-image goal-icon-image-" />
                 </a>
@@ -278,7 +278,7 @@ layout-indicator-iframe
                 <div>
                     <h1>
                         
-                        Indikator 5.20
+                         5.20
                         
                         <span class="lead-copy">Razlika u platama između spolova u neprilagođenom obliku</span>
                     </h1>
@@ -355,7 +355,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            >Nacionalni Indikator INFO</button>
+            >indicator.national_metadata</button>
         </li>
     
         
@@ -376,7 +376,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            >EU SDG Indikator INFO</button>
+            >indicator.global_metadata</button>
         </li>
     
         
@@ -397,7 +397,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Izvori</button>
+            >indicator.sources</button>
         </li>
     
     
@@ -890,7 +890,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">OPIS </th>
+        <th scope="row">global_indicators.eu_indicator_definition </th>
         <td>
           
             <p>Indikator mjeri razliku između prosječne bruto satnice zaposlenih muškaraca i zaposlenih žena kao procenat prosječne bruto satnice zaposlenih muškaraca. Indikator je definisan kao neprilagođen, jer daje ukupnu sliku rodnih nejednakosti u pogledu plate i mjeri koncept koji je širi od koncepta jednake plate za jednak rad. Uključeni su svi zaposleni koji rade u firmama sa deset ili više zaposlenih, bez ograničenja za starost i radno vrijeme. Razlika u plaćama između spolova zasniva se na metodologiji istraživanja o strukturi zarada (SES), koje se provodi svake četiri godine.</p>
@@ -906,7 +906,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">OBRAZLOŽENJE </th>
+        <th scope="row">global_indicators.eu_rationale </th>
         <td>
           
             <p>Indikator se koristi za praćenje napretka prema cilju održivog razvoja 5 o rodnoj ravnopravnosti, koji je ugrađen u prioritete Evropske komisije pod „Podrška ljudima, jačanje naših društava i našeg socijalnog modela“. Indikator se može smatrati sličnim globalnom SDG indikatoru 8.5.1 „Prosječna zarada po satu zaposlenih žena i muškaraca, prema zanimanju, starosti i osobama sa invaliditetom“. Indikator je uključen kao glavni indikator u Pregled socijalnih indikatora za Evropski stub socijalnih prava.</p>
@@ -922,7 +922,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">SADRŽAJ I NAPREDAK </th>
+        <th scope="row">global_indicators.eu_methodology_characteristics </th>
         <td>
           
             <p>Strategija EU za rodnu ravnopravnost obavezuje se na postizanje Unije ravnopravnosti i predstavlja ciljeve politike i akcije za postizanje značajnog napretka do 2025. godine prema Evropi rodne ravnopravnosti, u kojoj su žene i muškarci, djevojčice i dječaci, slobodni da slijede svoj izabrani životni put i imaju jednake mogućnosti za napredak. Ključni ciljevi su zaustavljanje rodno zasnovanog nasilja; izazivanje rodnih stereotipa; zatvaranje rodnih razlika na tržištu rada; postizanje ravnopravnog učešća u različitim sektorima ekonomije; rješavanje rodnih razlika u plaćama i penzijama; zatvaranje rodne razlike u brizi i postizanje rodne ravnoteže u donošenju odluka i u politici. Jednaka plata za jednak rad je jedan od temeljnih principa Evropske unije, ugrađen u Ugovore od 1957. godine. Član 157 Ugovora o funkcionisanju Evropske unije predviđa da svaka država članica osigurava primjenu tog principa. Direktiva 2006/54/EZ sadrži princip jednake plate. Uklanjanje rodne razlike u platama je takođe jedan od ciljeva Strateškog angažmana Komisije za rodnu ravnopravnost, kao i Evropskog stuba socijalnih prava.</p>
@@ -938,7 +938,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">DUGOROČNI CILJ </th>
+        <th scope="row">global_indicators.eu_long_objective </th>
         <td>
           
             <p>Dugoročni cilj za ovaj indikator je vrijednost od 0</p>
@@ -981,7 +981,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div class="col-md-6">
       
-        <h4 class="sr-only">Izvor 1</h4>
+        <h4 class="sr-only"> 1</h4>
       
       
       <table class="table metadata-content">
@@ -1038,7 +1038,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Organizacija </th>
+        <th scope="row">metadata_fields.source_organisation_1 </th>
         <td>
           
             <p>ESS (SES)</p>
@@ -1069,7 +1069,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Link do izvora podataka </th>
+        <th scope="row">metadata_fields.source_url_1 </th>
         <td>
           
             
@@ -1078,7 +1078,7 @@ data-event-label="Change to indicator.sources tab"
             
             
               <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table" target="_blank">
-                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+                Link <span class="visuallyhidden"></span>
               </a>
             
 
@@ -1228,17 +1228,17 @@ data-event-label="Change to indicator.sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'Sakriti';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Pretraživanje';</script>
+    translations['search']['search'] = '';</script>
 
-<script src='/assets/js/sdg.js?v=20260918112841'></script>
+<script src='/assets/js/sdg.js?v=20260918114415'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20260918112841"></script><script>
+    <script src="/assets/js/custom.js?v=20260918114415"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
