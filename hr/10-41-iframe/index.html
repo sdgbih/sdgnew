@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20260929124437">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20260929124809">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1159,7 +1159,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OPIS </th>
         <td>
           
-            <p>Gini indeks mjeri stupanj u kojem raspodjela dohotka (ili, u nekim slučajevima, izdataka za potrošnju) među pojedincima ili kućanstvima unutar gospodarstva odstupa od savršeno jednake raspodjele. Lorenzova krivulja prikazuje kumulativne postotke ukupno primljenog dohotka u odnosu na kumulativni broj primatelja, počevši od najsiromašnijeg pojedinca ili kućanstva. Gini indeks mjeri površinu između Lorenzove krivulje i hipotetske linije apsolutne jednakosti, izraženu kao postotak maksimalne površine ispod linije.</p>
+            <p>Pokazatelj prikazuje nejednakost u raspodjeli dohotka ili potrošnje među pojedincima ili kućanstvima, izraženu Gini indeksom. Gini indeks predstavlja mjeru nejednakosti raspodjele, pri čemu vrijednost 0 označava potpunu jednakost, a vrijednost 100 potpunu nejednakost.</p>
 
           
         </td>
@@ -1175,7 +1175,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
-            <p>Gini koeficijenti nisu jedinstveni. Moguće je da dvije različite Lorenzove krivulje daju isti Gini koeficijent. Nadalje, moguće je da Gini koeficijent zemlje u razvoju raste (zbog rastuće nejednakosti dohotka) dok se broj ljudi u apsolutnom siromaštvu smanjuje. To je zato što Gini koeficijent mjeri relativno, a ne apsolutno bogatstvo. Još jedno ograničenje Gini koeficijenta jest to što nije aditivan među grupama, tj. ukupni Gini koeficijent društva nije jednak zbroju Gini koeficijenata njegovih podskupina. Stoga se Gini koeficijenti na razini zemlje ne mogu agregirati u regionalne ili globalne Gini koeficijente, iako se Gini koeficijent može izračunati za cjelokupni agregat.</p>
+            <p>Pokazatelj pruža informacije o razini i kretanju nejednakosti u raspodjeli dohotka ili potrošnje u Bosni i Hercegovini. Praćenje pokazatelja omogućuje praćenje promjena u nejednakosti kroz vrijeme i doprinosi praćenju napretka u smanjenju nejednakosti.</p>
 
           
         </td>
@@ -1191,7 +1191,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
-            <p>Gini indeks mjeri površinu između Lorenzove krivulje i hipotetske linije apsolutne jednakosti, izraženu kao postotak maksimalne površine ispod linije. Lorenzova krivulja prikazuje kumulativne postotke ukupno primljenog dohotka u odnosu na kumulativni broj primatelja, počevši od najsiromašnijeg pojedinca. Dakle, Gini indeks od 0 predstavlja savršenu jednakost, dok indeks od 100 implicira savršenu nejednakost. Gini indeks pruža praktičnu sažetu mjeru stupnja nejednakosti. Podaci o raspodjeli dohotka ili potrošnje potječu iz nacionalno reprezentativnih anketa kućanstava. Tamo gdje su bili dostupni izvorni podaci iz ankete kućanstava, upotrijebljeni su za izračunavanje udjela dohotka ili potrošnje po kvintilima. U suprotnom, udjeli su procijenjeni na temelju najboljih dostupnih grupiranih podataka.</p>
+            <p>Za potrebe praćenja cilja 10 u Bosni i Hercegovini koristi se zamjenski pokazatelj koji predstavlja Gini indeks kao mjeru nejednakosti u raspodjeli dohotka ili potrošnje. Podaci prikazani za ovaj pokazatelj preuzeti su iz baze World Development Indicators Svjetske banke i predstavljaju procjene Svjetske banke. Prema metodološkim informacijama Svjetske banke, podaci se temelje na primarnim podacima iz nacionalno reprezentativnih anketa kućanstava koje Svjetska banka dobiva od državnih statističkih institucija i svojih country departments. Gini indeks je negativno usmjeren u odnosu na željeni smjer kretanja, odnosno smanjenje vrijednosti predstavlja povoljno kretanje, dok povećanje vrijednosti predstavlja nepovoljno kretanje. Automatski status napretka izračunava se na temelju smjera i dinamike promjene vrijednosti pokazatelja kroz dostupnu vremensku seriju, uz primjenu metodologije automatskog izračuna napretka u okviru Open SDG platforme. Za procjenu napretka koristi se negativni smjer, tako da smanjenje vrijednosti Gini indeksa predstavlja kretanje u povoljnom smjeru. Prikazani status „Umjeren napredak“ predstavlja rezultat automatskog izračuna na temelju dostupnih podataka i definiranog načina procjene napretka. Budući da je riječ o zamjenskom pokazatelju, procjena napretka odnosi se na aspekt nejednakosti koji mjeri Gini indeks i ne predstavlja izravnu procjenu svih dimenzija izvornog pokazatelja.</p>
 
           
         </td>
@@ -1207,7 +1207,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
-            <p>Gini indeks od 0 predstavlja savršenu jednakost, dok indeks od 100 implicira savršenu nejednakost. Dugoročni cilj za Gini indeks jeste smanjenje njegove vrijednosti prema nuli (0).</p>
+            <p>Za ovaj zamjenski pokazatelj nije utvrđena posebna nacionalna ciljna vrijednost Bosne i Hercegovine. Kretanje pokazatelja prati se kroz promjene Gini indeksa kroz vrijeme, pri čemu smanjenje vrijednosti ukazuje na smanjenje nejednakosti u raspodjeli dohotka ili potrošnje.</p>
 
           
         </td>
@@ -1725,12 +1725,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20260929124437'></script>
+<script src='/assets/js/sdg.js?v=20260929124809'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20260929124437"></script><script>
+    <script src="/assets/js/custom.js?v=20260929124809"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
