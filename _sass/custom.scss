@@ -40,11 +40,9 @@ header .nav-link {
   font-size: 0.9rem;
 }
 
-/* GitHub CodeMirror – horizontalni klizač */
+/* GitHub CodeMirror – horizontalni klizač u Edit modu */
 .cm-scroller {
-  width: 100% !important;
   min-width: 0 !important;
-  max-width: 100% !important;
   overflow-x: auto !important;
   overflow-y: auto !important;
 }
@@ -53,4 +51,22 @@ header .nav-link {
   flex-shrink: 0 !important;
   white-space: pre !important;
   min-width: max-content !important;
+}
+
+/* Vidljivi horizontalni klizač */
+.cm-scroller::-webkit-scrollbar {
+  height: 12px !important;
+}
+
+.cm-scroller::-webkit-scrollbar-track {
+  background: #e5e5e5 !important;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb {
+  background: #888 !important;
+  border-radius: 6px !important;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
 }
