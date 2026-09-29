@@ -2762,9 +2762,11 @@ header .nav-link {
 .frontpage-cards .card:has(.zip-download-container) .zip-download-container a {
   font-size: 0.9rem; }
 
-/* GitHub CodeMirror – horizontalni klizač u Edit modu */
+/* GitHub CodeMirror – horizontalni klizač */
 .cm-scroller {
+  width: 100% !important;
   min-width: 0 !important;
+  max-width: 100% !important;
   overflow-x: auto !important;
   overflow-y: auto !important; }
 
