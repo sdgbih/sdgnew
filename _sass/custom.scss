@@ -45,6 +45,8 @@ header .nav-link {
   min-width: 0 !important;
   overflow-x: auto !important;
   overflow-y: auto !important;
+  scrollbar-width: auto !important;
+  -ms-overflow-style: auto !important;
 }
 
 .cm-content {
@@ -55,16 +57,22 @@ header .nav-link {
 
 /* Vidljivi horizontalni klizač */
 .cm-scroller::-webkit-scrollbar {
+  display: block !important;
+  width: 12px !important;
   height: 12px !important;
+  -webkit-appearance: none !important;
 }
 
 .cm-scroller::-webkit-scrollbar-track {
+  display: block !important;
   background: #e5e5e5 !important;
 }
 
 .cm-scroller::-webkit-scrollbar-thumb {
+  display: block !important;
   background: #888 !important;
   border-radius: 6px !important;
+  min-width: 40px !important;
 }
 
 .cm-scroller::-webkit-scrollbar-thumb:hover {
