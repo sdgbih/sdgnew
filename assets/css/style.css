@@ -2764,6 +2764,7 @@ header .nav-link {
 
 /* GitHub CodeMirror – horizontalni klizač u Edit modu */
 .cm-scroller {
+  min-width: 0 !important;
   overflow-x: auto !important;
   overflow-y: auto !important; }
 
