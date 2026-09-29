@@ -2762,9 +2762,20 @@ header .nav-link {
 .frontpage-cards .card:has(.zip-download-container) .zip-download-container a {
   font-size: 0.9rem; }
 
-/* Prisilno uključivanje horizontalnog klizača za tekstualne elemente i uređivače */
-textarea,
-.editor-container,
+/* GitHub CodeMirror 6 – horizontalni klizač */
+.cm-editor[data-testid="codemirror-editor"] .cm-scroller {
+  overflow-x: auto !important;
+  overflow-y: auto !important; }
+
+/* Omogućava horizontalno pomjeranje dugih YAML redova */
+.cm-editor[data-testid="codemirror-editor"] .cm-content {
+  min-width: max-content !important; }
+
+/* Kompatibilnost sa starijim CodeMirror editorima */
 .CodeMirror,
-.form-control {
+.CodeMirror-scroll {
+  overflow-x: auto !important; }
+
+/* Klasični textarea */
+textarea {
   overflow-x: auto !important; }
