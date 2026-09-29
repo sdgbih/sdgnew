@@ -39,3 +39,11 @@ header .nav-link {
 .frontpage-cards .card:has(.zip-download-container) .zip-download-container a {
   font-size: 0.9rem;
 }
+
+/* Prisilno uključivanje horizontalnog klizača za tekstualne elemente i uređivače */
+textarea, 
+.editor-container, 
+.CodeMirror, 
+.form-control {
+  overflow-x: auto !important;
+}
