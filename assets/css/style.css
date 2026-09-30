@@ -2761,17 +2761,3 @@ header .nav-link {
 /* Veličina teksta linka za preuzimanje podataka */
 .frontpage-cards .card:has(.zip-download-container) .zip-download-container a {
   font-size: 0.9rem; }
-
-/* CodeMirror – prisilno prikazivanje horizontalnog klizača */
-.cm-editor .cm-scroller {
-  overflow-x: scroll !important; }
-
-.cm-editor .cm-scroller::-webkit-scrollbar {
-  height: 14px !important; }
-
-.cm-editor .cm-scroller::-webkit-scrollbar-track {
-  background: #e5e5e5 !important; }
-
-.cm-editor .cm-scroller::-webkit-scrollbar-thumb {
-  background: #888 !important;
-  border-radius: 4px !important; }
