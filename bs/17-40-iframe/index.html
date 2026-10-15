@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20261015091439">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20261015112240">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        Status napretka
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Značajan napredak
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/green-gauge.png" alt="Značajan napredak" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -798,7 +824,7 @@ layout-indicator-iframe
   
   <div id="datatableFooter">
     
-    <p>Izvor: CBBiH, IMF</p>
+    <p>Izvor: CBBiH</p>
     
     
     
@@ -908,7 +934,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>CBBiH, IMF</dd>
+        <dd>CBBiH</dd>
         
 
         
@@ -920,6 +946,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_40_esmsip2.htm" target="_blank" rel="noopener noreferrer">Eurostat – metodologija indikatora SDG 17.40</a></dd>
+        
         
 
         
@@ -981,7 +1018,7 @@ data-event-label="Change to Table tab"
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>CBBiH, IMF</dd>
+        <dd>CBBiH</dd>
         
 
         
@@ -993,6 +1030,17 @@ data-event-label="Change to Table tab"
 
         
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >Referentni metapodaci:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_40_esmsip2.htm" target="_blank" rel="noopener noreferrer">Eurostat – metodologija indikatora SDG 17.40</a></dd>
+        
         
 
         
@@ -1785,7 +1833,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>CBBiH, IMF</p>
+            <p>CBBiH</p>
 
           
         </td>
@@ -1821,7 +1869,7 @@ data-event-label="Change to indicator.sources tab"
             
             
             
-              <a href="https://www.imf.org/external/datamapper/GG_DEBT_GDP@GDD/SWE/BIH" target="_blank">
+              <a href="https://www.cbbh.ba/Content/Read/1286?lang=en" target="_blank">
                 Link <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1977,12 +2025,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20261015091439'></script>
+<script src='/assets/js/sdg.js?v=20261015112240'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20261015091439"></script><script>
+    <script src="/assets/js/custom.js?v=20261015112240"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
