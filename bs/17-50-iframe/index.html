@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20261015123537">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20261016055642">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        Status napretka
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Pogoršanje
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/red-gauge.png" alt="Pogoršanje" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -689,7 +715,7 @@ data-event-label="Change to Table tab"
         <dd
           data-for-series=""
           data-for-unit=""
-        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank" rel="noopener noreferrer">Eurostat Metadata Report (sdg_17_50)</a></dd>
         
         
 
@@ -773,7 +799,7 @@ data-event-label="Change to Table tab"
         <dd
           data-for-series=""
           data-for-unit=""
-        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank">Eurostat Metadata Report (sdg_17_50)</a></dd>
+        ><a href="https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_50_esmsip2.htm" target="_blank" rel="noopener noreferrer">Eurostat Metadata Report (sdg_17_50)</a></dd>
         
         
 
@@ -1193,7 +1219,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OPIS </th>
         <td>
           
-            <p>Indikator mjeri udio poreza na okoliš u ukupnim prihodima od poreza i socijalnih doprinosa. Porezi na okoliš definiraju se kao porezi čija je porezna osnovica fizička jedinica (ili njezina zamjena) nečega što ima dokazan, specifičan negativan utjecaj na okoliš. Prihodi od poreza na okoliš potiču od četiri vrste poreza: porezi na energiju (koji doprinose oko tri četvrtine ukupnog iznosa), porezi na transport (oko jedne petine ukupnog iznosa) i porezi na zagađenje i resurse (oko 4% ukupnog iznosa).</p>
+            <p>global_indicators.17-50-definition_national</p>
 
           
         </td>
@@ -1209,7 +1235,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">OBRAZLOŽENJE </th>
         <td>
           
-            <p>Pripremljena je lista ekoloških poreza za Bosnu i Hercegovinu. Svi identifikovani ekološki porezi grupisani su u 4 kategorije: porezi na energiju, porezi na transport, zagađenje i resursi. Spisak poreza na CO2, kao i ostalih poreza na CO2, ne postoji u Bosni i Hercegovini za izvještajni period. Ekološki porezi se zasnivaju na postojećoj Nacionalnoj poreznoj listi (NTL) Centralne banke Bosne i Hercegovine. Ekološki porezi se zasnivaju na administrativnim podacima, identifikovanim u izvorima poreskih podataka. Svi podaci se prikupljaju direktno iz administrativnih izvora: Uprava za indirektno/neizravno oporezivanje Bosne i Hercegovine, Porezna uprava Republike Srpske; Porezna uprava Federacije Bosne i Hercegovine i Direkcija za finansije Brčko Distrikta.</p>
+            <p>global_indicators.17-50-intention_national</p>
 
           
         </td>
@@ -1225,7 +1251,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">SADRŽAJ I NAPREDAK </th>
         <td>
           
-            <p>U globalnom kontekstu, gdje obrasci potrošnje u jednoj regiji mogu ozbiljno utjecati na obrasce proizvodnje u drugim dijelovima svijeta, posebno je važno da cijene odražavaju stvarne troškove potrošnje i proizvodnje. Stoga bi trebale uključivati i plaćanja za štetu koju aktivnosti uzrokuju ljudskom zdravlju i okolišu. Politike EU, poput Evropskog zelenog plana, pozivaju na prelazak s poreza na rad na poreze na energiju i okoliš kao dio „ozelenjavanja“ poreskih sistema, što znači da bi prihodi od poreza na okoliš trebali porasti u odnosu na poreze na rad. Evropski semestar prati napredak prema ciljevima utvrđenim u evropskim strategijama.</p>
+            <p>global_indicators.17-50-methodology_national</p>
 
           
         </td>
@@ -1241,7 +1267,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">DUGOROČNI CILJ </th>
         <td>
           
-            <p>Bez opisa</p>
+            <p>global_indicators.17-50-long_term_objective_national</p>
 
           
         </td>
@@ -1759,12 +1785,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20261015123537'></script>
+<script src='/assets/js/sdg.js?v=20261016055642'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20261015123537"></script><script>
+    <script src="/assets/js/custom.js?v=20261016055642"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
