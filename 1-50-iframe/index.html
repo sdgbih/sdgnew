@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20261022084646">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20261022085854">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1051,7 +1051,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            <p>Housing affordability in Bosnia and Herzegovina is assessed using the price-to-income ratio and the housing affordability index. According to the 2025 report Comparative Analysis of Housing Policies in Selected WB Cities and EU Cities, the price-to-income ratio for Bosnia and Herzegovina is 13.5, while the affordability index is 1.0. These measures provide insight into the relationship between property prices and the economic capacity of the population.</p>
+            <p>Housing affordability refers to households’ ability to meet housing costs in relation to their disposable income. The original EU SDG indicator 1.50, “Housing cost overburden rate by poverty status”, measures the share of the population living in households where total housing costs exceed 40% of disposable income. As suitable data for Bosnia and Herzegovina are not available under the harmonised EU-SILC methodology, the national presentation uses two proxy measures: the price-to-income ratio and the housing affordability index. According to the 2025 document Comparative Analysis of Housing Policies in Selected WB Cities and EU Cities, their values for Bosnia and Herzegovina are 13.5 and 1.0, respectively. These measures provide additional information on housing affordability but do not directly measure the share of households overburdened by housing costs.</p>
 
           
         </td>
@@ -1067,7 +1067,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Data source and methodology </th>
         <td>
           
-            <p>Housing affordability is important for living standards and for reducing the risk of poverty and social exclusion. High property prices relative to incomes can make homeownership more difficult and increase the economic insecurity of households. The original EU SDG indicator 1.50, “Housing cost overburden rate by poverty status”, is based on data from the Statistics on Income and Living Conditions (SILC) survey. As data for Bosnia and Herzegovina are not available in the Eurostat database to report this indicator according to the harmonised EU methodology, a proxy indicator based on an available analysis of housing policies is used. It provides additional information on housing affordability but is not a direct measure of the original EU SDG indicator.</p>
+            <p>The source is the 2025 document Comparative Analysis of Housing Policies in Selected WB Cities and EU Cities, which examines housing affordability and housing policies in Bosnia and Herzegovina, Montenegro, Denmark and the Netherlands. The analysis draws on a review of available data and documents and eight semi-structured interviews with stakeholders from these countries. The price-to-income ratio is expressed in years of annual disposable family income required to match the dwelling price under the assumptions of the methodology applied. Its denominator is annual disposable family income, and the result is expressed in years of income. The housing affordability index is expressed as a dimensionless index value, not as a percentage.</p>
 
           
         </td>
@@ -1083,7 +1083,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Coverage and comparability </th>
         <td>
           
-            <p>The national presentation is based on the 2025 report Comparative Analysis of Housing Policies in Selected WB Cities and EU Cities. According to the comparative figure in this report, the price-to-income ratio for Bosnia and Herzegovina is 13.5 and the affordability index is 1.0. In addition to reviewing available data and documents, the analysis draws on eight semi-structured interviews with stakeholders from Bosnia and Herzegovina, Montenegro, Denmark and the Netherlands. The report also examines the institutional framework for implementing housing policies in Bosnia and Herzegovina. In this context, it mentions certain federal ministries, the Government of Republika Srpska, the Republika Srpska Secretariat for Refugees and Migration, and municipal authorities, particularly in relation to the coordination and implementation of social housing policies. The analysis highlights challenges related to housing affordability, the underdevelopment of social housing, fragmented responsibilities and limited coordination between institutions.As the proxy indicator is based on a comparative analysis of housing policies rather than harmonised SILC data, its values are not directly comparable with the original EU SDG indicator. Furthermore, because the reference year is not clearly specified and the comparability of the data is limited, the reported values alone are insufficient for a reliable assessment of progress over time.</p>
+            <p>The national presentation includes the values for Bosnia and Herzegovina reported in the 2025 document: a price-to-income ratio of 13.5 and a housing affordability index of 1.0. The values represent two different measures and cannot be directly compared with each other. They are not percentages of the population or shares of households spending more than 40% of their disposable income on housing. Due to the limited availability of comparable and up-to-date data and the absence of a continuous time series, changes over time cannot be assessed reliably. The proxy measures are not directly comparable with the original EU SDG indicator 1.50.</p>
 
           
         </td>
@@ -1099,7 +1099,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">National context and objectives </th>
         <td>
           
-            <p>No specific quantitative national target has been established for this proxy indicator in Bosnia and Herzegovina. Its values provide contextual information on housing affordability and should be distinguished from the original EU SDG indicator and from national housing and poverty-reduction targets.</p>
+            <p>Housing affordability is relevant to living standards and to reducing the risk of poverty and social exclusion. The price-to-income ratio provides insight into the financial accessibility of home purchase, while the affordability index offers an additional measure for comparative assessment of housing affordability. No specific quantitative national target has been established for this proxy indicator in Bosnia and Herzegovina. The published values describe housing affordability and do not demonstrate progress towards a defined national target.</p>
 
           
         </td>
@@ -1573,12 +1573,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20261022084646'></script>
+<script src='/assets/js/sdg.js?v=20261022085854'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20261022084646"></script><script>
+    <script src="/assets/js/custom.js?v=20261022085854"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
